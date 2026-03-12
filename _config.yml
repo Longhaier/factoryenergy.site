@@ -7,7 +7,7 @@ title: 厂务能源网
 subtitle: '半导体厂务节能知识平台'
 description: '专注于集成电路封测工厂节能案例、设备知识、管理经验分享'
 keywords: '厂务节能,半导体,空压机,节能改造,动力设备'
-author: 涛哥
+author: 智效厂务
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -97,6 +97,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+# Inject
+inject:
+  head:
+    - <meta name="google-adsense-account" content="ca-pub-7465624411296700">
+    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
