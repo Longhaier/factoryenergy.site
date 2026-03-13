@@ -1,0 +1,38 @@
+menu:
+  Home: /
+  About: /about/
+  Categories: /categories/
+  Tags: /tags/
+  Search: /search/
+
+index:
+  home: Home
+  recent_posts: Recent Posts
+  archives: Archives
+  category: Category
+  tag: Tag
+
+post:
+  count: "%d posts"
+  older: Older
+  newer: Newer
+  prev: Prev
+  next: Next
+  toc: Table of Contents
+  comments: Comments
+
+page:
+  comments: Comments
+
+footer:
+  powered: "Powered by %s"
+  theme: Theme
+  total_views: Total Views
+  unique_visitors: Unique Visitors
+
+search:
+  placeholder: Search...
+
+comments:
+  valine:
+    placeholder: Comment here...
