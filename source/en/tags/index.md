@@ -1,5 +1,5 @@
 ---
 title: Tags
 layout: tags
-lang: en
+comments: false
 ---

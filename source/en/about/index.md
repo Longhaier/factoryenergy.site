@@ -1,6 +1,5 @@
 ---
-title: About Us
-date: 2026-03-13
+title: About
 layout: page
 comments: false
 ---
