@@ -12,10 +12,10 @@ Your premier resource for semiconductor factory energy efficiency and facility m
 
 ## Featured Articles
 
-- [Compressed Air System Heat Recovery](/2026/03/12/aircompressor-heat-recovery/)
-- [Cleanroom HVAC Energy Saving](/2026/03/13/cleanroom-hvac-energy-saving/)
-- [Transformer Load Optimization](/2026/03/13/transformer-load-optimization/)
-- [Predictive Maintenance](/2026/03/13/predictive-maintenance/)
-- [Circulating Water System Energy Saving](/2026/03/13/circulating-water-system-energy-saving/)
+- [Compressed Air System Heat Recovery](/en/2026/03/13/aircompressor-heat-recovery/)
+- [Cleanroom HVAC Energy Saving](/en/2026/03/13/cleanroom-hvac-energy-saving/)
+- [Transformer Load Optimization](/en/2026/03/13/transformer-load-optimization/)
+- [Predictive Maintenance](/en/2026/03/13/predictive-maintenance/)
+- [Circulating Water System Energy Saving](/en/2026/03/13/circulating-water-system-energy-saving/)
 
 [Learn More About Us](/en/about/)

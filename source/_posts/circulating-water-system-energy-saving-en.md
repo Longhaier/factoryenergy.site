@@ -3,6 +3,7 @@ title: "Industrial Circulating Water System Energy Saving: Optimization Space Th
 date: 2026-03-13 14:00:00
 categories: [Case Studies]
 tags: [Circulating Water, Energy Saving, Pump Optimization, Cooling Tower]
+permalink: /en/2026/03/13/circulating-water-system-energy-saving/
 ---
 
 # Industrial Circulating Water System Energy Saving: Optimization Space That 90% Don't Know

@@ -3,6 +3,7 @@ title: "Transformer Load Optimization: Making Power Systems More Efficient and S
 date: 2026-03-13 12:00:00
 categories: [Facility Equipment]
 tags: [Transformer, Power System, Load Optimization, Energy Saving]
+permalink: /en/2026/03/13/transformer-load-optimization/
 ---
 
 # Transformer Load Optimization: Making Power Systems More Efficient and Safer

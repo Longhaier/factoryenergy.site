@@ -3,6 +3,7 @@ title: "The Secret to Reducing Energy Consumption by 30% in Semiconductor Factor
 date: 2026-03-13 10:00:00
 categories: [Case Studies]
 tags: [Compressor, Heat Recovery, Energy Saving, Facility Management]
+permalink: /en/2026/03/13/aircompressor-heat-recovery/
 ---
 
 # The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories: A Practical Case Study of Compressed Air System Heat Recovery

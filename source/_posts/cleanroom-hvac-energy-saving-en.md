@@ -3,6 +3,7 @@ title: "Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Ope
 date: 2026-03-13 11:00:00
 categories: [Facility Equipment]
 tags: [Cleanroom, HVAC, Energy Saving, Central AC]
+permalink: /en/2026/03/13/cleanroom-hvac-energy-saving/
 ---
 
 # Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Operation
