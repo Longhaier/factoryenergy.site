@@ -17,11 +17,11 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  English: /en/ || fas fa-language
   关于: /about/ || fas fa-user
   分类: /categories/ || fas fa-folder
   标签: /tags/ || fas fa-tags
   搜索: /search/ || fas fa-search
+  EN: /en/ || fas fa-language
 
 # --------------------------------------
 # Code Blocks Settings
