@@ -1,10 +1,12 @@
 ---
+language: en
+permalink: /en/2026/03/13/circulating-water-system-energy-saving/
 title: "Industrial Circulating Water System Energy Saving: Optimization Space That 90% Don't Know"
 date: 2026-03-13 14:00:00
 categories: [Case Studies]
 tags: [Circulating Water, Energy Saving, Pump Optimization, Cooling Tower]
-permalink: /en/2026/03/13/circulating-water-system-energy-saving/
 ---
+language: en
 
 # Industrial Circulating Water System Energy Saving: Optimization Space That 90% Don't Know
 
@@ -175,4 +177,5 @@ The return on investment for circulating water system energy-saving transformati
 Energy-saving optimization of circulating water systems may seem simple, but actually contains great optimization potential. As long as methods are appropriate, obvious energy-saving effects can be seen in the short term. Has your enterprise started taking action?
 
 ---
+language: en
 *If you have any questions related to circulating water systems, feel free to exchange and discuss in the comments!*

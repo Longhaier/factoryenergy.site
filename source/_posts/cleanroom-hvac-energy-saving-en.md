@@ -1,10 +1,12 @@
 ---
+language: en
+permalink: /en/2026/03/13/cleanroom-hvac-energy-saving/
 title: "Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Operation"
 date: 2026-03-13 11:00:00
 categories: [Facility Equipment]
 tags: [Cleanroom, HVAC, Energy Saving, Central AC]
-permalink: /en/2026/03/13/cleanroom-hvac-energy-saving/
 ---
+language: en
 
 # Cleanroom HVAC System Energy Saving: A Complete Guide from Design to Operation
 
@@ -122,4 +124,5 @@ Cleanroom HVAC energy saving is a systematic project that needs consideration fr
 3. Continuous optimization: Establish energy consumption monitoring and improvement mechanisms
 
 ---
+language: en
 *If you have any questions about cleanroom energy saving, feel free to exchange and discuss in the comments!*

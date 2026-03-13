@@ -1,10 +1,12 @@
 ---
+language: en
+permalink: /en/2026/03/13/transformer-load-optimization/
 title: "Transformer Load Optimization: Making Power Systems More Efficient and Safer"
 date: 2026-03-13 12:00:00
 categories: [Facility Equipment]
 tags: [Transformer, Power System, Load Optimization, Energy Saving]
-permalink: /en/2026/03/13/transformer-load-optimization/
 ---
+language: en
 
 # Transformer Load Optimization: Making Power Systems More Efficient and Safer
 
@@ -138,4 +140,5 @@ Transformer optimization in an electronic manufacturing factory:
 Transformer optimization requires long-term attention and needs to develop personalized solutions based on actual enterprise conditions. I hope this article can give you some inspiration.
 
 ---
+language: en
 *If you have any questions related to transformers, feel free to exchange and discuss in the comments!*

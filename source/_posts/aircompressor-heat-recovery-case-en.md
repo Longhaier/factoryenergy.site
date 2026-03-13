@@ -1,10 +1,12 @@
 ---
+language: en
+permalink: /en/2026/03/13/aircompressor-heat-recovery-case/
 title: "The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories: A Practical Case Study of Compressed Air System Heat Recovery"
 date: 2026-03-13 10:00:00
 categories: [Case Studies]
 tags: [Compressor, Heat Recovery, Energy Saving, Facility Management]
-permalink: /en/2026/03/13/aircompressor-heat-recovery/
 ---
+language: en
 
 # The Secret to Reducing Energy Consumption by 30% in Semiconductor Factories: A Practical Case Study of Compressed Air System Heat Recovery
 
@@ -83,4 +85,5 @@ High-temperature pipelines need insulation treatment, hot water storage tanks ne
 Compressed air system heat recovery is a "highly profitable" energy-saving measure with mature technology and high ROI, especially suitable for industrial enterprises with high electricity consumption and hot water needs. If your factory has a compressed air system, consider having a professional company do an assessment - you might save a lot on electricity costs.
 
 ---
+language: en
 *If you have similar energy-saving transformation experiences, feel free to share and exchange in the comments!*
