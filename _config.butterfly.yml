@@ -1056,7 +1056,6 @@ css_prefix: true
 inject:
   head:
   bottom:
-    - '<script>if(location.pathname.startsWith("/en")){document.querySelectorAll(".site-page>span,.nav-item>a").forEach(function(e,i){var t=["Home","About","Categories","Tags","Search","中文"];if(t[i])e.textContent=t[i]})})</script>'
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
