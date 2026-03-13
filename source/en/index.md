@@ -5,6 +5,16 @@ layout: page
 comments: false
 language: en
 ---
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var path = window.location.pathname;
+  if(path.indexOf('/en/')===0 || path==='/en' || path==='/en/'){
+    var m = document.querySelectorAll('.nav-item>a');
+    var t = ['Home','About','Categories','Tags','Search','中文'];
+    m.forEach(function(x,i){if(t[i])x.textContent=t[i]});
+  }
+});
+</script>
 
 # Welcome to Factory Energy Management
 

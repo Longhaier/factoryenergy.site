@@ -1,0 +1,8 @@
+# English Menu Configuration
+menu:
+  Home: /en/ || fas fa-home
+  About: /en/about/ || fas fa-user
+  Categories: /en/categories/ || fas fa-folder
+  Tags: /en/tags/ || fas fa-tags
+  Search: /search/ || fas fa-search
+  中文: / || fas fa-language
