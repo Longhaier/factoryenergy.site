@@ -128,3 +128,7 @@ deploy:
     # Vercel: https://github.com/vercel/vercel
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
