@@ -8,9 +8,7 @@ subtitle: '半导体厂务节能知识平台'
 description: '专注于集成电路封测工厂节能案例、设备知识、管理经验分享'
 keywords: '厂务节能,半导体,空压机,节能改造,动力设备'
 author: 智效厂务
-language:
-  - zh-CN
-  - en
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
