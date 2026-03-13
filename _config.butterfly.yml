@@ -22,6 +22,8 @@ menu:
   分类: /categories/ || fas fa-folder
   标签: /tags/ || fas fa-tags
   搜索: /search/ || fas fa-search
+  服务条款: /terms/ || fas fa-file-alt
+  隐私政策: /privacy/ || fas fa-shield-alt
 
 # --------------------------------------
 # Code Blocks Settings
