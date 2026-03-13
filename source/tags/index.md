@@ -5,54 +5,54 @@ layout: page
 comments: false
 ---
 
-<div class="tag-list">
-{% for tag in site.tags %}
-  <div class="tag-item">
-    <h3>
-      <a href="{{ url_for(tag.path) }}">
-        {{ tag.name }}
-        <span class="tag-count">({{ tag.posts.length }} 篇文章)</span>
-      </a>
-    </h3>
-    <ul class="tag-post-list">
-      {% for post in tag.posts %}
-        <li>
-          <a href="{{ url_for(post.path) }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
-</div>
+# 文章标签
 
-<style>
-.tag-item {
-  margin-bottom: 25px;
-}
-.tag-item h3 {
-  border-bottom: 2px solid #28a745;
-  padding-bottom: 8px;
-  margin-bottom: 12px;
-}
-.tag-count {
-  font-size: 13px;
-  color: #666;
-  font-weight: normal;
-}
-.tag-post-list {
-  list-style: none;
-  padding-left: 0;
-}
-.tag-post-list li {
-  padding: 6px 0;
-  display: inline-block;
-  margin-right: 15px;
-}
-.tag-post-list li a {
-  color: #333;
-  text-decoration: none;
-}
-.tag-post-list li a:hover {
-  color: #28a745;
-}
-</style>
+## 空压机
+- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
+- [空压机余热回收技术指南](/2026/03/12/aircompressor-heat-recovery/)
+
+## 余热回收
+- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
+- [空压机余热回收技术指南](/2026/03/12/aircompressor-heat-recovery/)
+
+## 节能改造
+- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
+
+## 洁净室
+- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+
+## HVAC
+- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+
+## 中央空调
+- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+
+## 变压器
+- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+
+## 电力系统
+- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+
+## 负载优化
+- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+
+## 设备维护
+- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+
+## 预测性维护
+- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+
+## 智能运维
+- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+
+## 工业4.0
+- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+
+## 循环水
+- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+
+## 水泵优化
+- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+
+## 冷却塔
+- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)

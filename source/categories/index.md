@@ -5,53 +5,19 @@ layout: page
 comments: false
 ---
 
-<div class="category-list">
-{% for category in site.categories %}
-  <div class="category-item">
-    <h2>
-      <a href="{{ url_for(category.path) }}">
-        {{ category.name }}
-        <span class="category-count">({{ category.posts.length }} 篇文章)</span>
-      </a>
-    </h2>
-    <ul class="category-post-list">
-      {% for post in category.posts %}
-        <li>
-          <a href="{{ url_for(post.path) }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
-</div>
+# 文章分类
 
-<style>
-.category-item {
-  margin-bottom: 30px;
-}
-.category-item h2 {
-  border-bottom: 2px solid #007bff;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
-}
-.category-count {
-  font-size: 14px;
-  color: #666;
-  font-weight: normal;
-}
-.category-post-list {
-  list-style: none;
-  padding-left: 0;
-}
-.category-post-list li {
-  padding: 8px 0;
-  border-bottom: 1px solid #eee;
-}
-.category-post-list li a {
-  color: #333;
-  text-decoration: none;
-}
-.category-post-list li a:hover {
-  color: #007bff;
-}
-</style>
+## 节能案例 (3篇)
+- [半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例](/2026/03/13/aircompressor-heat-recovery-case/)
+- [工业循环水系统节能：90%的人不知道的优化空间](/2026/03/13/circulating-water-system-energy-saving/)
+- [空压机余热回收技术指南](/2026/03/12/aircompressor-heat-recovery/)
+
+## 厂务设备 (2篇)
+- [洁净室空调系统节能：从设计到运维的完整指南](/2026/03/13/cleanroom-hvac-energy-saving/)
+- [变压器负载率优化：让电力系统更高效、更安全](/2026/03/13/transformer-load-optimization/)
+
+## 厂务管理 (1篇)
+- [厂务设备预测性维护：让故障消失在萌芽状态](/2026/03/13/predictive-maintenance/)
+
+## 网站公告 (1篇)
+- [欢迎访问厂务能源网](/2026/03/12/welcome/)
