@@ -1056,7 +1056,7 @@ css_prefix: true
 inject:
   head:
   bottom:
-    - '<script>(function(){var p=window.location.pathname;if(p.indexOf("/en")>-1||p==="/en"||p==="/en/"){var n=document.querySelectorAll(".nav-item>a");var t=["Home","About","Categories","Tags","Search","中文"];n.forEach(function(x,i){if(t[i])x.textContent=t[i]})}})();</script>'
+    - '<script>if(location.pathname.startsWith("/en")){document.querySelectorAll(".site-page>span,.nav-item>a").forEach(function(e,i){var t=["Home","About","Categories","Tags","Search","中文"];if(t[i])e.textContent=t[i]})})</script>'
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
