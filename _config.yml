@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 厂务能源网
-subtitle: '半导体厂务节能知识平台'
-description: '专注于集成电路封测工厂节能案例、设备知识、管理经验分享'
-keywords: '厂务节能,半导体,空压机,节能改造,动力设备'
-author: 智效厂务
-language: zh-CN
+title: Smart Facility
+subtitle: 'Industrial Energy & Smart Factory Expert'
+description: "Professional insights on industrial energy saving, smart factory technologies, and facility management"
+keywords: "industrial energy saving,smart factory,facility management,energy efficiency,IoT"
+author: Smart Facility
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://factoryenergy.site
+url: https://smartfacility.tech
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
