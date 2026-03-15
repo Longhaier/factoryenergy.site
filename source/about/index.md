@@ -22,6 +22,6 @@ date: 2026-03-12
 
 ## 联系我们
 
-Email: contact@factoryenergy.site
+Email: 1029418861@qq.com
 
 © 2026 智效厂务
