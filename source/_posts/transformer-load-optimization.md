@@ -1,6 +1,7 @@
 ---
 title: 变压器负载率优化：让电力系统更高效、更安全
 date: 2026-03-13 12:00:00
+cover: https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800
 categories: [厂务设备]
 tags: [变压器, 电力系统, 负载优化, 节能]
 ---

@@ -1,6 +1,7 @@
 ---
 title: 半导体工厂空压机余热回收实战指南
 date: 2026-03-12 22:00:00
+cover: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800
 tags:
   - 空压机
   - 余热回收

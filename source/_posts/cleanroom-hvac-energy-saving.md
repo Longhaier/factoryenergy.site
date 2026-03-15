@@ -1,6 +1,7 @@
 ---
 title: 洁净室空调系统节能：从设计到运维的完整指南
 date: 2026-03-13 11:00:00
+cover: https://images.unsplash.com/photo-1581092335397-9583eb92d232?w=800
 categories: [厂务设备]
 tags: [洁净室, HVAC, 节能, 中央空调]
 ---
