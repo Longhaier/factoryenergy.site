@@ -1,28 +1,49 @@
 ---
-title: Privacy Policy
+title: 隐私政策
 date: 2026-03-12 18:00:00
+layout: page
+comments: false
 ---
 
-# Privacy Policy
+# 隐私政策
 
-**Last Updated: March 12, 2026**
+**最后更新：2026年3月12日**
 
-## 1. Information We Collect
+我们重视您的隐私。本隐私政策说明了我们如何收集、使用和保护您的信息。
 
-We do not collect personal information through this website. This is an informational blog.
+## 1. 信息收集
 
-## 2. Cookies
+我们通过以下方式收集信息：
+- **自动收集**：当您访问我们的网站时，我们可能自动收集某些信息，如IP地址、浏览器类型、访问时间等。
 
-We may use cookies to improve your browsing experience. You can disable cookies in your browser settings.
+## 2. Cookie使用
 
-## 3. Third-Party Links
+我们使用Cookie来改善您的浏览体验。您可以通过浏览器设置禁用Cookie，但这可能会影响网站某些功能。
 
-Our website may contain links to third-party websites. We are not responsible for their privacy practices.
+## 3. 第三方服务
 
-## 4. Changes to Policy
+我们的网站使用Google AdSense等第三方广告服务。这些第三方可能会使用Cookie来展示个性化广告。
 
-We may update this privacy policy from time to time. Any changes will be posted on this page.
+## 4. 第三方链接
 
-## 5. Contact
+我们的网站可能包含指向第三方网站的链接。我们不对这些网站的隐私实践负责。
 
-If you have questions about this policy, please contact us at: contact@smartfacility.tech
+## 5. 数据安全
+
+我们采取合理的安全措施来保护您的个人信息，但无法保证绝对安全。
+
+## 6. 儿童隐私
+
+我们的网站不面向13岁以下儿童。
+
+## 7. 政策变更
+
+我们可能随时更新本隐私政策。变更将在本页面公布。
+
+## 8. 联系我们
+
+如果您对我们的隐私政策有任何疑问，请联系我们。
+
+## 9. 适用法律
+
+本隐私政策受中华人民共和国法律管辖。
