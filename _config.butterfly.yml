@@ -289,11 +289,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 关注我们
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎访问厂务能源网！
   card_recent_post:
     enable: true
     # If set 0 will show all
