@@ -1,53 +1,54 @@
 ---
-title: 预测性维护:让设备故障成为历史
+title: Predictive Maintenance - Making Equipment Failures a Thing of the Past
+cover: https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=800
 date: 2026-03-14 18:00:00
 tags:
-  - 预测性维护
-  - 智能工厂
-  - 振动分析
+  - Predictive Maintenance
+  - Smart Factory
+  - Vibration Analysis
 categories:
-  - 智能工厂
+  - Smart Factory
 ---
 
-# 预测性维护:让设备故障成为历史
+# Predictive Maintenance - Making Equipment Failures a Thing of the Past
 
-## 传统维护的困境
+## Dilemmas of Traditional Maintenance
 
-"设备不坏不修,坏了再修"——这是多少工厂的真实写照?
+"Don't repair until it breaks, then repair after breaking" - how many factories does this describe?
 
-某封测工厂的真空泵突发故障,产线停机12小时,直接损失80万元。这不是个例,而是传统"被动维护"模式的必然代价。
+A vacuum pump in a packaging testing factory suddenly failed, causing 12 hours of production line downtime and direct losses of 800,000 yuan. This is not an isolated case, but an inevitable cost of the traditional "reactive maintenance" mode.
 
-## 预测性维护:从救火到防火
+## Predictive Maintenance: From Firefighting to Fire Prevention
 
-**被动维护:** 设备故障 → 紧急抢修 → 停产损失
+**Reactive Maintenance:** Equipment failure → Emergency repair → Production loss
 
-**预测性维护:** 数据异常 → 提前预警 → 计划维修 → 零停机
+**Predictive Maintenance:** Data anomaly → Early warning → Planned repair → Zero downtime
 
-## 核心技术:振动分析+AI预测
+## Core Technology: Vibration Analysis + AI Prediction
 
-### 1. 振动分析——设备健康的"心电图"
+### 1. Vibration Analysis - The "ECG" of Equipment Health
 
-**振动频谱分析能发现:**
+**Vibration spectrum analysis can discover:**
 
-| 故障类型 | 特征频率 | 早期信号 |
-|---------|---------|---------|
-| 不平衡 | 1×转速 | 轻微振动↑ |
-| 不对中 | 2×转速 | 轴向振动大 |
-| 轴承磨损 | 轴承固有频率 | 高频能量↑ |
-| 齿轮缺陷 | 齿轮啮合频率 | 边带出现 |
+| Failure Type | Characteristic Frequency | Early Signal |
+|-------------|------------------------|--------------|
+| Imbalance | 1× rotational speed | Slight vibration ↑ |
+| Misalignment | 2× rotational speed | Large axial vibration |
+| Bearing wear | Bearing natural frequency | High frequency energy ↑ |
+| Gear defect | Gear mesh frequency | Sidebands appear |
 
-### 2. AI预测模型
+### 2. AI Prediction Model
 
-**数据来源:**
+**Data Sources:**
 
-- 振动信号
-- 温度变化
-- 电流特征
-- 油液分析
-- 运行参数
+- Vibration signals
+- Temperature changes
+- Current characteristics
+- Oil analysis
+- Operating parameters
 
-**准确率:** 成熟模型可达85-95%
+**Accuracy:** Mature models can reach 85-95%
 
 ---
 
-*本文仅供学习参考,不作为实际施工依据*
+*This article is for reference only and not for actual construction purposes.*

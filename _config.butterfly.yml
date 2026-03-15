@@ -54,10 +54,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: https://www.factoryenergy.site/img/favicon.ico
+favicon: https://www.smartfacility.tech/img/favicon.ico
 
 avatar:
-  img: https://api.dicebear.com/7.x/identicon/svg?seed=factory
+  img: https://api.dicebear.com/7.x/identicon/svg?seed=smartfacility
   effect: false
 
 # Disable all banner images
