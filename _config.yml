@@ -124,7 +124,7 @@ searchdb:
 deploy:
   type: git
   repo: 
-    github: https://github.com/Longhaier/factoryenergy.site.git
+    github: https://github.com/your-username/factoryenergy.site.git
     # Vercel: https://github.com/vercel/vercel
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"

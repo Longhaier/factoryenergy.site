@@ -10,20 +10,18 @@
 # --------------------------------------
 
 nav:
+  # Navigation bar logo image
   logo:
   display_title: true
   display_post_title: true
+  # Whether to fix navigation bar
   fixed: false
-  search_button: false
 
 menu:
-  首页: / || fas fa-home
-  关于: /about/ || fas fa-user
-  分类: /categories/ || fas fa-folder
-  标签: /tags/ || fas fa-tags
-  搜索: /search/ || fas fa-search
-  服务条款: /terms/ || fas fa-file-alt
-  隐私政策: /privacy/ || fas fa-shield-alt
+  # Home: / || fas fa-home
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
 
 # --------------------------------------
 # Code Blocks Settings
@@ -48,20 +46,21 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/Longhaier || GitHub || '#24292e'
+  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: https://www.factoryenergy.site/img/favicon.ico
+favicon: /img/favicon.png
 
 avatar:
-  img: https://api.dicebear.com/7.x/identicon/svg?seed=factory
+  img: /img/butterfly-icon.png
   effect: false
 
 # Disable all banner images
-disable_top_img: true
+disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img:
@@ -92,8 +91,7 @@ category_per_img:
 footer_img: false
 
 # Website Background
-# Can set it to color, image URL or an array containing colors and/or image URLs
-# If an array is provided, a random background will be selected from the array on each load
+# Can set it to color or image url
 background:
 
 cover:
@@ -289,11 +287,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 关注我们
+      text: Follow Me
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: 欢迎访问厂务能源网！
+    content: This is my Blog
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -320,7 +318,6 @@ aside:
     # If set 0 will show all
     limit: 40
     color: false
-    custom_colors:
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -475,8 +472,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use: local_search
-  placeholder: 搜索...
+  use:
+  placeholder:
 
   # Algolia Search
   algolia_search:
@@ -491,11 +488,6 @@ search:
     top_n_per_article: 1
     # Unescape html strings to the readable one.
     unescape: false
-    # Enable pagination for search results
-    pagination:
-      enable: false
-      # Number of search results per page
-      hitsPerPage: 8
     CDN:
 
   # Docsearch
@@ -518,12 +510,12 @@ share:
   # Share.js
   # https://github.com/overtrue/share.js
   sharejs:
-    sites: facebook,x,wechat,weibo,qq
+    sites: facebook,twitter,wechat,weibo,qq
 
   # AddToAny
   # https://www.addtoany.com/
   addtoany:
-    item: facebook,x,wechat,sina_weibo,facebook_messenger,email,copy_link
+    item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # --------------------------------------
 # Comments System
@@ -702,7 +694,6 @@ umami_analytics:
   enable: false
   # For self-hosted setups, configure the hostname of the Umami instance
   serverURL:
-  script_name: script.js
   website_id:
   option:
   UV_PV:
@@ -724,10 +715,10 @@ google_tag_manager:
 
 # Google Adsense
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-7465624411296700
+  client:
   enable_page_level_ads: true
 
 # Insert ads manually
@@ -745,8 +736,10 @@ ad:
 # --------------------------------------
 
 site_verification:
-  - name: google-site-verification
-    content: 1TOkjLf4f5HxqseugNUjdUGZhAKHcoV2QrelbykzO8M
+  # - name: google-site-verification
+  #   content: xxxxxx
+  # - name: baidu-site-verification
+  #   content: xxxxxxx
 
 # --------------------------------------
 # Beautify / Effect
@@ -939,10 +932,6 @@ mermaid:
   theme:
     light: default
     dark: dark
-  # Enable "Open in New Tab" button to view diagram in a separate window
-  open_in_new_tab: true
-  # Enable zoom and pan interactions on diagrams
-  zoom_pan: true
 
 # chartjs
 # see https://www.chartjs.org/docs/latest/
@@ -1044,11 +1033,7 @@ Open_Graph_meta:
 
 # Structured Data
 # https://developers.google.com/search/docs/guides/intro-structured-data
-structured_data:
-  enable: false
-  # Alternate name for the site, used in structured data
-  # Format: ['name1', 'name2']
-  alternate_name:
+structured_data: true
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1057,9 +1042,9 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
+    # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <script defer src="https://cdn.jsdelivr.net/npm/vercel-analytics@latest"></script>
+    # - <script src="xxxx"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
@@ -1072,7 +1057,7 @@ CDN:
   third_party_provider: jsdelivr
 
   # Add version number to url, true or false
-  version: true
+  version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
@@ -1108,6 +1093,7 @@ CDN:
     # gitalk_css:
     # giscus:
     # instantpage:
+    # instantsearch:
     # katex:
     # katex_copytex:
     # lazyload:

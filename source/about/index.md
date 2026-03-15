@@ -1,24 +1,27 @@
 ---
-title: About Smart Facility
-date: 2026-03-12 18:00:00
+title: 关于我们
+date: 2026-03-12
 ---
 
-# About Smart Facility
+# 关于我们
 
-Smart Facility is a professional knowledge platform dedicated to industrial energy management and smart factory technologies.
+**智效厂务** 专注于集成电路封测工厂的节能技术知识分享。
 
-## Our Focus
+## 我们的使命
 
-- **💡 Industrial Energy Saving** - Compressor systems, transformers, HVAC, lighting
-- **🏭 Smart Factory** - IoT, predictive maintenance, automation
-- **🌱 Renewable Energy** - Solar, storage, carbon neutrality
+- 分享最新的厂务节能案例
+- 传播动力设备管理经验  
+- 推动绿色制造行业发展
 
-We provide expert insights, best practices, and case studies on reducing energy consumption in manufacturing facilities.
+## 核心内容
 
-## Our Mission
+- 空压机节能改造
+- 洁净室能耗优化
+- 动力系统管理
+- 智能运维方案
 
-To help industrial enterprises optimize energy efficiency, reduce operating costs, and achieve sustainable development through knowledge sharing and technology promotion.
+## 联系我们
 
----
+Email: contact@factoryenergy.site
 
-*For reference only. Not for actual construction purposes.*
+© 2026 智效厂务
