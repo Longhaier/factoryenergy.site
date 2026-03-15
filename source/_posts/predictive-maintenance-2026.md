@@ -1,7 +1,6 @@
 ---
 title: 预测性维护:让设备故障成为历史
 date: 2026-03-14 18:00:00
-cover: https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800
 tags:
   - 预测性维护
   - 智能工厂

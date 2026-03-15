@@ -1,7 +1,6 @@
 ---
 title: 工厂光伏:黄金期已至,你准备好了吗?
 date: 2026-03-14 18:00:00
-cover: https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800
 tags:
   - 光伏
   - 可再生能源

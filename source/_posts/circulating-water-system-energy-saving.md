@@ -1,7 +1,6 @@
 ---
 title: 工业循环水系统节能：90%的人不知道的优化空间
 date: 2026-03-13 14:00:00
-cover: https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800
 categories: [节能案例]
 tags: [循环水, 节能改造, 水泵优化, 冷却塔]
 ---

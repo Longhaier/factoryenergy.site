@@ -1,7 +1,6 @@
 ---
 title: 欢迎访问厂务能源网
 date: 2026-03-12 18:55:00
-cover: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800
 tags:
   - 欢迎
 categories:

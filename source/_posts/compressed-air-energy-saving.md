@@ -1,7 +1,6 @@
 ---
 title: 空压系统节能：90%的工厂都忽略了这个关键参数
 date: 2026-03-14 18:00:00
-cover: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800
 tags:
   - 空压系统
   - 节能

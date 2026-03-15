@@ -1,7 +1,6 @@
 ---
 title: 半导体工厂能耗降低30%的秘密：空压系统余热回收实战案例
 date: 2026-03-13 10:00:00
-cover: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800
 categories: [节能案例]
 tags: [空压机, 余热回收, 节能改造, 厂务管理]
 ---

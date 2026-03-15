@@ -1,7 +1,6 @@
 ---
 title: 厂务设备预测性维护：让故障消失在萌芽状态
 date: 2026-03-13 13:00:00
-cover: https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800
 categories: [厂务管理]
 tags: [设备维护, 预测性维护, 智能运维, 工业4.0]
 ---
