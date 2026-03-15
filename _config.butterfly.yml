@@ -734,9 +734,9 @@ google_adsense:
 # Leave it empty if you don't need ads
 ad:
   # Insert ads in the index (every three posts)
-  index:
+  index: false
   # Insert ads in aside
-  aside:
+  aside: false
   # Insert ads in the post (before pagination)
   post:
 
