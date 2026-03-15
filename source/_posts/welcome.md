@@ -1,37 +1,37 @@
 ---
-title: Welcome to Smart Facility
+title: 欢迎访问厂务能源网
 date: 2026-03-12 18:55:00
 tags:
-  - Welcome
+  - 欢迎
 categories:
-  - Announcements
+  - 网站公告
 ---
 
-# Welcome to Smart Facility
+# 欢迎访问 factoryenergy.site
 
-> Your expert platform for industrial energy saving and facility management
+> 专注于集成电路封测工厂节能技术分享的知识平台
 
-## About Us
+## 关于我们
 
-**Smart Facility** is dedicated to providing cutting-edge energy-saving technologies for high-tech manufacturing industries including semiconductors, photovoltaics, and integrated circuits.
+**厂务能源网** (factoryenergy.site) 致力于为半导体、光伏、集成电路等高科技制造业提供最前沿的厂务节能技术资讯。
 
-### Our Mission
+### 我们的使命
 
-- Share the latest energy-saving cases
-- Disseminate facility management experience
-- Promote green manufacturing development
+- 分享最新的厂务节能案例
+- 传播动力设备管理经验
+- 推动绿色制造行业发展
 
-### Core Content
+### 核心内容
 
-| Category | Content |
-|----------|---------|
-| Compressor Energy Saving | Heat recovery, VFD transformation, smart control |
-| Cleanroom Energy Saving | Airflow optimization, temperature & humidity control |
-| Power Systems | Power distribution, lighting, elevator energy saving |
-| Smart Operations | IoT monitoring, predictive maintenance |
+| 分类 | 内容 |
+|------|------|
+| 空压机节能 | 余热回收、变频改造、智能控制 |
+| 洁净室节能 | 气流优化、温湿度控制 |
+| 动力系统 | 配电、照明、电梯节能 |
+| 智能运维 | IoT监测、预测性维护 |
 
 ---
 
-**Follow us** for more facility energy-saving knowledge!
+**关注我们**，获取更多厂务节能知识！
 
-*Copyright © 2026 Smart Facility. All rights reserved.*
+*版权所有 © 2026 厂务能源网 保留所有权利*

@@ -1,66 +1,65 @@
 ---
-title: Factory Solar PV - The Golden Era Has Arrived, Are You Ready?
-cover: https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800
+title: 工厂光伏:黄金期已至,你准备好了吗?
 date: 2026-03-14 18:00:00
 tags:
-  - Solar
-  - Renewable Energy
-  - Investment
+  - 光伏
+  - 可再生能源
+  - 投资
 categories:
-  - Renewable Energy
+  - 可再生能源
 ---
 
-# Factory Solar PV - The Golden Era Has Arrived, Are You Ready?
+# 工厂光伏:黄金期已至,你准备好了吗?
 
-## A Fact That Turns Perception Upside Down
+## 一个颠覆认知的事实
 
-In 2024, photovoltaic module prices have dropped to historical lows.
+2024年,光伏组件价格已降至历史最低点。
 
-A factory with a 5,000 m² roof, installing 500kW of solar:
-- Total investment: 1.8 million yuan
-- Annual power generation: 550,000 kWh
-- Annual electricity cost savings: 440,000 yuan (at 0.8 yuan/kWh)
-- **Static payback period: 4.1 years**
+某5000平米屋顶的工厂,安装500kW光伏:
+- 总投资:180万元
+- 年发电量:55万度
+- 年节约电费:44万元(按0.8元/度)
+- **静态回收期:4.1年**
 
-And this is without considering local subsidies and carbon trading benefits.
+而这,还是不考虑地方补贴和碳交易收益的情况下。
 
-## Why is Now the Best Time?
+## 为什么现在是最佳时机?
 
-### 1. Costs Have Plummeted
+### 1. 成本断崖式下降
 
-| Year | Module Price (yuan/W) | System Cost (yuan/W) |
-|------|----------------------|---------------------|
+| 年份 | 组件价格(元/W) | 系统成本(元/W) |
+|-----|----------------|----------------|
 | 2020 | 1.8 | 4.5 |
 | 2022 | 1.2 | 3.2 |
 | 2024 | 0.8 | 2.4 |
 
-### 2. Policies Continue to Support
+### 2. 政策持续发力
 
-- **National subsidies:** Distributed solar still enjoys green electricity premium
-- **Local subsidies:** Many regions give additional 0.1-0.3 yuan/kWh subsidies
-- **Carbon trading:** CCER restarted, carbon assets can be monetized
+- **国家补贴:** 分布式光伏仍享绿电溢价
+- **地方补贴:** 多地给出0.1-0.3元/度额外补贴
+- **碳交易:** CCER重启,碳资产可变现
 
-### 3. Technology is Mature and Stable
+### 3. 技术成熟稳定
 
-- Module efficiency: Monocrystalline silicon exceeds 23%
-- Inverters: Huawei, Sungrow global leaders
-- Energy storage: Costs down 60%, solar-storage integration becoming trend
+- 组件效率: 单晶硅突破23%
+- 逆变器: 华为、阳光电源全球领先
+- 储能: 成本下降60%,光储一体成为趋势
 
-## 3 Models for Factory Solar
+## 工厂光伏的3种模式
 
-### Model 1: Self-Consumption (Most Recommended)
+### 模式一:自发自用(最推荐)
 
-- Characteristics: Generated electricity used by factory, surplus goes to grid
-- Applicable: Factories with high electricity consumption and high electricity prices
+- 特点:发的电自己用,余电上网
+- 适用:用电量大、电价高的工厂
 
-### Model 2: Full Grid Connection
+### 模式二:全额上网
 
-- Characteristics: All generated electricity sold to the grid
+- 特点:发的电全部卖给电网
 
-### Model 3: Solar-Storage Integration
+### 模式三:光储一体
 
-- Characteristics: Solar + energy storage system
+- 特点:光伏+储能系统
 
 ---
 
-*This article is for reference only and not for actual investment purposes.*
+*本文仅供学习参考,不作为实际投资依据*
