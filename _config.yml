@@ -103,6 +103,7 @@ inject:
   head:
     - <meta name="google-adsense-account" content="ca-pub-7465624411296700">
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
+    - <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 
 # Search
 ## Docs: https://hexo.io/docs/search
