@@ -1,0 +1,308 @@
+.mem-home,
+.mem-page {
+  display: grid;
+  gap: 2rem;
+}
+
+.mem-hero,
+.mem-section__block,
+.mem-subject,
+.mem-practice-page,
+.mem-summary-panel,
+.mem-practice-shell,
+.mem-wrong-shell {
+  border: 1px solid rgba(23, 37, 84, 0.08);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(246, 248, 252, 0.95));
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+}
+
+.mem-hero {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at top left, rgba(244, 114, 20, 0.16), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(14, 116, 144, 0.14), transparent 36%),
+    linear-gradient(135deg, rgba(255, 251, 235, 0.98), rgba(240, 249, 255, 0.98));
+}
+
+.mem-hero__title,
+.mem-page-header h1 {
+  margin: 0;
+  color: #172554;
+  line-height: 1.15;
+}
+
+.mem-hero__title {
+  font-size: clamp(2.3rem, 4vw, 3.8rem);
+}
+
+.mem-hero__subtitle,
+.mem-page-header__lead,
+.mem-subject-card p,
+.mem-topic-card p,
+.mem-routine__item p,
+.mem-link-list a,
+.mem-empty-state,
+.mem-practice-meta,
+.mem-answer-feedback,
+.mem-question-explanation {
+  color: #475569;
+}
+
+.mem-eyebrow {
+  margin: 0 0 0.5rem;
+  color: #c2410c;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mem-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.mem-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 10rem;
+  padding: 0.9rem 1.3rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.mem-button--primary {
+  color: #fff !important;
+  background: linear-gradient(135deg, #ea580c, #1d4ed8);
+}
+
+.mem-button--ghost {
+  color: #172554 !important;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(23, 37, 84, 0.12);
+}
+
+.mem-hero__panel,
+.mem-card-grid,
+.mem-summary-panel,
+.mem-practice-actions,
+.mem-option-list,
+.mem-wrong-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.mem-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.mem-stat-card,
+.mem-subject-card,
+.mem-topic-card,
+.mem-summary-item,
+.mem-practice-card,
+.mem-wrong-card {
+  padding: 1.2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.mem-stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.mem-stat-card__label,
+.mem-subject-card__tag,
+.mem-topic-card__meta,
+.mem-summary-item__label,
+.mem-practice-label {
+  color: #0f766e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mem-stat-card__value,
+.mem-summary-item__value {
+  font-size: 1.8rem;
+  color: #172554;
+}
+
+.mem-section {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.mem-section--split {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.mem-section__block,
+.mem-subject,
+.mem-practice-page,
+.mem-wrong-shell {
+  padding: 1.6rem;
+}
+
+.mem-section__header h2,
+.mem-subject-card h3,
+.mem-topic-card h3,
+.mem-routine__item h3,
+.mem-practice-card h2,
+.mem-wrong-card h3 {
+  margin: 0;
+  color: #172554;
+}
+
+.mem-link-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.mem-link-list a,
+.mem-subject-card,
+.mem-topic-card {
+  text-decoration: none !important;
+}
+
+.mem-link-list a {
+  padding: 0.95rem 1rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.mem-routine {
+  display: grid;
+  gap: 1rem;
+}
+
+.mem-routine__item {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1.2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.mem-routine__time {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  background: #172554;
+  color: #fff;
+  font-weight: 700;
+}
+
+.mem-practice-shell,
+.mem-wrong-shell {
+  display: grid;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+
+.mem-practice-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.mem-option-list button,
+.mem-practice-actions button,
+.mem-wrong-card button {
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.mem-option-list button {
+  padding: 1rem;
+  text-align: left;
+  background: rgba(248, 250, 252, 0.98);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  color: #0f172a;
+}
+
+.mem-option-list button.is-selected {
+  border-color: #1d4ed8;
+  background: rgba(219, 234, 254, 0.8);
+}
+
+.mem-option-list button.is-correct {
+  border-color: #15803d;
+  background: rgba(220, 252, 231, 0.85);
+}
+
+.mem-option-list button.is-wrong {
+  border-color: #b91c1c;
+  background: rgba(254, 226, 226, 0.9);
+}
+
+.mem-practice-actions {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.mem-practice-actions button,
+.mem-wrong-card button {
+  padding: 0.95rem 1rem;
+  font-weight: 700;
+  color: #172554;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(23, 37, 84, 0.12);
+}
+
+.mem-practice-actions button.mem-button-primary,
+.mem-wrong-card button.mem-button-primary {
+  color: #fff;
+  background: linear-gradient(135deg, #ea580c, #1d4ed8);
+}
+
+.mem-answer-feedback {
+  padding: 1rem;
+  border-radius: 16px;
+  background: rgba(248, 250, 252, 0.98);
+}
+
+.mem-answer-feedback.is-correct {
+  background: rgba(220, 252, 231, 0.88);
+  color: #166534;
+}
+
+.mem-answer-feedback.is-wrong {
+  background: rgba(254, 226, 226, 0.92);
+  color: #991b1b;
+}
+
+.mem-question-explanation {
+  padding: 1rem;
+  border-left: 4px solid #ea580c;
+  background: rgba(255, 251, 235, 0.75);
+  border-radius: 0 16px 16px 0;
+}
+
+.mem-empty-state {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mem-routine__item {
+    grid-template-columns: 1fr;
+  }
+}

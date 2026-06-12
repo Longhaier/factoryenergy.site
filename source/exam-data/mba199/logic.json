@@ -1,0 +1,218 @@
+[
+  {
+    "id": "mba199-logic-0001",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某论证认为：只要延长会议时间，项目沟通就一定更充分。以下哪项最能削弱该论证？",
+    "options": [
+      { "key": "A", "text": "有些项目成员不喜欢开会。" },
+      { "key": "B", "text": "会议时间变长后，注意力和效率可能明显下降。" },
+      { "key": "C", "text": "项目沟通也可以通过邮件完成。" },
+      { "key": "D", "text": "不同项目有不同的会议制度。" }
+    ],
+    "answer": ["B"],
+    "explanation": "题干把“时间更长”直接等同于“沟通更充分”。B 直接指出时间变长可能降低效率，正面削弱核心因果链。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "削弱"]
+  },
+  {
+    "id": "mba199-logic-0002",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "如果团队成员都提前阅读资料，那么会议决策效率会提高。现在会议决策效率确实提高了。以下哪项最可能是该推理的问题？",
+    "options": [
+      { "key": "A", "text": "把充分条件误当成必要条件。" },
+      { "key": "B", "text": "没有考虑会议室大小。" },
+      { "key": "C", "text": "忽略了资料是否完整。" },
+      { "key": "D", "text": "把个别情况当成普遍规律。" }
+    ],
+    "answer": ["A"],
+    "explanation": "题干是“如果 P 则 Q”，现在由 Q 反推 P，属于肯后式错误，把充分条件误当必要条件。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "形式逻辑"]
+  },
+  {
+    "id": "mba199-logic-0003",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某观点认为：只要增加任务清单，执行力就会提升。若要加强该观点，以下哪项最合适？",
+    "options": [
+      { "key": "A", "text": "很多人喜欢把任务写下来，但从不检查。" },
+      { "key": "B", "text": "任务清单能帮助使用者明确优先级并减少遗漏。" },
+      { "key": "C", "text": "执行力受心情影响很大。" },
+      { "key": "D", "text": "有些复杂任务无法拆分。" }
+    ],
+    "answer": ["B"],
+    "explanation": "B 直接补足了“任务清单为何能提升执行力”的机制，是正面加强。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "加强"]
+  },
+  {
+    "id": "mba199-logic-0004",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某经理认为：只要员工回复消息很快，协作效率就一定高。以下哪项最能削弱该观点？",
+    "options": [
+      { "key": "A", "text": "有些员工很重视回复速度。" },
+      { "key": "B", "text": "快速回复可能只是表示频繁打断，并不代表高质量协作。" },
+      { "key": "C", "text": "不同团队使用不同沟通工具。" },
+      { "key": "D", "text": "协作效率对项目结果很重要。" }
+    ],
+    "answer": ["B"],
+    "explanation": "B 直接指出“回复快”不必然带来“协作效率高”，拆掉了核心因果关系。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "削弱"]
+  },
+  {
+    "id": "mba199-logic-0005",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "如果一个方案真正可执行，那么它必须有明确的负责人。某方案没有明确负责人。根据前提可以推出什么？",
+    "options": [
+      { "key": "A", "text": "该方案一定失败。" },
+      { "key": "B", "text": "该方案不是真正可执行的方案。" },
+      { "key": "C", "text": "该方案一定没有预算。" },
+      { "key": "D", "text": "负责人已经离职。" }
+    ],
+    "answer": ["B"],
+    "explanation": "题干是“可执行 -> 有负责人”，现有“没有负责人”，可逆否推出“不可执行”。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "形式逻辑"]
+  },
+  {
+    "id": "mba199-logic-0006",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某论证称：这个学习计划一定有效，因为很多优秀考生都用过它。该论证主要犯了什么问题？",
+    "options": [
+      { "key": "A", "text": "把相关性直接当成因果或充分证明。" },
+      { "key": "B", "text": "使用了过多数学计算。" },
+      { "key": "C", "text": "没有提到学习时长。" },
+      { "key": "D", "text": "结论比前提更保守。" }
+    ],
+    "answer": ["A"],
+    "explanation": "“优秀考生用过”不能直接证明“计划一定有效”，可能存在选择偏差或其他原因。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "论证漏洞"]
+  },
+  {
+    "id": "mba199-logic-0007",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某观点认为：只要每晚都复盘，当天知识就不会遗忘。若要削弱该观点，以下哪项最合适？",
+    "options": [
+      { "key": "A", "text": "复盘通常需要固定时间。" },
+      { "key": "B", "text": "即使复盘过，如果之后长期不再提取，仍可能遗忘。" },
+      { "key": "C", "text": "有些人喜欢早上复盘。" },
+      { "key": "D", "text": "遗忘速度因人而异。" }
+    ],
+    "answer": ["B"],
+    "explanation": "B 直接指出复盘并不能保证“不会遗忘”，正面削弱绝对化结论。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "削弱"]
+  },
+  {
+    "id": "mba199-logic-0008",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "若一个结论成立必须同时满足条件 A 和条件 B。现在已知条件 A 不满足。以下哪项一定正确？",
+    "options": [
+      { "key": "A", "text": "结论不成立。" },
+      { "key": "B", "text": "条件 B 一定也不满足。" },
+      { "key": "C", "text": "结论仍可能成立。" },
+      { "key": "D", "text": "条件 A 其实不重要。" }
+    ],
+    "answer": ["A"],
+    "explanation": "结论成立需要 A 和 B 同时满足，A 不满足则结论必不成立。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "必要条件"]
+  },
+  {
+    "id": "mba199-logic-0009",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某说法认为：只要把计划写下来，就能保证执行成功。以下哪项最能指出该说法的问题？",
+    "options": [
+      { "key": "A", "text": "写下来只是开始，不等于后续一定执行。" },
+      { "key": "B", "text": "有些人字写得不好看。" },
+      { "key": "C", "text": "计划通常需要纸张或电子工具。" },
+      { "key": "D", "text": "执行成功常常值得庆祝。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 直接指出“写下来”与“执行成功”之间存在巨大跳跃，正面指出论证漏洞。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "论证漏洞"]
+  },
+  {
+    "id": "mba199-logic-0010",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "如果项目延期，那么客户会不满。现在客户没有不满。根据前提最稳妥能推出什么？",
+    "options": [
+      { "key": "A", "text": "项目一定提前完成。" },
+      { "key": "B", "text": "项目一定没有延期。" },
+      { "key": "C", "text": "客户其实不关心项目。" },
+      { "key": "D", "text": "项目已经取消。" }
+    ],
+    "answer": ["B"],
+    "explanation": "如果延期则不满，现不满为假，可由逆否命题推出没有延期。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "逆否"]
+  },
+  {
+    "id": "mba199-logic-0011",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某培训机构声称：凡是高分学员都购买了他们的课程，因此购买课程就能得到高分。以下哪项最准确描述该推理错误？",
+    "options": [
+      { "key": "A", "text": "把必要条件误当成充分条件。" },
+      { "key": "B", "text": "把结论说得过于保守。" },
+      { "key": "C", "text": "只讨论了课程价格。" },
+      { "key": "D", "text": "没有使用统计图表。" }
+    ],
+    "answer": ["A"],
+    "explanation": "高分学员都买课，只能说明买课可能是必要条件之一，不能推出买课就一定高分。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "充分必要"]
+  },
+  {
+    "id": "mba199-logic-0012",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某论证称：因为我们最近一次调整计划后成绩提高了，所以成绩提高一定是这次调整造成的。以下哪项最能削弱？",
+    "options": [
+      { "key": "A", "text": "成绩提高前后，复习时长也明显增加了。" },
+      { "key": "B", "text": "这次计划调整写得很详细。" },
+      { "key": "C", "text": "很多同学也在调整计划。" },
+      { "key": "D", "text": "成绩提高让人更有信心。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 提供了另一种同样能解释成绩提高的原因，直接削弱“唯一因果”。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "因果削弱"]
+  }
+]

@@ -18,11 +18,10 @@ nav:
 
 menu:
   首页: / || fas fa-home
+  英语二: /english2/ || fas fa-book
+  管综199: /mba199/ || fas fa-calculator
+  错题本: /practice/wrong/ || fas fa-rotate-left
   关于: /about/ || fas fa-user
-  分类: /categories/ || fas fa-folder
-  标签: /tags/ || fas fa-tags
-  搜索: /search/ || fas fa-search
-  服务条款: /terms/ || fas fa-file-alt
   隐私政策: /privacy/ || fas fa-shield-alt
 
 # --------------------------------------
@@ -48,16 +47,16 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/Longhaier || GitHub || '#24292e'
+  
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: https://www.factoryenergy.site/img/favicon.ico
+favicon:
 
 avatar:
-  img: https://api.dicebear.com/7.x/identicon/svg?seed=factory
+  img: https://api.dicebear.com/7.x/shapes/svg?seed=mem2027
   effect: false
 
 # Disable all banner images
@@ -285,17 +284,17 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 在职备考用碎片时间推进 199 管综和英语二。
     button:
-      enable: true
-      icon: fab fa-github
-      text: 关注我们
-      link: https://github.com/xxxxxx
+      enable: false
+      icon:
+      text:
+      link:
   card_announcement:
     enable: true
-    content: 欢迎访问厂务能源网！
+    content: 先看知识点，再做客观题，错题会保存在当前浏览器。
   card_recent_post:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 5
     # Sort: date / updated
@@ -309,14 +308,14 @@ aside:
     storage: 10
     avatar: true
   card_categories:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 8
     # Choose: none / true / false
     expand: none
     sort_order:
   card_tags:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 40
     color: false
@@ -475,7 +474,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use: local_search
+  use:
   placeholder: 搜索...
 
   # Algolia Search
@@ -724,19 +723,19 @@ google_tag_manager:
 
 # Google Adsense
 google_adsense:
-  enable: true
-  auto_ads: true
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-7465624411296700
-  enable_page_level_ads: true
+  enable: false
+  auto_ads: false
+  js:
+  client:
+  enable_page_level_ads: false
 
 # Insert ads manually
 # Leave it empty if you don't need ads
 ad:
   # Insert ads in the index (every three posts)
-  index: true
+  index: false
   # Insert ads in aside
-  aside: true
+  aside: false
   # Insert ads in the post (before pagination)
   post:
 
@@ -745,8 +744,7 @@ ad:
 # --------------------------------------
 
 site_verification:
-  - name: google-site-verification
-    content: 1TOkjLf4f5HxqseugNUjdUGZhAKHcoV2QrelbykzO8M
+  []
 
 # --------------------------------------
 # Beautify / Effect
@@ -1048,7 +1046,7 @@ structured_data:
   enable: true
   # Alternate name for the site, used in structured data
   # Format: ['name1', 'name2']
-  alternate_name: ['厂务能源网', '智效厂务']
+  alternate_name: ['川大MEM练题站', 'MEM在职备考']
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1057,7 +1055,6 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
   bottom:
     - <script defer src="https://cdn.jsdelivr.net/npm/vercel-analytics@latest"></script>
 

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "mba199-math-0001",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某数的 3 倍减去 8 等于 19，则该数为多少？",
+    "options": [
+      { "key": "A", "text": "7" },
+      { "key": "B", "text": "8" },
+      { "key": "C", "text": "9" },
+      { "key": "D", "text": "10" }
+    ],
+    "answer": ["C"],
+    "explanation": "设该数为 x，则 3x - 8 = 19，得到 3x = 27，所以 x = 9。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "方程"]
+  },
+  {
+    "id": "mba199-math-0002",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一件商品原价 200 元，打九折后再减 20 元，现价是多少元？",
+    "options": [
+      { "key": "A", "text": "150" },
+      { "key": "B", "text": "160" },
+      { "key": "C", "text": "170" },
+      { "key": "D", "text": "180" }
+    ],
+    "answer": ["B"],
+    "explanation": "先打九折得到 200 × 0.9 = 180，再减 20 得到 160。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "应用题"]
+  },
+  {
+    "id": "mba199-math-0003",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "从 1、2、3 三个数字中任取两个不同数字组成两位数，共能组成多少个？",
+    "options": [
+      { "key": "A", "text": "3" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "6" }
+    ],
+    "answer": ["D"],
+    "explanation": "十位有 3 种选法，个位在剩余 2 个数字中选，共 3 × 2 = 6 个。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "排列组合"]
+  },
+  {
+    "id": "mba199-math-0004",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "甲、乙两人同时从 A 地出发去 B 地，甲每小时 6 千米，乙每小时 4 千米。2 小时后甲比乙多走多少千米？",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "6" },
+      { "key": "D", "text": "8" }
+    ],
+    "answer": ["B"],
+    "explanation": "速度差为 2 千米/小时，2 小时后路程差为 2 × 2 = 4 千米。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "行程"]
+  },
+  {
+    "id": "mba199-math-0005",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某班男生与女生人数之比为 3:2，全班共 25 人，则女生有多少人？",
+    "options": [
+      { "key": "A", "text": "8" },
+      { "key": "B", "text": "10" },
+      { "key": "C", "text": "12" },
+      { "key": "D", "text": "15" }
+    ],
+    "answer": ["B"],
+    "explanation": "总份数为 5，每份为 25 ÷ 5 = 5，女生占 2 份，所以为 10 人。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "比例"]
+  },
+  {
+    "id": "mba199-math-0006",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若 x + 2 = 7，则 x² 的值为多少？",
+    "options": [
+      { "key": "A", "text": "9" },
+      { "key": "B", "text": "16" },
+      { "key": "C", "text": "25" },
+      { "key": "D", "text": "49" }
+    ],
+    "answer": ["C"],
+    "explanation": "由 x + 2 = 7 得 x = 5，所以 x² = 25。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "代数"]
+  },
+  {
+    "id": "mba199-math-0007",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一个盒子中有 3 个红球和 2 个白球，任取 1 个球，取到红球的概率是多少？",
+    "options": [
+      { "key": "A", "text": "2/5" },
+      { "key": "B", "text": "3/5" },
+      { "key": "C", "text": "1/2" },
+      { "key": "D", "text": "3/4" }
+    ],
+    "answer": ["B"],
+    "explanation": "总球数为 5，红球 3 个，所以概率为 3/5。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "概率"]
+  },
+  {
+    "id": "mba199-math-0008",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某项任务甲单独做 6 天完成，乙单独做 3 天完成。两人合作 1 天可完成全部任务的几分之几？",
+    "options": [
+      { "key": "A", "text": "1/2" },
+      { "key": "B", "text": "2/3" },
+      { "key": "C", "text": "5/6" },
+      { "key": "D", "text": "1" }
+    ],
+    "answer": ["A"],
+    "explanation": "甲效率为 1/6，乙效率为 1/3，合作效率为 1/6 + 1/3 = 1/2。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "工程问题"]
+  },
+  {
+    "id": "mba199-math-0009",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若一个长方形的长为 8，宽为 5，则其面积为多少？",
+    "options": [
+      { "key": "A", "text": "13" },
+      { "key": "B", "text": "26" },
+      { "key": "C", "text": "40" },
+      { "key": "D", "text": "80" }
+    ],
+    "answer": ["C"],
+    "explanation": "长方形面积 = 长 × 宽 = 8 × 5 = 40。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "几何"]
+  },
+  {
+    "id": "mba199-math-0010",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某商品先涨价 10%，再降价 10%，最终价格与原价相比如何？",
+    "options": [
+      { "key": "A", "text": "高于原价" },
+      { "key": "B", "text": "低于原价" },
+      { "key": "C", "text": "等于原价" },
+      { "key": "D", "text": "无法判断" }
+    ],
+    "answer": ["B"],
+    "explanation": "设原价 100，涨价后 110，再降 10% 得 99，低于原价。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "百分比"]
+  },
+  {
+    "id": "mba199-math-0011",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "甲数比乙数大 20%，若乙数为 50，则甲数为多少？",
+    "options": [
+      { "key": "A", "text": "55" },
+      { "key": "B", "text": "60" },
+      { "key": "C", "text": "65" },
+      { "key": "D", "text": "70" }
+    ],
+    "answer": ["B"],
+    "explanation": "甲数 = 50 × 1.2 = 60。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "百分比"]
+  },
+  {
+    "id": "mba199-math-0012",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "从 4 个人中选出 2 人参加会议，共有多少种选法？",
+    "options": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "5" },
+      { "key": "C", "text": "6" },
+      { "key": "D", "text": "8" }
+    ],
+    "answer": ["C"],
+    "explanation": "组合数 C(4,2) = 6。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "组合"]
+  }
+]

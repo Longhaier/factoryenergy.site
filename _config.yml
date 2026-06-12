@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 厂务能源网
-subtitle: '半导体厂务节能知识平台'
-description: '专注于集成电路封测工厂节能案例、设备知识、管理经验分享'
-keywords: '厂务节能,半导体,空压机,节能改造,动力设备'
-author: 智效厂务
+title: 川大 MEM 2027 练题站
+subtitle: '在职备考刷题与知识点学习'
+description: '面向四川大学 2027 MEM 在职备考，提供 199 管综与英语二知识点、客观题练习和错题复盘。'
+keywords: '四川大学,MEM,管理类联考,199管综,英语二,在职考研,刷题'
+author: MEM 备考站
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -60,7 +60,7 @@ prismjs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: articles
   per_page: 10
   order_by: -date
 
@@ -98,12 +98,6 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-# Inject
-inject:
-  head:
-    - <meta name="google-adsense-account" content="ca-pub-7465624411296700">
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7465624411296700" crossorigin="anonymous"></script>
-
 # Search
 ## Docs: https://hexo.io/docs/search
 search:
@@ -124,7 +118,7 @@ searchdb:
 deploy:
   type: git
   repo: 
-    github: https://github.com/your-username/factoryenergy.site.git
+    github: https://github.com/your-username/mem-practice-site.git
     # Vercel: https://github.com/vercel/vercel
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"

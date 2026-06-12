@@ -1,0 +1,218 @@
+[
+  {
+    "id": "eng2-read-0001",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage argues that short, repeated study sessions are more effective than long, infrequent ones. What is the author's main point?",
+    "options": [
+      { "key": "A", "text": "Long study sessions are always a waste of time." },
+      { "key": "B", "text": "Consistent repetition improves retention more reliably." },
+      { "key": "C", "text": "Workers should study only on weekends." },
+      { "key": "D", "text": "Memory depends mainly on natural talent." }
+    ],
+    "answer": ["B"],
+    "explanation": "题干已经给出作者强调 repeated study sessions，更符合主旨的是 consistent repetition improves retention。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0002",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If a paragraph states that digital notes are useful only when reviewed regularly, what can be inferred?",
+    "options": [
+      { "key": "A", "text": "Taking notes alone does not guarantee learning." },
+      { "key": "B", "text": "Paper notes are always better." },
+      { "key": "C", "text": "Reviewing notes is unnecessary." },
+      { "key": "D", "text": "Digital tools reduce all forgetting." }
+    ],
+    "answer": ["A"],
+    "explanation": "only when reviewed regularly 说明单纯记笔记不够，关键在复盘，所以选 A。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0003",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A line says, 'The schedule looked efficient on paper but failed in practice.' Which option best explains the failure?",
+    "options": [
+      { "key": "A", "text": "The plan ignored real-world execution constraints." },
+      { "key": "B", "text": "The paper quality was poor." },
+      { "key": "C", "text": "The schedule was too short to print." },
+      { "key": "D", "text": "Practice is less important than design." }
+    ],
+    "answer": ["A"],
+    "explanation": "on paper but failed in practice 常指纸面方案没有考虑实际执行约束，所以选 A。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0004",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A text says that busy learners improve more when they study every day for 15 minutes than when they study once a week for two hours. Which statement best supports this idea?",
+    "options": [
+      { "key": "A", "text": "Regular exposure helps memory stay active." },
+      { "key": "B", "text": "Long sessions are easier to schedule." },
+      { "key": "C", "text": "Weekly study reduces all stress." },
+      { "key": "D", "text": "Learning depends mostly on mood." }
+    ],
+    "answer": ["A"],
+    "explanation": "题干强调短时高频更有效，A 直接解释了原因：规律接触能让记忆持续活跃。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "支持题"]
+  },
+  {
+    "id": "eng2-read-0005",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If an author mentions that a chart looks impressive but hides missing data, the author's attitude toward the chart is most likely ______.",
+    "options": [
+      { "key": "A", "text": "fully trusting" },
+      { "key": "B", "text": "carefully critical" },
+      { "key": "C", "text": "openly excited" },
+      { "key": "D", "text": "completely indifferent" }
+    ],
+    "answer": ["B"],
+    "explanation": "looks impressive but hides missing data 表示作者有保留并带有批判性，所以选 carefully critical。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0006",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A sentence says, 'The tool saves time only after users learn to use it properly.' What does this suggest?",
+    "options": [
+      { "key": "A", "text": "The tool is useless in every situation." },
+      { "key": "B", "text": "Training affects whether the tool becomes efficient." },
+      { "key": "C", "text": "Time savings come immediately for everyone." },
+      { "key": "D", "text": "Users should avoid new tools." }
+    ],
+    "answer": ["B"],
+    "explanation": "only after users learn to use it properly 说明工具是否高效取决于是否掌握使用方法。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0007",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage introduces a problem, then compares two solutions, and finally recommends one. Which reading strategy is most useful here?",
+    "options": [
+      { "key": "A", "text": "Ignore the structure and focus on vocabulary only." },
+      { "key": "B", "text": "Track how the author organizes ideas and shifts stance." },
+      { "key": "C", "text": "Translate every sentence before reading the question." },
+      { "key": "D", "text": "Memorize the first paragraph and skip the last." }
+    ],
+    "answer": ["B"],
+    "explanation": "题干强调文章结构是“问题-比较-推荐”，最有效的是跟踪结构与作者态度变化。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "阅读策略"]
+  },
+  {
+    "id": "eng2-read-0008",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If a writer says that a method is popular but unsupported by solid evidence, what is the writer mainly warning readers against?",
+    "options": [
+      { "key": "A", "text": "Using any new method at work" },
+      { "key": "B", "text": "Believing claims just because they are common" },
+      { "key": "C", "text": "Reading evidence too carefully" },
+      { "key": "D", "text": "Making unpopular choices" }
+    ],
+    "answer": ["B"],
+    "explanation": "popular but unsupported by solid evidence 的重点是提醒读者不要因为常见就轻信。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0009",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A writer says that efficient learners stop trying to memorize everything and instead focus on what is most reusable. What is the writer's advice?",
+    "options": [
+      { "key": "A", "text": "Learn fewer things, but choose high-value material." },
+      { "key": "B", "text": "Avoid reviewing old content." },
+      { "key": "C", "text": "Memorize all examples in every text." },
+      { "key": "D", "text": "Study only when exams are close." }
+    ],
+    "answer": ["A"],
+    "explanation": "focus on what is most reusable 的核心意思就是优先高价值内容，而不是面面俱到。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0010",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If a passage notes that people remember corrections better when they make the original mistake themselves, what does this imply about learning?",
+    "options": [
+      { "key": "A", "text": "Passive reading is always enough." },
+      { "key": "B", "text": "Error-based feedback can deepen memory." },
+      { "key": "C", "text": "Mistakes should be hidden from learners." },
+      { "key": "D", "text": "Correct answers are less useful than wrong ones." }
+    ],
+    "answer": ["B"],
+    "explanation": "题干强调亲自犯错后再纠正更容易记住，说明基于错误的反馈会加深记忆。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0011",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "An author describes a method as 'practical, though not elegant.' Which attitude is closest to the author's?",
+    "options": [
+      { "key": "A", "text": "Mild approval despite some reservation" },
+      { "key": "B", "text": "Complete rejection" },
+      { "key": "C", "text": "Strong emotional attachment" },
+      { "key": "D", "text": "Total confusion" }
+    ],
+    "answer": ["A"],
+    "explanation": "practical 表示认可，though not elegant 表示保留，所以是带保留的认可。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0012",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A paragraph moves from a common belief to a research finding that challenges it. What should readers pay most attention to?",
+    "options": [
+      { "key": "A", "text": "The date of the paragraph" },
+      { "key": "B", "text": "The shift point where the author's stance changes" },
+      { "key": "C", "text": "The number of long words" },
+      { "key": "D", "text": "Whether the belief is popular online" }
+    ],
+    "answer": ["B"],
+    "explanation": "从常见看法切到研究发现，关键就是抓住 stance change 的转折点。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "阅读策略"]
+  }
+]

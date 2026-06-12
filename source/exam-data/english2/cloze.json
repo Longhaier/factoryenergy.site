@@ -1,0 +1,218 @@
+[
+  {
+    "id": "eng2-cloze-0001",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Many workers plan carefully, ______ they still lose time because they switch tasks too often.",
+    "options": [
+      { "key": "A", "text": "so" },
+      { "key": "B", "text": "but" },
+      { "key": "C", "text": "unless" },
+      { "key": "D", "text": "because" }
+    ],
+    "answer": ["B"],
+    "explanation": "前后是转折关系，前面讲计划得认真，后面讲依然浪费时间，所以选 but。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0002",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Good readers do not depend on one sentence alone; they read each idea in ______.",
+    "options": [
+      { "key": "A", "text": "context" },
+      { "key": "B", "text": "danger" },
+      { "key": "C", "text": "silence" },
+      { "key": "D", "text": "advance" }
+    ],
+    "answer": ["A"],
+    "explanation": "read in context 是常见表达，表示放到上下文中理解。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "固定搭配"]
+  },
+  {
+    "id": "eng2-cloze-0003",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The team finished late, not because the task was impossible, ______ because the instructions were unclear.",
+    "options": [
+      { "key": "A", "text": "nor" },
+      { "key": "B", "text": "for" },
+      { "key": "C", "text": "but" },
+      { "key": "D", "text": "yet" }
+    ],
+    "answer": ["C"],
+    "explanation": "not because ... but because ... 是固定结构，表示原因对比。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "固定结构"]
+  },
+  {
+    "id": "eng2-cloze-0004",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "He did not ignore the feedback; ______, he used it to revise the whole plan.",
+    "options": [
+      { "key": "A", "text": "instead" },
+      { "key": "B", "text": "meanwhile" },
+      { "key": "C", "text": "otherwise" },
+      { "key": "D", "text": "besides" }
+    ],
+    "answer": ["A"],
+    "explanation": "前句是否定，后句表示转为另一种做法，适合用 instead。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0005",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The article is difficult at first, but its structure becomes clearer as the reader moves ______.",
+    "options": [
+      { "key": "A", "text": "forward" },
+      { "key": "B", "text": "suddenly" },
+      { "key": "C", "text": "outside" },
+      { "key": "D", "text": "rarely" }
+    ],
+    "answer": ["A"],
+    "explanation": "as the reader moves forward 表示随着阅读推进，结构更清晰。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "语境"]
+  },
+  {
+    "id": "eng2-cloze-0006",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Small daily progress may seem slow, ______ it often leads to stronger long-term results.",
+    "options": [
+      { "key": "A", "text": "yet" },
+      { "key": "B", "text": "because" },
+      { "key": "C", "text": "unless" },
+      { "key": "D", "text": "once" }
+    ],
+    "answer": ["A"],
+    "explanation": "前后是让步转折关系，用 yet 最合适。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0007",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "A strong argument needs not only a clear claim but also enough facts to ______ it.",
+    "options": [
+      { "key": "A", "text": "support" },
+      { "key": "B", "text": "escape" },
+      { "key": "C", "text": "disturb" },
+      { "key": "D", "text": "surround" }
+    ],
+    "answer": ["A"],
+    "explanation": "facts to support it 表示用事实支持论点，是固定搭配。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "固定搭配"]
+  },
+  {
+    "id": "eng2-cloze-0008",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "When readers skip the title, they may miss the author's main ______ before reading the first paragraph.",
+    "options": [
+      { "key": "A", "text": "focus" },
+      { "key": "B", "text": "salary" },
+      { "key": "C", "text": "border" },
+      { "key": "D", "text": "engine" }
+    ],
+    "answer": ["A"],
+    "explanation": "标题往往提示文章 focus，即核心关注点。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "阅读策略"]
+  },
+  {
+    "id": "eng2-cloze-0009",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The advice sounds simple, ______ it becomes powerful when followed every day.",
+    "options": [
+      { "key": "A", "text": "yet" },
+      { "key": "B", "text": "unless" },
+      { "key": "C", "text": "since" },
+      { "key": "D", "text": "before" }
+    ],
+    "answer": ["A"],
+    "explanation": "前句说建议简单，后句说每天执行会很有效，属于转折让步关系，用 yet。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0010",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Readers often miss the answer not because the text is hard, but because they fail to read the question ______.",
+    "options": [
+      { "key": "A", "text": "carefully" },
+      { "key": "B", "text": "brightly" },
+      { "key": "C", "text": "politely" },
+      { "key": "D", "text": "closely" }
+    ],
+    "answer": ["A"],
+    "explanation": "read the question carefully 是自然搭配，也符合句意。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "固定搭配"]
+  },
+  {
+    "id": "eng2-cloze-0011",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "A learning tool is helpful only when it matches the user's real needs; ______, even the best design may be wasted.",
+    "options": [
+      { "key": "A", "text": "otherwise" },
+      { "key": "B", "text": "indeed" },
+      { "key": "C", "text": "meanwhile" },
+      { "key": "D", "text": "therefore" }
+    ],
+    "answer": ["A"],
+    "explanation": "前句给出条件，不满足时后果如何，用 otherwise 最合适。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0012",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "When a passage presents two opposing views, readers should compare how each side is ______ by evidence.",
+    "options": [
+      { "key": "A", "text": "supported" },
+      { "key": "B", "text": "painted" },
+      { "key": "C", "text": "hidden" },
+      { "key": "D", "text": "borrowed" }
+    ],
+    "answer": ["A"],
+    "explanation": "supported by evidence 是标准搭配，符合对比两种观点的阅读场景。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "阅读策略"]
+  }
+]

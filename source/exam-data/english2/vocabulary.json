@@ -1,0 +1,218 @@
+[
+  {
+    "id": "eng2-vocab-0001",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "In a fast-changing market, managers must stay ______ to new customer signals.",
+    "options": [
+      { "key": "A", "text": "alert" },
+      { "key": "B", "text": "fragile" },
+      { "key": "C", "text": "casual" },
+      { "key": "D", "text": "silent" }
+    ],
+    "answer": ["A"],
+    "explanation": "stay alert to 是常见搭配，表示对变化保持警觉和敏感。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "固定搭配"]
+  },
+  {
+    "id": "eng2-vocab-0002",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The report gives a brief ______ of the project before discussing costs in detail.",
+    "options": [
+      { "key": "A", "text": "device" },
+      { "key": "B", "text": "overview" },
+      { "key": "C", "text": "gesture" },
+      { "key": "D", "text": "burden" }
+    ],
+    "answer": ["B"],
+    "explanation": "overview 表示概览、概述，符合 report 先总览后细谈成本的语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "语境"]
+  },
+  {
+    "id": "eng2-vocab-0003",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "A useful study plan should be realistic rather than ______.",
+    "options": [
+      { "key": "A", "text": "ambitious" },
+      { "key": "B", "text": "familiar" },
+      { "key": "C", "text": "stable" },
+      { "key": "D", "text": "regular" }
+    ],
+    "answer": ["A"],
+    "explanation": "句意强调学习计划要现实，而不是过于雄心勃勃、难以执行，所以选 ambitious。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "反义判断"]
+  },
+  {
+    "id": "eng2-vocab-0004",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "A manager should ______ the main risks before making a final decision.",
+    "options": [
+      { "key": "A", "text": "assess" },
+      { "key": "B", "text": "scatter" },
+      { "key": "C", "text": "borrow" },
+      { "key": "D", "text": "freeze" }
+    ],
+    "answer": ["A"],
+    "explanation": "assess risks 表示评估风险，符合决策前的动作逻辑。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "管理场景"]
+  },
+  {
+    "id": "eng2-vocab-0005",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The new schedule is more ______ because it allows small adjustments during the week.",
+    "options": [
+      { "key": "A", "text": "flexible" },
+      { "key": "B", "text": "distant" },
+      { "key": "C", "text": "ordinary" },
+      { "key": "D", "text": "narrow" }
+    ],
+    "answer": ["A"],
+    "explanation": "allows small adjustments 说明时间表更灵活，所以选 flexible。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "语境"]
+  },
+  {
+    "id": "eng2-vocab-0006",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The team failed not for lack of effort, but for lack of clear ______.",
+    "options": [
+      { "key": "A", "text": "direction" },
+      { "key": "B", "text": "surface" },
+      { "key": "C", "text": "distance" },
+      { "key": "D", "text": "shadow" }
+    ],
+    "answer": ["A"],
+    "explanation": "lack of clear direction 表示缺少清晰方向，符合团队执行失败的语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "抽象名词"]
+  },
+  {
+    "id": "eng2-vocab-0007",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "Their conclusion was based on very limited ______, so the result was not convincing.",
+    "options": [
+      { "key": "A", "text": "evidence" },
+      { "key": "B", "text": "ceremony" },
+      { "key": "C", "text": "climate" },
+      { "key": "D", "text": "emotion" }
+    ],
+    "answer": ["A"],
+    "explanation": "based on limited evidence 是常见表达，说明证据不足。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "阅读高频"]
+  },
+  {
+    "id": "eng2-vocab-0008",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "A short review at the end of the day can help ______ what has been learned.",
+    "options": [
+      { "key": "A", "text": "reinforce" },
+      { "key": "B", "text": "divide" },
+      { "key": "C", "text": "postpone" },
+      { "key": "D", "text": "replace" }
+    ],
+    "answer": ["A"],
+    "explanation": "reinforce learning 表示巩固所学内容，符合复习语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "学习场景"]
+  },
+  {
+    "id": "eng2-vocab-0009",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "Even a simple plan can be useful if it is carried out in a ______ way.",
+    "options": [
+      { "key": "A", "text": "consistent" },
+      { "key": "B", "text": "curious" },
+      { "key": "C", "text": "hidden" },
+      { "key": "D", "text": "formal" }
+    ],
+    "answer": ["A"],
+    "explanation": "carried out in a consistent way 表示持续稳定地执行，符合句意。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "执行场景"]
+  },
+  {
+    "id": "eng2-vocab-0010",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The writer uses a simple example to ______ a difficult idea.",
+    "options": [
+      { "key": "A", "text": "illustrate" },
+      { "key": "B", "text": "refuse" },
+      { "key": "C", "text": "delay" },
+      { "key": "D", "text": "ignore" }
+    ],
+    "answer": ["A"],
+    "explanation": "illustrate an idea 表示用例子说明观点，是阅读中高频动词。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "阅读高频"]
+  },
+  {
+    "id": "eng2-vocab-0011",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "Without a clear deadline, the task is likely to remain ______.",
+    "options": [
+      { "key": "A", "text": "unfinished" },
+      { "key": "B", "text": "patient" },
+      { "key": "C", "text": "expensive" },
+      { "key": "D", "text": "grateful" }
+    ],
+    "answer": ["A"],
+    "explanation": "没有明确截止时间，任务容易保持未完成状态，所以选 unfinished。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "工作场景"]
+  },
+  {
+    "id": "eng2-vocab-0012",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "A careful reader will notice the small but ______ difference between the two claims.",
+    "options": [
+      { "key": "A", "text": "critical" },
+      { "key": "B", "text": "pleasant" },
+      { "key": "C", "text": "silent" },
+      { "key": "D", "text": "empty" }
+    ],
+    "answer": ["A"],
+    "explanation": "critical difference 表示关键差异，符合句意。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "阅读高频"]
+  }
+]
