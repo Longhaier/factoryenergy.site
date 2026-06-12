@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= is_home() ? config.title : (page.title + ' | ' + config.title) %></title>
+  <meta name="description" content="<%= page.description || config.description %>">
+  <meta name="keywords" content="<%= page.keywords || config.keywords %>">
+  <%- css('/css/style') %>
+  <link rel="stylesheet" href="<%= url_for('/css/mem-practice.css') %>">
+</head>
+<body>
+  <header id="mem-header">
+    <nav class="mem-nav">
+      <a href="<%= url_for('/') %>" class="mem-nav__brand">
+        <%= config.title %>
+      </a>
+      <button class="mem-nav__toggle" id="nav-toggle" aria-label="菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="mem-nav__menu" id="nav-menu">
+        <% if (theme.menu) { %>
+          <% for (const [label, link] of Object.entries(theme.menu)) { %>
+            <li><a href="<%= url_for(link) %>"><%= label %></a></li>
+          <% } %>
+        <% } %>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="mem-main">
+    <%- body %>
+  </main>
+
+  <footer id="mem-footer">
+    <div class="mem-footer__inner">
+      <% if (theme.footer) { %>
+        <p>&copy; <%= theme.footer.since || new Date().getFullYear() %> <%= theme.footer.copyright || config.author %></p>
+      <% } else { %>
+        <p>&copy; <%= new Date().getFullYear() %> <%= config.author %></p>
+      <% } %>
+      <p class="mem-footer__meta">由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggle = document.getElementById('nav-toggle');
+      var menu = document.getElementById('nav-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', function() {
+          menu.classList.toggle('is-open');
+          toggle.classList.toggle('is-active');
+        });
+      }
+    });
+  </script>
+  <script src="<%= url_for('/js/mem-practice.js') %>"></script>
+</body>
+</html>

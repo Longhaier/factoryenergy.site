@@ -16,5 +16,3 @@ comments: false
     </div>
   </article>
 </div>
-
-<script src="/js/mem-practice.js"></script>

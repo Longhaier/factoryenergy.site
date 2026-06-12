@@ -1,7 +1,6 @@
 ---
 title: 首页
-aside: false
-comments: false
+layout: index
 ---
 
 <div class="mem-home">
@@ -116,5 +115,3 @@ comments: false
     </div>
   </section>
 </div>
-
-<script src="/js/mem-practice.js"></script>

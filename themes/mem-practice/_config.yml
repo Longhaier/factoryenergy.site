@@ -1,0 +1,14 @@
+# mem-practice theme config
+
+# Navigation menu
+menu:
+  首页: /
+  英语二: /english2/
+  管综199: /mba199/
+  错题本: /practice/wrong/
+  关于: /about/
+
+# Footer
+footer:
+  copyright: MEM 备考站
+  since: 2026
