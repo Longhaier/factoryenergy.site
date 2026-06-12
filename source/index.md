@@ -6,7 +6,7 @@ layout: index
 <div class="mem-home">
   <section class="mem-hero">
     <div class="mem-hero__copy">
-      <p class="mem-eyebrow">四川大学 2027 MEM 在职备考</p>
+      <p class="mem-eyebrow">2027 MEM 在职备考</p>
       <h1 class="mem-hero__title">上班也能持续推进的刷题站</h1>
       <p class="mem-hero__subtitle">先学知识点，再做 199 管综和英语二客观题，把最近进度和错题都留在当前设备里。</p>
       <div class="mem-actions">

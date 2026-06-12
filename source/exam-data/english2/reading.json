@@ -358,5 +358,545 @@
     "difficulty": "easy",
     "source": "manual",
     "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0021",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage discusses how the rise of artificial intelligence has transformed manufacturing, reducing waste while increasing output. However, the author also warns that workers without digital skills risk being left behind. What is the main idea of the passage?",
+    "options": [
+      { "key": "A", "text": "AI brings both efficiency gains and challenges for the workforce." },
+      { "key": "B", "text": "Manufacturing output has doubled because of robots." },
+      { "key": "C", "text": "All factory workers should quit their jobs immediately." },
+      { "key": "D", "text": "AI technology is too expensive for most companies." }
+    ],
+    "answer": ["A"],
+    "explanation": "文章既提到了AI提升效率、减少浪费，也指出工人技能不足可能被淘汰，两者兼顾，所以主旨是AI带来的机遇和挑战并存。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0022",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage about urbanization, the author states that megacities attract talent and investment but also face severe housing shortages. What can be inferred about the author's view on urban growth?",
+    "options": [
+      { "key": "A", "text": "Urbanization is a mixed process with both opportunities and problems." },
+      { "key": "B", "text": "Cities should stop expanding immediately." },
+      { "key": "C", "text": "Housing shortages are not a real concern." },
+      { "key": "D", "text": "Only megacities can generate economic growth." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者同时提到megacities吸引人才投资的优点和住房短缺的问题，可推断出作者认为城市化是利弊并存的复杂过程。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0023",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "The author describes a corporate strategy as 'bold but risky.' Which of the following best captures the author's attitude?",
+    "options": [
+      { "key": "A", "text": "Admiration mixed with caution" },
+      { "key": "B", "text": "Complete disapproval" },
+      { "key": "C", "text": "Neutral indifference" },
+      { "key": "D", "text": "Enthusiastic support" }
+    ],
+    "answer": ["A"],
+    "explanation": "'bold but risky' 前半部分体现欣赏其大胆（admiration），后半部分表达担忧（caution），所以是欣赏中带有谨慎。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0024",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage says: 'The company's quarterly report was a masterpiece of optimism, but beneath the surface lay troubling numbers.' The word 'masterpiece' in this context most likely suggests ______.",
+    "options": [
+      { "key": "A", "text": "the report was skillfully written to conceal problems" },
+      { "key": "B", "text": "the report was an award-winning document" },
+      { "key": "C", "text": "the report contained only accurate data" },
+      { "key": "D", "text": "the report was poorly organized" }
+    ],
+    "answer": ["A"],
+    "explanation": "'masterpiece of optimism' 是反讽用法，结合 'beneath the surface lay troubling numbers'，表明这份报告写得漂亮是为了掩盖问题。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["阅读", "词义题"]
+  },
+  {
+    "id": "eng2-read-0025",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage about renewable energy, the author writes: 'Solar power is no longer a futuristic dream but a present-day economic reality.' What does this statement emphasize?",
+    "options": [
+      { "key": "A", "text": "Solar energy has become viable and cost-effective in the current market." },
+      { "key": "B", "text": "Solar power is still too expensive for practical use." },
+      { "key": "C", "text": "Fossil fuels remain cheaper than solar energy." },
+      { "key": "D", "text": "Solar energy will only be useful in the distant future." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者强调太阳能已从未来梦想转变为当下的经济现实，说明其已经具备市场竞争力和可行性。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0026",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A paragraph compares two leadership styles: one focused on strict control, the other on employee autonomy. The author notes that companies with autonomous teams reported higher innovation but also more variability in performance. What can be inferred about strict control?",
+    "options": [
+      { "key": "A", "text": "It may produce more consistent but less innovative results." },
+      { "key": "B", "text": "It guarantees higher profits in all cases." },
+      { "key": "C", "text": "It is completely ineffective in modern companies." },
+      { "key": "D", "text": "It always leads to lower employee satisfaction." }
+    ],
+    "answer": ["A"],
+    "explanation": "题干说自主团队创新高但绩效波动大，反向推断严格控制的团队可能绩效更稳定但创新不足。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0027",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "The author argues that 'globalization has lifted millions out of poverty, yet it has also widened the gap between the rich and the poor.' The author's overall attitude toward globalization is best described as ______.",
+    "options": [
+      { "key": "A", "text": "balanced and critical" },
+      { "key": "B", "text": "strongly opposed" },
+      { "key": "C", "text": "unconditionally supportive" },
+      { "key": "D", "text": "completely indifferent" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者既肯定全球化的减贫成就，又指出其加剧贫富差距的问题，态度是客观平衡且带有批判性的。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0028",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage on consumer behavior states: 'People tend to overvalue what they own and undervalue what they do not.' This phenomenon is used to explain why sellers often ask for more than buyers are willing to pay. The best title for this passage would be ______.",
+    "options": [
+      { "key": "A", "text": "The Psychology of Pricing and Ownership" },
+      { "key": "B", "text": "How to Become a Better Seller" },
+      { "key": "C", "text": "Why Shopping Is a Waste of Time" },
+      { "key": "D", "text": "The History of Market Economy" }
+    ],
+    "answer": ["A"],
+    "explanation": "文章核心是解释人们高估自己的东西、低估别人的东西这一心理现象，并将其与定价行为联系起来，所以最贴切的标题是“定价与所有权的心理学”。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0029",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage about remote work, the author describes the term 'productivity theater' — employees appearing busy online while accomplishing little. What does this term imply about remote work supervision?",
+    "options": [
+      { "key": "A", "text": "Visible activity does not necessarily equal real output." },
+      { "key": "B", "text": "Remote workers are never productive." },
+      { "key": "C", "text": "Online presence guarantees quality work." },
+      { "key": "D", "text": "Managers should watch employees constantly." }
+    ],
+    "answer": ["A"],
+    "explanation": "'productivity theater' 指员工在线看起来很忙但实际上产出不高，说明可看到的活跃度并不等于真实效率。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["阅读", "词义题"]
+  },
+  {
+    "id": "eng2-read-0030",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A paragraph argues that the key to career advancement is not working longer hours but building the right relationships and skills. The author would most likely agree with which statement?",
+    "options": [
+      { "key": "A", "text": "Strategic development matters more than sheer effort in career growth." },
+      { "key": "B", "text": "Working overtime is the only path to promotion." },
+      { "key": "C", "text": "Networking and skills are irrelevant to career success." },
+      { "key": "D", "text": "Career advancement depends purely on luck." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者强调不是工作时间长（effort），而是关系网络和技能（strategic development）才是关键。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0031",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage about the sharing economy notes that platforms like ride-sharing and home-rental services offer convenience but often bypass local regulations. The author warns that this creates an uneven playing field for traditional businesses. The author's primary concern is ______.",
+    "options": [
+      { "key": "A", "text": "fair competition between new and old business models" },
+      { "key": "B", "text": "the high cost of using sharing economy platforms" },
+      { "key": "C", "text": "the lack of convenience in traditional services" },
+      { "key": "D", "text": "the difficulty of using mobile applications" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者关注的核心是 sharing economy 绕过监管，导致与传统企业之间的不公平竞争。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0032",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "An article about climate change says: 'The window of opportunity is closing, but it is not yet shut.' What does this sentence imply about the current situation?",
+    "options": [
+      { "key": "A", "text": "There is still time to act, but it is limited." },
+      { "key": "B", "text": "The situation is hopeless and nothing can be done." },
+      { "key": "C", "text": "Climate change has been fully resolved." },
+      { "key": "D", "text": "Action can be delayed indefinitely." }
+    ],
+    "answer": ["A"],
+    "explanation": "'closing but not yet shut' 意味着还有机会采取行动，但时间紧迫，窗口正在缩小。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0033",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage about higher education argues that the value of a college degree is increasingly being questioned as tuition rises and the job market shifts. However, the author concludes that a degree still provides long-term benefits that are not captured by initial salary comparisons. What is the author's overall stance?",
+    "options": [
+      { "key": "A", "text": "A college degree remains worthwhile despite valid criticisms." },
+      { "key": "B", "text": "College education is a complete waste of money." },
+      { "key": "C", "text": "Students should only consider initial salary when choosing a major." },
+      { "key": "D", "text": "Vocational training is always superior to a degree." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者先承认质疑的观点（tuition rises, job market shifts），但转折后强调学位的长期价值，所以总立场是学位仍然值得。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0034",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage on digital privacy, the author writes that users 'trade their personal data for convenience, often without reading the terms of service.' The phrase 'trade their personal data for convenience' suggests that users ______.",
+    "options": [
+      { "key": "A", "text": "knowingly or unknowingly give up privacy in exchange for easy access" },
+      { "key": "B", "text": "are forced to share data against their will" },
+      { "key": "C", "text": "never benefit from using digital services" },
+      { "key": "D", "text": "carefully negotiate data terms with companies" }
+    ],
+    "answer": ["A"],
+    "explanation": "'trade their data for convenience' 指用户用数据交换便利，而 'without reading terms' 说明这种行为不一定是充分知情的，所以选 A。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0035",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage examines why many startups fail within the first three years. The author identifies three main causes: running out of cash, lack of market need, and team conflicts. Which of the following can be inferred about successful startups?",
+    "options": [
+      { "key": "A", "text": "They typically manage finances well, validate market demand, and maintain team cohesion." },
+      { "key": "B", "text": "They never experience any financial difficulties." },
+      { "key": "C", "text": "They rely on a single founder to make all decisions." },
+      { "key": "D", "text": "They avoid hiring any employees in the first year." }
+    ],
+    "answer": ["A"],
+    "explanation": "题干列举了三大失败原因，反推成功的企业应该是有效管理资金、验证市场需求、保持团队协作的。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0036",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "An article on workplace diversity argues that diverse teams make better decisions because they consider more perspectives. However, the author also notes that diversity without inclusion can lead to conflict. Which statement best summarizes the author's argument?",
+    "options": [
+      { "key": "A", "text": "Diversity is beneficial, but only when paired with an inclusive culture." },
+      { "key": "B", "text": "Diversity alone always guarantees success." },
+      { "key": "C", "text": "Inclusion matters less than hiring different people." },
+      { "key": "D", "text": "Workplace diversity is a passing trend with little real value." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者先肯定多样性的好处，但转折指出没有包容性会带来冲突，所以观点是多样性需与包容性结合。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0037",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage about the gig economy describes workers who move between short-term jobs without job security or benefits. The author's tone in describing this arrangement is best characterized as ______.",
+    "options": [
+      { "key": "A", "text": "concerned about worker protections" },
+      { "key": "B", "text": "enthusiastically supportive" },
+      { "key": "C", "text": "completely neutral" },
+      { "key": "D", "text": "openly mocking" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者描述零工经济时强调 'without job security or benefits'，措辞透露出对工人保护的担忧。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0038",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage about social media's impact on mental health, the author writes: 'The comparison culture fueled by curated online profiles has created an epidemic of inadequacy.' The word 'curated' in this context most likely means ______.",
+    "options": [
+      { "key": "A", "text": "carefully selected and edited to present a certain image" },
+      { "key": "B", "text": "randomly posted without any thought" },
+      { "key": "C", "text": "automatically generated by algorithms" },
+      { "key": "D", "text": "forced upon users by platform rules" }
+    ],
+    "answer": ["A"],
+    "explanation": "'curated profiles' 指用户精心挑选和编辑内容来展示理想形象，这与 'comparison culture' 相呼应。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["阅读", "词义题"]
+  },
+  {
+    "id": "eng2-read-0039",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A text discusses how traditional retail stores are adapting by offering experiences that online shopping cannot provide, such as in-person classes and personalized consultations. What is the main strategy these stores are using?",
+    "options": [
+      { "key": "A", "text": "Differentiating through service and experience rather than price alone." },
+      { "key": "B", "text": "Lowering prices below all online competitors." },
+      { "key": "C", "text": "Closing physical stores and moving entirely online." },
+      { "key": "D", "text": "Ignoring digital trends completely." }
+    ],
+    "answer": ["A"],
+    "explanation": "传统零售通过提供线上无法替代的体验（课程、咨询）来差异化竞争，核心策略是服务体验而非价格战。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "细节题"]
+  },
+  {
+    "id": "eng2-read-0040",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage on public health policy argues that prevention is more cost-effective than treatment. The author supports this by comparing the low cost of vaccination programs with the high expense of treating preventable diseases. What can be concluded about the author's recommendation?",
+    "options": [
+      { "key": "A", "text": "Governments should invest more in preventive healthcare measures." },
+      { "key": "B", "text": "Treatment of diseases should be ignored entirely." },
+      { "key": "C", "text": "Vaccination programs are too expensive to implement." },
+      { "key": "D", "text": "Preventive care and treatment cost the same amount." }
+    ],
+    "answer": ["A"],
+    "explanation": "通过对比预防（低成本）和治疗（高成本），作者显然建议政府增加对预防性医疗的投入。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0041",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "An article about the sharing of misinformation online suggests that people share false news not because they are malicious, but because they are emotionally engaged and do not verify facts before sharing. The author's explanation focuses on ______.",
+    "options": [
+      { "key": "A", "text": "emotional triggers and lack of verification habits" },
+      { "key": "B", "text": "deliberate intent to deceive others" },
+      { "key": "C", "text": "technical failures of social media platforms" },
+      { "key": "D", "text": "government censorship of online content" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者明确指出分享假新闻不是因为恶意（malicious），而是因为情绪驱动（emotionally engaged）且不核实（do not verify）。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "细节题"]
+  },
+  {
+    "id": "eng2-read-0042",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage explores the concept of 'growth mindset' — the belief that abilities can be developed through effort. The author contrasts this with a 'fixed mindset', where people see talents as innate. According to the passage, which of the following is most likely true about individuals with a fixed mindset?",
+    "options": [
+      { "key": "A", "text": "They may avoid challenges that could expose their limitations." },
+      { "key": "B", "text": "They always achieve higher success than others." },
+      { "key": "C", "text": "They believe effort is more important than natural talent." },
+      { "key": "D", "text": "They actively seek feedback to improve themselves." }
+    ],
+    "answer": ["A"],
+    "explanation": "固定型思维的人认为能力是天生的，因此倾向于回避可能暴露自己不足的挑战，这与成长型思维形成对比。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0043",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In an essay about technological innovation, the author states: 'Every major invention goes through three phases: it is first ridiculed, then violently opposed, and finally accepted as self-evident.' The primary purpose of this statement is to ______.",
+    "options": [
+      { "key": "A", "text": "illustrate a pattern in how society responds to new ideas" },
+      { "key": "B", "text": "criticize inventors for being too stubborn" },
+      { "key": "C", "text": "argue that all new technology should be rejected" },
+      { "key": "D", "text": "claim that opposition to innovation is always violent" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者用三个阶段概括重大发明的社会接受过程，目的是揭示一种规律性的模式，而非批评或反对创新。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0044",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage about financial literacy argues that schools should teach students how to manage personal finances, including budgeting, saving, and investing. The author states: 'Financial education is not a luxury — it is a necessity for navigating modern life.' The author's attitude toward financial education is best described as ______.",
+    "options": [
+      { "key": "A", "text": "strongly supportive and urgent" },
+      { "key": "B", "text": "mildly interested but unconvinced" },
+      { "key": "C", "text": "opposed and dismissive" },
+      { "key": "D", "text": "neutral and objective" }
+    ],
+    "answer": ["A"],
+    "explanation": "作者用 'not a luxury — it is a necessity' 这样强烈的措辞，态度是积极支持并带有紧迫感的。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0045",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A research article reports that people who regularly read long-form content (books, in-depth articles) have better attention spans and critical thinking skills than those who consume only short-form content (social media posts, news headlines). What does this suggest about the relationship between reading habits and cognitive abilities?",
+    "options": [
+      { "key": "A", "text": "Deep reading may help maintain and develop focused thinking." },
+      { "key": "B", "text": "Short-form content is completely useless for learning." },
+      { "key": "C", "text": "Attention span is determined only by genetics." },
+      { "key": "D", "text": "Social media improves critical thinking more than books do." }
+    ],
+    "answer": ["A"],
+    "explanation": "研究发现读长内容的人注意力与批判性思维更强，暗示深度阅读可能有助于维持和发展这些认知能力。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0046",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage about international trade explains that tariffs are taxes on imported goods designed to protect domestic industries. However, the author points out that tariffs can also lead to higher prices for consumers and trade disputes between countries. The passage mentions that in 2025, several major economies raised tariffs on each other's goods, causing global supply chain disruptions. What is the most likely purpose of this passage?",
+    "options": [
+      { "key": "A", "text": "To explain what tariffs are and discuss their potential negative consequences" },
+      { "key": "B", "text": "To argue that all international trade should be stopped" },
+      { "key": "C", "text": "To promote the removal of all domestic industries" },
+      { "key": "D", "text": "To celebrate the increase in tariffs around the world" }
+    ],
+    "answer": ["A"],
+    "explanation": "文章先解释关税的定义和目的，然后指出其负面后果并给出实例，主要目的是解释概念并分析影响。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0047",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "An environmental study finds that companies adopting circular economy principles — reusing materials rather than discarding them — have reduced costs and improved brand reputation. The author describes this as 'doing well by doing good.' What does the phrase 'doing well by doing good' mean in this context?",
+    "options": [
+      { "key": "A", "text": "Achieving business success through environmentally responsible practices." },
+      { "key": "B", "text": "Donating profits to charity while ignoring environmental issues." },
+      { "key": "C", "text": "Focusing only on profit without any social responsibility." },
+      { "key": "D", "text": "Reducing costs by cutting employee benefits." }
+    ],
+    "answer": ["A"],
+    "explanation": "'doing well' 指商业上成功（降本、提升品牌），'doing good' 指环保行为（reusing materials），所以是环保带来商业成功。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0048",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage discusses the phenomenon of 'quiet quitting' — employees doing only the minimum required by their job description rather than going above and beyond. The author argues that this is not laziness but a response to burnout and lack of recognition. Which of the following best captures the author's interpretation of quiet quitting?",
+    "options": [
+      { "key": "A", "text": "It is a rational reaction to workplace conditions rather than a lack of work ethic." },
+      { "key": "B", "text": "It is a sign that employees are naturally lazy and need stricter management." },
+      { "key": "C", "text": "It only happens in low-paying jobs with no career prospects." },
+      { "key": "D", "text": "It is a temporary trend that will disappear on its own." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者明确说这不是懒惰，而是对倦怠和缺乏认可的反应，所以将其解读为对职场环境的理性回应。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
+  },
+  {
+    "id": "eng2-read-0049",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "In a passage about cultural differences in business communication, the writer notes that in some cultures, silence during a negotiation is a sign of respect and thoughtful consideration, while in others it is interpreted as disagreement or disinterest. What does this comparison illustrate?",
+    "options": [
+      { "key": "A", "text": "The same behavior can carry very different meanings across cultures." },
+      { "key": "B", "text": "Silence is always a negative signal in business settings." },
+      { "key": "C", "text": "Negotiation techniques are universal and culture-independent." },
+      { "key": "D", "text": "Only Western communication styles are effective in business." }
+    ],
+    "answer": ["A"],
+    "explanation": "同一种行为（沉默）在不同文化中有截然不同的解读，说明跨文化商务沟通中需要理解文化差异。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0050",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage on the future of transportation predicts that autonomous vehicles will reduce traffic accidents by eliminating human error, which accounts for over 90% of crashes. However, the author also raises concerns about cybersecurity risks and job losses for professional drivers. The author's overall conclusion is that the benefits of self-driving cars will outweigh the drawbacks if regulations keep pace with technology. What is the author's final position?",
+    "options": [
+      { "key": "A", "text": "Cautious optimism: autonomous vehicles offer great potential but require proper governance." },
+      { "key": "B", "text": "Complete rejection: self-driving cars are too dangerous to ever be used." },
+      { "key": "C", "text": "Unconditional enthusiasm: autonomous vehicles have no downsides whatsoever." },
+      { "key": "D", "text": "Neutral uncertainty: the author cannot decide whether self-driving cars are good or bad." }
+    ],
+    "answer": ["A"],
+    "explanation": "作者肯定自动驾驶减少事故的巨大潜力，但也指出网络风险和失业问题，最终结论是利大于弊但需要监管跟上，属于审慎乐观。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "态度题"]
   }
 ]

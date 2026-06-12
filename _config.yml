@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 川大 MEM 2027 练题站
+title: MEM 2027 练题站
 subtitle: '在职备考刷题与知识点学习'
-description: '面向四川大学 2027 MEM 在职备考，提供 199 管综与英语二知识点、客观题练习和错题复盘。'
-keywords: '四川大学,MEM,管理类联考,199管综,英语二,在职考研,刷题'
+description: '面向 2027 MEM 在职备考，提供 199 管综与英语二知识点、客观题练习和错题复盘。'
+keywords: 'MEM,管理类联考,199管综,英语二,在职考研,刷题'
 author: MEM 备考站
 language: zh-CN
 timezone: 'Asia/Shanghai'

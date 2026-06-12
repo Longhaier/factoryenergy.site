@@ -6,16 +6,33 @@
     "type": "single",
     "stem": "Many workers plan carefully, ______ they still lose time because they switch tasks too often.",
     "options": [
-      { "key": "A", "text": "so" },
-      { "key": "B", "text": "but" },
-      { "key": "C", "text": "unless" },
-      { "key": "D", "text": "because" }
+      {
+        "key": "A",
+        "text": "so"
+      },
+      {
+        "key": "B",
+        "text": "but"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "前后是转折关系，前面讲计划得认真，后面讲依然浪费时间，所以选 but。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0002",
@@ -24,16 +41,33 @@
     "type": "single",
     "stem": "Good readers do not depend on one sentence alone; they read each idea in ______.",
     "options": [
-      { "key": "A", "text": "context" },
-      { "key": "B", "text": "danger" },
-      { "key": "C", "text": "silence" },
-      { "key": "D", "text": "advance" }
+      {
+        "key": "A",
+        "text": "context"
+      },
+      {
+        "key": "B",
+        "text": "danger"
+      },
+      {
+        "key": "C",
+        "text": "silence"
+      },
+      {
+        "key": "D",
+        "text": "advance"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "read in context 是常见表达，表示放到上下文中理解。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "固定搭配"]
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-cloze-0003",
@@ -42,16 +76,33 @@
     "type": "single",
     "stem": "The team finished late, not because the task was impossible, ______ because the instructions were unclear.",
     "options": [
-      { "key": "A", "text": "nor" },
-      { "key": "B", "text": "for" },
-      { "key": "C", "text": "but" },
-      { "key": "D", "text": "yet" }
+      {
+        "key": "A",
+        "text": "nor"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "but"
+      },
+      {
+        "key": "D",
+        "text": "yet"
+      }
     ],
-    "answer": ["C"],
+    "answer": [
+      "C"
+    ],
     "explanation": "not because ... but because ... 是固定结构，表示原因对比。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "固定结构"]
+    "tags": [
+      "完形",
+      "固定结构"
+    ]
   },
   {
     "id": "eng2-cloze-0004",
@@ -60,16 +111,33 @@
     "type": "single",
     "stem": "He did not ignore the feedback; ______, he used it to revise the whole plan.",
     "options": [
-      { "key": "A", "text": "instead" },
-      { "key": "B", "text": "meanwhile" },
-      { "key": "C", "text": "otherwise" },
-      { "key": "D", "text": "besides" }
+      {
+        "key": "A",
+        "text": "instead"
+      },
+      {
+        "key": "B",
+        "text": "meanwhile"
+      },
+      {
+        "key": "C",
+        "text": "otherwise"
+      },
+      {
+        "key": "D",
+        "text": "besides"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前句是否定，后句表示转为另一种做法，适合用 instead。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0005",
@@ -78,16 +146,33 @@
     "type": "single",
     "stem": "The article is difficult at first, but its structure becomes clearer as the reader moves ______.",
     "options": [
-      { "key": "A", "text": "forward" },
-      { "key": "B", "text": "suddenly" },
-      { "key": "C", "text": "outside" },
-      { "key": "D", "text": "rarely" }
+      {
+        "key": "A",
+        "text": "forward"
+      },
+      {
+        "key": "B",
+        "text": "suddenly"
+      },
+      {
+        "key": "C",
+        "text": "outside"
+      },
+      {
+        "key": "D",
+        "text": "rarely"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "as the reader moves forward 表示随着阅读推进，结构更清晰。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "语境"]
+    "tags": [
+      "完形",
+      "语境"
+    ]
   },
   {
     "id": "eng2-cloze-0006",
@@ -96,16 +181,33 @@
     "type": "single",
     "stem": "Small daily progress may seem slow, ______ it often leads to stronger long-term results.",
     "options": [
-      { "key": "A", "text": "yet" },
-      { "key": "B", "text": "because" },
-      { "key": "C", "text": "unless" },
-      { "key": "D", "text": "once" }
+      {
+        "key": "A",
+        "text": "yet"
+      },
+      {
+        "key": "B",
+        "text": "because"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "once"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前后是让步转折关系，用 yet 最合适。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0007",
@@ -114,16 +216,33 @@
     "type": "single",
     "stem": "A strong argument needs not only a clear claim but also enough facts to ______ it.",
     "options": [
-      { "key": "A", "text": "support" },
-      { "key": "B", "text": "escape" },
-      { "key": "C", "text": "disturb" },
-      { "key": "D", "text": "surround" }
+      {
+        "key": "A",
+        "text": "support"
+      },
+      {
+        "key": "B",
+        "text": "escape"
+      },
+      {
+        "key": "C",
+        "text": "disturb"
+      },
+      {
+        "key": "D",
+        "text": "surround"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "facts to support it 表示用事实支持论点，是固定搭配。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "固定搭配"]
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-cloze-0008",
@@ -132,16 +251,33 @@
     "type": "single",
     "stem": "When readers skip the title, they may miss the author's main ______ before reading the first paragraph.",
     "options": [
-      { "key": "A", "text": "focus" },
-      { "key": "B", "text": "salary" },
-      { "key": "C", "text": "border" },
-      { "key": "D", "text": "engine" }
+      {
+        "key": "A",
+        "text": "focus"
+      },
+      {
+        "key": "B",
+        "text": "salary"
+      },
+      {
+        "key": "C",
+        "text": "border"
+      },
+      {
+        "key": "D",
+        "text": "engine"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "标题往往提示文章 focus，即核心关注点。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "阅读策略"]
+    "tags": [
+      "完形",
+      "阅读策略"
+    ]
   },
   {
     "id": "eng2-cloze-0009",
@@ -150,16 +286,33 @@
     "type": "single",
     "stem": "The advice sounds simple, ______ it becomes powerful when followed every day.",
     "options": [
-      { "key": "A", "text": "yet" },
-      { "key": "B", "text": "unless" },
-      { "key": "C", "text": "since" },
-      { "key": "D", "text": "before" }
+      {
+        "key": "A",
+        "text": "yet"
+      },
+      {
+        "key": "B",
+        "text": "unless"
+      },
+      {
+        "key": "C",
+        "text": "since"
+      },
+      {
+        "key": "D",
+        "text": "before"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前句说建议简单，后句说每天执行会很有效，属于转折让步关系，用 yet。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0010",
@@ -168,16 +321,33 @@
     "type": "single",
     "stem": "Readers often miss the answer not because the text is hard, but because they fail to read the question ______.",
     "options": [
-      { "key": "A", "text": "carefully" },
-      { "key": "B", "text": "brightly" },
-      { "key": "C", "text": "politely" },
-      { "key": "D", "text": "closely" }
+      {
+        "key": "A",
+        "text": "carefully"
+      },
+      {
+        "key": "B",
+        "text": "brightly"
+      },
+      {
+        "key": "C",
+        "text": "politely"
+      },
+      {
+        "key": "D",
+        "text": "closely"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "read the question carefully 是自然搭配，也符合句意。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "固定搭配"]
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-cloze-0011",
@@ -186,16 +356,33 @@
     "type": "single",
     "stem": "A learning tool is helpful only when it matches the user's real needs; ______, even the best design may be wasted.",
     "options": [
-      { "key": "A", "text": "otherwise" },
-      { "key": "B", "text": "indeed" },
-      { "key": "C", "text": "meanwhile" },
-      { "key": "D", "text": "therefore" }
+      {
+        "key": "A",
+        "text": "otherwise"
+      },
+      {
+        "key": "B",
+        "text": "indeed"
+      },
+      {
+        "key": "C",
+        "text": "meanwhile"
+      },
+      {
+        "key": "D",
+        "text": "therefore"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前句给出条件，不满足时后果如何，用 otherwise 最合适。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0012",
@@ -204,16 +391,33 @@
     "type": "single",
     "stem": "When a passage presents two opposing views, readers should compare how each side is ______ by evidence.",
     "options": [
-      { "key": "A", "text": "supported" },
-      { "key": "B", "text": "painted" },
-      { "key": "C", "text": "hidden" },
-      { "key": "D", "text": "borrowed" }
+      {
+        "key": "A",
+        "text": "supported"
+      },
+      {
+        "key": "B",
+        "text": "painted"
+      },
+      {
+        "key": "C",
+        "text": "hidden"
+      },
+      {
+        "key": "D",
+        "text": "borrowed"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "supported by evidence 是标准搭配，符合对比两种观点的阅读场景。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "阅读策略"]
+    "tags": [
+      "完形",
+      "阅读策略"
+    ]
   },
   {
     "id": "eng2-cloze-0013",
@@ -222,16 +426,33 @@
     "type": "single",
     "stem": "Many learners collect large amounts of material, ______ they never review it carefully.",
     "options": [
-      { "key": "A", "text": "but" },
-      { "key": "B", "text": "unless" },
-      { "key": "C", "text": "before" },
-      { "key": "D", "text": "since" }
+      {
+        "key": "A",
+        "text": "but"
+      },
+      {
+        "key": "B",
+        "text": "unless"
+      },
+      {
+        "key": "C",
+        "text": "before"
+      },
+      {
+        "key": "D",
+        "text": "since"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前后是转折关系，收集很多资料但从不认真复盘，所以选 but。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0014",
@@ -240,16 +461,33 @@
     "type": "single",
     "stem": "A useful summary should be brief, accurate, and easy to ______ later.",
     "options": [
-      { "key": "A", "text": "review" },
-      { "key": "B", "text": "paint" },
-      { "key": "C", "text": "invite" },
-      { "key": "D", "text": "shake" }
+      {
+        "key": "A",
+        "text": "review"
+      },
+      {
+        "key": "B",
+        "text": "paint"
+      },
+      {
+        "key": "C",
+        "text": "invite"
+      },
+      {
+        "key": "D",
+        "text": "shake"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "summary 的用途之一就是 later review，所以选 review。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "语境"]
+    "tags": [
+      "完形",
+      "语境"
+    ]
   },
   {
     "id": "eng2-cloze-0015",
@@ -258,16 +496,33 @@
     "type": "single",
     "stem": "The method appears simple at first sight; ______, its success depends on steady practice.",
     "options": [
-      { "key": "A", "text": "however" },
-      { "key": "B", "text": "therefore" },
-      { "key": "C", "text": "besides" },
-      { "key": "D", "text": "meanwhile" }
+      {
+        "key": "A",
+        "text": "however"
+      },
+      {
+        "key": "B",
+        "text": "therefore"
+      },
+      {
+        "key": "C",
+        "text": "besides"
+      },
+      {
+        "key": "D",
+        "text": "meanwhile"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "前后构成转折，表面简单，但成功取决于持续练习，所以选 however。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "逻辑关系"]
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
   },
   {
     "id": "eng2-cloze-0016",
@@ -276,16 +531,33 @@
     "type": "single",
     "stem": "Strong readers do not search for single words only; they try to understand each sentence as a ______.",
     "options": [
-      { "key": "A", "text": "whole" },
-      { "key": "B", "text": "salary" },
-      { "key": "C", "text": "corner" },
-      { "key": "D", "text": "guest" }
+      {
+        "key": "A",
+        "text": "whole"
+      },
+      {
+        "key": "B",
+        "text": "salary"
+      },
+      {
+        "key": "C",
+        "text": "corner"
+      },
+      {
+        "key": "D",
+        "text": "guest"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "as a whole 表示整体理解，是阅读常见策略。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "阅读策略"]
+    "tags": [
+      "完形",
+      "阅读策略"
+    ]
   },
   {
     "id": "eng2-cloze-0017",
@@ -294,16 +566,33 @@
     "type": "single",
     "stem": "The writer first presents a problem and ______ offers a practical solution.",
     "options": [
-      { "key": "A", "text": "then" },
-      { "key": "B", "text": "rarely" },
-      { "key": "C", "text": "outside" },
-      { "key": "D", "text": "nearly" }
+      {
+        "key": "A",
+        "text": "then"
+      },
+      {
+        "key": "B",
+        "text": "rarely"
+      },
+      {
+        "key": "C",
+        "text": "outside"
+      },
+      {
+        "key": "D",
+        "text": "nearly"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "first... then... 是自然的顺承结构。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "结构关系"]
+    "tags": [
+      "完形",
+      "结构关系"
+    ]
   },
   {
     "id": "eng2-cloze-0018",
@@ -312,16 +601,33 @@
     "type": "single",
     "stem": "The data may look convincing, but readers should still ask whether the sample is large ______.",
     "options": [
-      { "key": "A", "text": "enough" },
-      { "key": "B", "text": "almost" },
-      { "key": "C", "text": "loudly" },
-      { "key": "D", "text": "simply" }
+      {
+        "key": "A",
+        "text": "enough"
+      },
+      {
+        "key": "B",
+        "text": "almost"
+      },
+      {
+        "key": "C",
+        "text": "loudly"
+      },
+      {
+        "key": "D",
+        "text": "simply"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "large enough 是自然搭配，表示样本量是否足够。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "固定搭配"]
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-cloze-0019",
@@ -330,16 +636,33 @@
     "type": "single",
     "stem": "Busy learners improve faster when they review often, even if each review is ______ short.",
     "options": [
-      { "key": "A", "text": "fairly" },
-      { "key": "B", "text": "safely" },
-      { "key": "C", "text": "suddenly" },
-      { "key": "D", "text": "politely" }
+      {
+        "key": "A",
+        "text": "fairly"
+      },
+      {
+        "key": "B",
+        "text": "safely"
+      },
+      {
+        "key": "C",
+        "text": "suddenly"
+      },
+      {
+        "key": "D",
+        "text": "politely"
+      }
     ],
-    "answer": ["A"],
-    "explanation": "fairly short 表示相当短，但不影响语义，符合“高频短复习”语境。",
+    "answer": [
+      "A"
+    ],
+    "explanation": "fairly short 表示相当短，符合高频短复习的语境。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["完形", "语境"]
+    "tags": [
+      "完形",
+      "语境"
+    ]
   },
   {
     "id": "eng2-cloze-0020",
@@ -348,15 +671,1082 @@
     "type": "single",
     "stem": "To answer attitude questions well, readers must notice not only facts ______ tone.",
     "options": [
-      { "key": "A", "text": "but also" },
-      { "key": "B", "text": "even" },
-      { "key": "C", "text": "instead" },
-      { "key": "D", "text": "rather" }
+      {
+        "key": "A",
+        "text": "but also"
+      },
+      {
+        "key": "B",
+        "text": "even"
+      },
+      {
+        "key": "C",
+        "text": "instead"
+      },
+      {
+        "key": "D",
+        "text": "rather"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "not only ... but also ... 是固定结构，符合句意。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["完形", "固定结构"]
+    "tags": [
+      "完形",
+      "固定结构"
+    ]
+  },
+  {
+    "id": "english2-cloze-0021",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The new policy aims to reduce operational costs; ______, it has also improved overall efficiency.",
+    "options": [
+      {
+        "key": "A",
+        "text": "moreover"
+      },
+      {
+        "key": "B",
+        "text": "however"
+      },
+      {
+        "key": "C",
+        "text": "otherwise"
+      },
+      {
+        "key": "D",
+        "text": "therefore"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "前后是递进关系。前句说降低成本，后句说提升效率，都是正面效果，用 moreover 表示更进一步。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0022",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The success of the project depends largely ______ the cooperation of all team members.",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "depend on 是固定搭配，表示取决于、依赖于，是考研英语二完形填空的高频考点。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0023",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Before making a final decision, the committee should ______ all possible consequences of the proposal.",
+    "options": [
+      {
+        "key": "A",
+        "text": "ignore"
+      },
+      {
+        "key": "B",
+        "text": "consider"
+      },
+      {
+        "key": "C",
+        "text": "reject"
+      },
+      {
+        "key": "D",
+        "text": "delay"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "在做最终决定前应全面考虑后果，consider（考虑）符合逻辑。ignore（忽视）、reject（拒绝）、delay（推迟）均不合语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0024",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The instructions were so complicated that few people could ______ them correctly on the first try.",
+    "options": [
+      {
+        "key": "A",
+        "text": "run into"
+      },
+      {
+        "key": "B",
+        "text": "take over"
+      },
+      {
+        "key": "C",
+        "text": "figure out"
+      },
+      {
+        "key": "D",
+        "text": "turn down"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "figure out 表示弄懂、理解，符合说明书太复杂、很少有人能第一次就搞明白的语义。run into（偶遇）、take over（接管）、turn down（拒绝）均不匹配。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "短语辨析"
+    ]
+  },
+  {
+    "id": "english2-cloze-0025",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Many businesses struggled during the economic downturn ______ they failed to adapt to changing market demands.",
+    "options": [
+      {
+        "key": "A",
+        "text": "unless"
+      },
+      {
+        "key": "B",
+        "text": "because"
+      },
+      {
+        "key": "C",
+        "text": "although"
+      },
+      {
+        "key": "D",
+        "text": "while"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "前后为因果关系：企业挣扎的原因是未能适应市场需求变化。because 引导原因状语从句，符合逻辑。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0026",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "It is essential that every team member ______ the safety regulations before starting work.",
+    "options": [
+      {
+        "key": "A",
+        "text": "follows"
+      },
+      {
+        "key": "B",
+        "text": "follow"
+      },
+      {
+        "key": "C",
+        "text": "followed"
+      },
+      {
+        "key": "D",
+        "text": "following"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "It is essential that 引导的主语从句需用虚拟语气，谓语动词用 (should) + 动词原形，should 可省略，故选 follow。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语法结构"
+    ]
+  },
+  {
+    "id": "english2-cloze-0027",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The latest research findings are consistent ______ the results of previous studies in this field.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "of"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "consistent with 是固定搭配，表示与……一致，在学术写作和考研完形中频繁出现。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0028",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The company's new marketing strategy proved effective, resulting in a significant ______ in sales revenue.",
+    "options": [
+      {
+        "key": "A",
+        "text": "decline"
+      },
+      {
+        "key": "B",
+        "text": "increase"
+      },
+      {
+        "key": "C",
+        "text": "debate"
+      },
+      {
+        "key": "D",
+        "text": "arrival"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "前文说策略有效（proved effective），因此应带来销售收入的增长（increase）。decline（下降）、debate（争论）、arrival（到达）均与有效逻辑矛盾。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0029",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The two countries have agreed to work together to ______ trade barriers and promote economic cooperation.",
+    "options": [
+      {
+        "key": "A",
+        "text": "break down"
+      },
+      {
+        "key": "B",
+        "text": "break up"
+      },
+      {
+        "key": "C",
+        "text": "break out"
+      },
+      {
+        "key": "D",
+        "text": "break through"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "break down barriers 表示打破壁垒，是常见的动宾搭配。break up（分手/解散）、break out（爆发）、break through（突破/穿透）均不与 barriers 构成标准搭配。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "短语辨析"
+    ]
+  },
+  {
+    "id": "english2-cloze-0030",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The project faced numerous unexpected difficulties; ______, the team managed to complete it ahead of schedule.",
+    "options": [
+      {
+        "key": "A",
+        "text": "consequently"
+      },
+      {
+        "key": "B",
+        "text": "nevertheless"
+      },
+      {
+        "key": "C",
+        "text": "moreover"
+      },
+      {
+        "key": "D",
+        "text": "similarly"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "前后是让步转折关系：虽然有诸多困难，但团队仍然提前完成。nevertheless 表示尽管如此，符合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0031",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Not only ______ the report on time, but the team also exceeded the client's expectations.",
+    "options": [
+      {
+        "key": "A",
+        "text": "they submitted"
+      },
+      {
+        "key": "B",
+        "text": "did they submit"
+      },
+      {
+        "key": "C",
+        "text": "they did submit"
+      },
+      {
+        "key": "D",
+        "text": "submitted they"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "not only 置于句首时，所在分句需部分倒装，将助动词 did 提前，主语 they 后接动词原形 submit。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语法结构"
+    ]
+  },
+  {
+    "id": "english2-cloze-0032",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Effective managers know how to ______ the unique strengths of each team member for maximum productivity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "overlook"
+      },
+      {
+        "key": "B",
+        "text": "criticize"
+      },
+      {
+        "key": "C",
+        "text": "utilize"
+      },
+      {
+        "key": "D",
+        "text": "identify"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "好的管理者应善于利用（utilize）每位成员的独特优势。utilize 强调有效利用，与 for maximum productivity 形成语义呼应。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0033",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The investigative report drew public attention ______ the urgent need for stricter food safety regulations.",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "to"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "draw attention to 是固定搭配，表示引起对……的关注，是考研英语完形的高频考点。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0034",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The two theories share some common ground, but they differ ______ their fundamental assumptions.",
+    "options": [
+      {
+        "key": "A",
+        "text": "from"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "differ in 表示在某方面不同，后接差异的具体方面（fundamental assumptions）。differ from 表示与……不同，后接比较对象。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0035",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The city has invested heavily in expanding its subway network. ______, it has introduced generous subsidies to encourage cycling.",
+    "options": [
+      {
+        "key": "A",
+        "text": "In addition"
+      },
+      {
+        "key": "B",
+        "text": "As a result"
+      },
+      {
+        "key": "C",
+        "text": "On the contrary"
+      },
+      {
+        "key": "D",
+        "text": "For example"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "前后是并列递进关系：城市既投资地铁，又推出骑行补贴，都属于交通改善措施。in addition 表示此外。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0036",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The article presents a ______ argument, backed by solid evidence from multiple reliable sources.",
+    "options": [
+      {
+        "key": "A",
+        "text": "convincing"
+      },
+      {
+        "key": "B",
+        "text": "confusing"
+      },
+      {
+        "key": "C",
+        "text": "alarming"
+      },
+      {
+        "key": "D",
+        "text": "amusing"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "有可靠证据支撑的论点应当是令人信服的（convincing）。confusing（令人困惑的）、alarming（令人担忧的）、amusing（有趣的）均与 backed by solid evidence 不匹配。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0037",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The new environmental regulations will come into ______ next month, affecting all manufacturers in the region.",
+    "options": [
+      {
+        "key": "A",
+        "text": "practice"
+      },
+      {
+        "key": "B",
+        "text": "effect"
+      },
+      {
+        "key": "C",
+        "text": "operation"
+      },
+      {
+        "key": "D",
+        "text": "action"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "come into effect 是固定搭配，表示生效、开始实施，是法律/法规语境中的标准表达。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0038",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Had the management prepared better for the crisis, the company ______ the economic downturn more smoothly.",
+    "options": [
+      {
+        "key": "A",
+        "text": "would handle"
+      },
+      {
+        "key": "B",
+        "text": "would have handled"
+      },
+      {
+        "key": "C",
+        "text": "handled"
+      },
+      {
+        "key": "D",
+        "text": "handles"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Had + 过去分词构成对过去的虚拟条件句，主句应用 would have + 过去分词。句意为如果管理层当时准备更充分，公司本可以更平稳地应对经济衰退。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语法结构"
+    ]
+  },
+  {
+    "id": "english2-cloze-0039",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Some people argue that technology isolates us from genuine human connection; ______, others believe it brings us closer together.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in contrast"
+      },
+      {
+        "key": "B",
+        "text": "for instance"
+      },
+      {
+        "key": "C",
+        "text": "in addition"
+      },
+      {
+        "key": "D",
+        "text": "as a result"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "前后是两种截然相反的观点，in contrast 表示相比之下、相反，引出对立意见，符合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0040",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The success of the international conference was largely due ______ the meticulous planning of the organizing committee.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "with"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "due to 是固定搭配，表示由于、归因于，后接名词或名词性成分，是写作和完形中的高频短语。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0041",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "After receiving detailed feedback from the client, the design team decided to ______ the original proposal.",
+    "options": [
+      {
+        "key": "A",
+        "text": "revise"
+      },
+      {
+        "key": "B",
+        "text": "submit"
+      },
+      {
+        "key": "C",
+        "text": "abandon"
+      },
+      {
+        "key": "D",
+        "text": "discuss"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "收到反馈后对提案进行修改完善，revise 最符合语境。submit（提交）应在修改之后；abandon（放弃）过于极端；discuss（讨论）不直接体现修改动作。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0042",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "If the rising inflation rate is not addressed promptly, the government may lose ______ of the economic situation.",
+    "options": [
+      {
+        "key": "A",
+        "text": "control"
+      },
+      {
+        "key": "B",
+        "text": "track"
+      },
+      {
+        "key": "C",
+        "text": "sight"
+      },
+      {
+        "key": "D",
+        "text": "balance"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "lose control of 是固定搭配，表示失去对……的控制，符合通胀上升导致经济失控的语义链。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0043",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The new data-processing tool has greatly simplified the analysis workflow; ______, researchers can devote more time to interpreting the results.",
+    "options": [
+      {
+        "key": "A",
+        "text": "however"
+      },
+      {
+        "key": "B",
+        "text": "therefore"
+      },
+      {
+        "key": "C",
+        "text": "otherwise"
+      },
+      {
+        "key": "D",
+        "text": "nevertheless"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "前后是因果关系：工具简化了工作流，因此研究人员能腾出更多时间用于结果解读。therefore 表示因此。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0044",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The professor recommended that each student ______ a research paper on a topic of their own choosing.",
+    "options": [
+      {
+        "key": "A",
+        "text": "write"
+      },
+      {
+        "key": "B",
+        "text": "writes"
+      },
+      {
+        "key": "C",
+        "text": "wrote"
+      },
+      {
+        "key": "D",
+        "text": "writing"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "recommend that 引导的宾语从句需用虚拟语气，谓语动词用 (should) + 动词原形，should 可省略，故选 write。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语法结构"
+    ]
+  },
+  {
+    "id": "english2-cloze-0045",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The steady decline in customer satisfaction has ______ the company to fundamentally rethink its service strategy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "forced"
+      },
+      {
+        "key": "B",
+        "text": "allowed"
+      },
+      {
+        "key": "C",
+        "text": "enabled"
+      },
+      {
+        "key": "D",
+        "text": "reminded"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "顾客满意度持续下降是一种负面压力，迫使（forced）公司重新思考服务策略。allowed/enabled 表示允许/使能够，与负面原因不匹配；reminded（提醒）力度不够。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0046",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "An increasing number of researchers are now focusing ______ the impact of artificial intelligence on employment patterns.",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "focus on 是固定搭配，表示专注于、聚焦于，是学术语境和考研完形中最常见的介词搭配之一。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "介词搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0047",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The startup will continue to attract venture capital ______ it maintains its competitive edge in the market.",
+    "options": [
+      {
+        "key": "A",
+        "text": "unless"
+      },
+      {
+        "key": "B",
+        "text": "as long as"
+      },
+      {
+        "key": "C",
+        "text": "even though"
+      },
+      {
+        "key": "D",
+        "text": "whereas"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "前后是条件关系：只要（as long as）保持竞争优势，就能持续吸引投资。unless（除非）表否定条件，even though（即使）表让步，whereas（而）表对比，均不符合。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "逻辑关系"
+    ]
+  },
+  {
+    "id": "english2-cloze-0048",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The two departments must collaborate closely in order to ______ their shared objectives for the fiscal year.",
+    "options": [
+      {
+        "key": "A",
+        "text": "achieve"
+      },
+      {
+        "key": "B",
+        "text": "arrive"
+      },
+      {
+        "key": "C",
+        "text": "reach"
+      },
+      {
+        "key": "D",
+        "text": "come"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "achieve objectives 是标准动宾搭配，表示实现目标。arrive/reach 需搭配 at；come 需搭配 to。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "固定搭配"
+    ]
+  },
+  {
+    "id": "english2-cloze-0049",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The keynote speech explored the delicate ______ between rapid economic growth and environmental sustainability.",
+    "options": [
+      {
+        "key": "A",
+        "text": "conflict"
+      },
+      {
+        "key": "B",
+        "text": "balance"
+      },
+      {
+        "key": "C",
+        "text": "comparison"
+      },
+      {
+        "key": "D",
+        "text": "distinction"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "delicate balance 是常见搭配，表示微妙的平衡，常用于描述经济增长与环保之间的权衡关系。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语境词汇"
+    ]
+  },
+  {
+    "id": "english2-cloze-0050",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Given the urgency of the situation, the committee suggested that the final decision ______ without further delay.",
+    "options": [
+      {
+        "key": "A",
+        "text": "be made"
+      },
+      {
+        "key": "B",
+        "text": "is made"
+      },
+      {
+        "key": "C",
+        "text": "was made"
+      },
+      {
+        "key": "D",
+        "text": "makes"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "suggest that 引导的宾语从句需用虚拟语气 (should) + 动词原形，且 decision 与 make 是被动关系，故用 be made。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "完形",
+      "语法结构"
+    ]
   }
 ]

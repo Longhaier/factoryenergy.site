@@ -6,16 +6,33 @@
     "type": "single",
     "stem": "In a fast-changing market, managers must stay ______ to new customer signals.",
     "options": [
-      { "key": "A", "text": "alert" },
-      { "key": "B", "text": "fragile" },
-      { "key": "C", "text": "casual" },
-      { "key": "D", "text": "silent" }
+      {
+        "key": "A",
+        "text": "alert"
+      },
+      {
+        "key": "B",
+        "text": "fragile"
+      },
+      {
+        "key": "C",
+        "text": "casual"
+      },
+      {
+        "key": "D",
+        "text": "silent"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "stay alert to 是常见搭配，表示对变化保持警觉和敏感。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "固定搭配"]
+    "tags": [
+      "词汇",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-vocab-0002",
@@ -24,16 +41,33 @@
     "type": "single",
     "stem": "The report gives a brief ______ of the project before discussing costs in detail.",
     "options": [
-      { "key": "A", "text": "device" },
-      { "key": "B", "text": "overview" },
-      { "key": "C", "text": "gesture" },
-      { "key": "D", "text": "burden" }
+      {
+        "key": "A",
+        "text": "device"
+      },
+      {
+        "key": "B",
+        "text": "overview"
+      },
+      {
+        "key": "C",
+        "text": "gesture"
+      },
+      {
+        "key": "D",
+        "text": "burden"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "overview 表示概览、概述，符合 report 先总览后细谈成本的语境。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "语境"]
+    "tags": [
+      "词汇",
+      "语境"
+    ]
   },
   {
     "id": "eng2-vocab-0003",
@@ -42,16 +76,33 @@
     "type": "single",
     "stem": "A useful study plan should be realistic rather than ______.",
     "options": [
-      { "key": "A", "text": "ambitious" },
-      { "key": "B", "text": "familiar" },
-      { "key": "C", "text": "stable" },
-      { "key": "D", "text": "regular" }
+      {
+        "key": "A",
+        "text": "ambitious"
+      },
+      {
+        "key": "B",
+        "text": "familiar"
+      },
+      {
+        "key": "C",
+        "text": "stable"
+      },
+      {
+        "key": "D",
+        "text": "regular"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "句意强调学习计划要现实，而不是过于雄心勃勃、难以执行，所以选 ambitious。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "反义判断"]
+    "tags": [
+      "词汇",
+      "反义判断"
+    ]
   },
   {
     "id": "eng2-vocab-0004",
@@ -60,16 +111,33 @@
     "type": "single",
     "stem": "A manager should ______ the main risks before making a final decision.",
     "options": [
-      { "key": "A", "text": "assess" },
-      { "key": "B", "text": "scatter" },
-      { "key": "C", "text": "borrow" },
-      { "key": "D", "text": "freeze" }
+      {
+        "key": "A",
+        "text": "assess"
+      },
+      {
+        "key": "B",
+        "text": "scatter"
+      },
+      {
+        "key": "C",
+        "text": "borrow"
+      },
+      {
+        "key": "D",
+        "text": "freeze"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "assess risks 表示评估风险，符合决策前的动作逻辑。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "管理场景"]
+    "tags": [
+      "词汇",
+      "管理场景"
+    ]
   },
   {
     "id": "eng2-vocab-0005",
@@ -78,16 +146,33 @@
     "type": "single",
     "stem": "The new schedule is more ______ because it allows small adjustments during the week.",
     "options": [
-      { "key": "A", "text": "flexible" },
-      { "key": "B", "text": "distant" },
-      { "key": "C", "text": "ordinary" },
-      { "key": "D", "text": "narrow" }
+      {
+        "key": "A",
+        "text": "flexible"
+      },
+      {
+        "key": "B",
+        "text": "distant"
+      },
+      {
+        "key": "C",
+        "text": "ordinary"
+      },
+      {
+        "key": "D",
+        "text": "narrow"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "allows small adjustments 说明时间表更灵活，所以选 flexible。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "语境"]
+    "tags": [
+      "词汇",
+      "语境"
+    ]
   },
   {
     "id": "eng2-vocab-0006",
@@ -96,16 +181,33 @@
     "type": "single",
     "stem": "The team failed not for lack of effort, but for lack of clear ______.",
     "options": [
-      { "key": "A", "text": "direction" },
-      { "key": "B", "text": "surface" },
-      { "key": "C", "text": "distance" },
-      { "key": "D", "text": "shadow" }
+      {
+        "key": "A",
+        "text": "direction"
+      },
+      {
+        "key": "B",
+        "text": "surface"
+      },
+      {
+        "key": "C",
+        "text": "distance"
+      },
+      {
+        "key": "D",
+        "text": "shadow"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "lack of clear direction 表示缺少清晰方向，符合团队执行失败的语境。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "抽象名词"]
+    "tags": [
+      "词汇",
+      "抽象名词"
+    ]
   },
   {
     "id": "eng2-vocab-0007",
@@ -114,16 +216,33 @@
     "type": "single",
     "stem": "Their conclusion was based on very limited ______, so the result was not convincing.",
     "options": [
-      { "key": "A", "text": "evidence" },
-      { "key": "B", "text": "ceremony" },
-      { "key": "C", "text": "climate" },
-      { "key": "D", "text": "emotion" }
+      {
+        "key": "A",
+        "text": "evidence"
+      },
+      {
+        "key": "B",
+        "text": "ceremony"
+      },
+      {
+        "key": "C",
+        "text": "climate"
+      },
+      {
+        "key": "D",
+        "text": "emotion"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "based on limited evidence 是常见表达，说明证据不足。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "阅读高频"]
+    "tags": [
+      "词汇",
+      "阅读高频"
+    ]
   },
   {
     "id": "eng2-vocab-0008",
@@ -132,16 +251,33 @@
     "type": "single",
     "stem": "A short review at the end of the day can help ______ what has been learned.",
     "options": [
-      { "key": "A", "text": "reinforce" },
-      { "key": "B", "text": "divide" },
-      { "key": "C", "text": "postpone" },
-      { "key": "D", "text": "replace" }
+      {
+        "key": "A",
+        "text": "reinforce"
+      },
+      {
+        "key": "B",
+        "text": "divide"
+      },
+      {
+        "key": "C",
+        "text": "postpone"
+      },
+      {
+        "key": "D",
+        "text": "replace"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "reinforce learning 表示巩固所学内容，符合复习语境。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "学习场景"]
+    "tags": [
+      "词汇",
+      "学习场景"
+    ]
   },
   {
     "id": "eng2-vocab-0009",
@@ -150,16 +286,33 @@
     "type": "single",
     "stem": "Even a simple plan can be useful if it is carried out in a ______ way.",
     "options": [
-      { "key": "A", "text": "consistent" },
-      { "key": "B", "text": "curious" },
-      { "key": "C", "text": "hidden" },
-      { "key": "D", "text": "formal" }
+      {
+        "key": "A",
+        "text": "consistent"
+      },
+      {
+        "key": "B",
+        "text": "curious"
+      },
+      {
+        "key": "C",
+        "text": "hidden"
+      },
+      {
+        "key": "D",
+        "text": "formal"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "carried out in a consistent way 表示持续稳定地执行，符合句意。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "执行场景"]
+    "tags": [
+      "词汇",
+      "执行场景"
+    ]
   },
   {
     "id": "eng2-vocab-0010",
@@ -168,16 +321,33 @@
     "type": "single",
     "stem": "The writer uses a simple example to ______ a difficult idea.",
     "options": [
-      { "key": "A", "text": "illustrate" },
-      { "key": "B", "text": "refuse" },
-      { "key": "C", "text": "delay" },
-      { "key": "D", "text": "ignore" }
+      {
+        "key": "A",
+        "text": "illustrate"
+      },
+      {
+        "key": "B",
+        "text": "refuse"
+      },
+      {
+        "key": "C",
+        "text": "delay"
+      },
+      {
+        "key": "D",
+        "text": "ignore"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "illustrate an idea 表示用例子说明观点，是阅读中高频动词。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "阅读高频"]
+    "tags": [
+      "词汇",
+      "阅读高频"
+    ]
   },
   {
     "id": "eng2-vocab-0011",
@@ -186,16 +356,33 @@
     "type": "single",
     "stem": "Without a clear deadline, the task is likely to remain ______.",
     "options": [
-      { "key": "A", "text": "unfinished" },
-      { "key": "B", "text": "patient" },
-      { "key": "C", "text": "expensive" },
-      { "key": "D", "text": "grateful" }
+      {
+        "key": "A",
+        "text": "unfinished"
+      },
+      {
+        "key": "B",
+        "text": "patient"
+      },
+      {
+        "key": "C",
+        "text": "expensive"
+      },
+      {
+        "key": "D",
+        "text": "grateful"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "没有明确截止时间，任务容易保持未完成状态，所以选 unfinished。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "工作场景"]
+    "tags": [
+      "词汇",
+      "工作场景"
+    ]
   },
   {
     "id": "eng2-vocab-0012",
@@ -204,16 +391,33 @@
     "type": "single",
     "stem": "A careful reader will notice the small but ______ difference between the two claims.",
     "options": [
-      { "key": "A", "text": "critical" },
-      { "key": "B", "text": "pleasant" },
-      { "key": "C", "text": "silent" },
-      { "key": "D", "text": "empty" }
+      {
+        "key": "A",
+        "text": "critical"
+      },
+      {
+        "key": "B",
+        "text": "pleasant"
+      },
+      {
+        "key": "C",
+        "text": "silent"
+      },
+      {
+        "key": "D",
+        "text": "empty"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "critical difference 表示关键差异，符合句意。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "阅读高频"]
+    "tags": [
+      "词汇",
+      "阅读高频"
+    ]
   },
   {
     "id": "eng2-vocab-0013",
@@ -222,16 +426,33 @@
     "type": "single",
     "stem": "The speaker gave a ______ explanation, so everyone understood the process quickly.",
     "options": [
-      { "key": "A", "text": "clear" },
-      { "key": "B", "text": "distant" },
-      { "key": "C", "text": "minor" },
-      { "key": "D", "text": "nervous" }
+      {
+        "key": "A",
+        "text": "clear"
+      },
+      {
+        "key": "B",
+        "text": "distant"
+      },
+      {
+        "key": "C",
+        "text": "minor"
+      },
+      {
+        "key": "D",
+        "text": "nervous"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "clear explanation 表示清晰解释，符合后文大家很快理解。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "语境"]
+    "tags": [
+      "词汇",
+      "语境"
+    ]
   },
   {
     "id": "eng2-vocab-0014",
@@ -240,16 +461,33 @@
     "type": "single",
     "stem": "A realistic goal should challenge you, but it should still remain ______.",
     "options": [
-      { "key": "A", "text": "achievable" },
-      { "key": "B", "text": "invisible" },
-      { "key": "C", "text": "curved" },
-      { "key": "D", "text": "random" }
+      {
+        "key": "A",
+        "text": "achievable"
+      },
+      {
+        "key": "B",
+        "text": "invisible"
+      },
+      {
+        "key": "C",
+        "text": "curved"
+      },
+      {
+        "key": "D",
+        "text": "random"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "现实目标应当有挑战，但仍应可实现，因此选 achievable。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "学习场景"]
+    "tags": [
+      "词汇",
+      "学习场景"
+    ]
   },
   {
     "id": "eng2-vocab-0015",
@@ -258,16 +496,33 @@
     "type": "single",
     "stem": "The article draws attention to a ______ problem that many busy learners ignore.",
     "options": [
-      { "key": "A", "text": "common" },
-      { "key": "B", "text": "wooden" },
-      { "key": "C", "text": "honest" },
-      { "key": "D", "text": "sleepy" }
+      {
+        "key": "A",
+        "text": "common"
+      },
+      {
+        "key": "B",
+        "text": "wooden"
+      },
+      {
+        "key": "C",
+        "text": "honest"
+      },
+      {
+        "key": "D",
+        "text": "sleepy"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "common problem 表示普遍问题，符合 many learners ignore 的语境。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "阅读高频"]
+    "tags": [
+      "词汇",
+      "阅读高频"
+    ]
   },
   {
     "id": "eng2-vocab-0016",
@@ -276,16 +531,33 @@
     "type": "single",
     "stem": "Managers often need reliable data before they can ______ a major change.",
     "options": [
-      { "key": "A", "text": "justify" },
-      { "key": "B", "text": "punish" },
-      { "key": "C", "text": "hide" },
-      { "key": "D", "text": "wander" }
+      {
+        "key": "A",
+        "text": "justify"
+      },
+      {
+        "key": "B",
+        "text": "punish"
+      },
+      {
+        "key": "C",
+        "text": "hide"
+      },
+      {
+        "key": "D",
+        "text": "wander"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "justify a major change 表示为重大变动提供正当依据，符合数据支持语境。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "管理场景"]
+    "tags": [
+      "词汇",
+      "管理场景"
+    ]
   },
   {
     "id": "eng2-vocab-0017",
@@ -294,16 +566,33 @@
     "type": "single",
     "stem": "The new habit felt difficult at first, but gradually became part of her daily ______.",
     "options": [
-      { "key": "A", "text": "routine" },
-      { "key": "B", "text": "fortune" },
-      { "key": "C", "text": "branch" },
-      { "key": "D", "text": "surface" }
+      {
+        "key": "A",
+        "text": "routine"
+      },
+      {
+        "key": "B",
+        "text": "fortune"
+      },
+      {
+        "key": "C",
+        "text": "branch"
+      },
+      {
+        "key": "D",
+        "text": "surface"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "daily routine 是常见搭配，表示日常习惯流程。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "固定搭配"]
+    "tags": [
+      "词汇",
+      "固定搭配"
+    ]
   },
   {
     "id": "eng2-vocab-0018",
@@ -312,16 +601,33 @@
     "type": "single",
     "stem": "The author's point becomes stronger in the final paragraph, where the evidence is more ______.",
     "options": [
-      { "key": "A", "text": "specific" },
-      { "key": "B", "text": "silent" },
-      { "key": "C", "text": "ordinary" },
-      { "key": "D", "text": "narrow" }
+      {
+        "key": "A",
+        "text": "specific"
+      },
+      {
+        "key": "B",
+        "text": "silent"
+      },
+      {
+        "key": "C",
+        "text": "ordinary"
+      },
+      {
+        "key": "D",
+        "text": "narrow"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "evidence is more specific 表示证据更具体，因此论点更强。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "阅读高频"]
+    "tags": [
+      "词汇",
+      "阅读高频"
+    ]
   },
   {
     "id": "eng2-vocab-0019",
@@ -330,16 +636,33 @@
     "type": "single",
     "stem": "He chose to ______ the problem directly instead of waiting for others to solve it.",
     "options": [
-      { "key": "A", "text": "address" },
-      { "key": "B", "text": "decorate" },
-      { "key": "C", "text": "publish" },
-      { "key": "D", "text": "forgive" }
+      {
+        "key": "A",
+        "text": "address"
+      },
+      {
+        "key": "B",
+        "text": "decorate"
+      },
+      {
+        "key": "C",
+        "text": "publish"
+      },
+      {
+        "key": "D",
+        "text": "forgive"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "address the problem 表示着手处理问题，是高频表达。",
     "difficulty": "medium",
     "source": "manual",
-    "tags": ["词汇", "工作场景"]
+    "tags": [
+      "词汇",
+      "工作场景"
+    ]
   },
   {
     "id": "eng2-vocab-0020",
@@ -348,15 +671,1112 @@
     "type": "single",
     "stem": "The report is short, but it gives a surprisingly ______ picture of the current situation.",
     "options": [
-      { "key": "A", "text": "complete" },
-      { "key": "B", "text": "dusty" },
-      { "key": "C", "text": "patient" },
-      { "key": "D", "text": "frozen" }
+      {
+        "key": "A",
+        "text": "complete"
+      },
+      {
+        "key": "B",
+        "text": "dusty"
+      },
+      {
+        "key": "C",
+        "text": "patient"
+      },
+      {
+        "key": "D",
+        "text": "frozen"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "a complete picture 表示完整图景，符合句意。",
     "difficulty": "easy",
     "source": "manual",
-    "tags": ["词汇", "语境"]
+    "tags": [
+      "词汇",
+      "语境"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0021",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "新技术的应用往往会______行业的结构性变革，管理者需要提前制定应对策略。",
+    "options": [
+      {
+        "key": "A",
+        "text": "trigger"
+      },
+      {
+        "key": "B",
+        "text": "prevent"
+      },
+      {
+        "key": "C",
+        "text": "ignore"
+      },
+      {
+        "key": "D",
+        "text": "delay"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "trigger 表示引发、触发，常与 change/reform 等搭配。句意强调新技术引发变革，因此选 A。prevent（阻止）、ignore（忽视）、delay（推迟）均不合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词辨析",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0022",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "研发投入目前______公司总成本的15%，预计未来两年还将继续增长。",
+    "options": [
+      {
+        "key": "A",
+        "text": "accounts for"
+      },
+      {
+        "key": "B",
+        "text": "relies on"
+      },
+      {
+        "key": "C",
+        "text": "depends on"
+      },
+      {
+        "key": "D",
+        "text": "results in"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "account for 在此表示（数量、比例上）占，是考研英语二完形填空中的超高频考点，在近十年真题中多次作为正确答案出现。rely on / depend on 表示依赖，results in 表示导致，均不符合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "固定搭配",
+      "高频考点"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0023",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "在项目启动阶段，制定一份清晰的执行计划是______的，它直接影响后续所有工作的效率。",
+    "options": [
+      {
+        "key": "A",
+        "text": "optional"
+      },
+      {
+        "key": "B",
+        "text": "crucial"
+      },
+      {
+        "key": "C",
+        "text": "ordinary"
+      },
+      {
+        "key": "D",
+        "text": "frequent"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "crucial 表示至关重要的，常用于表达某事物的重要性。optional（可选的）与句意相反，ordinary（普通的）和 frequent（频繁的）均不体现重要程度。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形容词",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0024",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "会议上，经理决定直面并______这个长期被回避的问题，而不是继续拖延。",
+    "options": [
+      {
+        "key": "A",
+        "text": "address"
+      },
+      {
+        "key": "B",
+        "text": "ignore"
+      },
+      {
+        "key": "C",
+        "text": "postpone"
+      },
+      {
+        "key": "D",
+        "text": "forget"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "address 在此为熟词僻义，意为处理、解决，相当于 deal with / tackle，而非常见的地址之意。ignore（忽视）、postpone（推迟）、forget（忘记）均与直面问题的语境相反。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "熟词僻义",
+      "工作场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0025",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "新出台的环保政策对制造业产生了显著的______，许多工厂开始调整生产工艺。",
+    "options": [
+      {
+        "key": "A",
+        "text": "impact"
+      },
+      {
+        "key": "B",
+        "text": "detail"
+      },
+      {
+        "key": "C",
+        "text": "distance"
+      },
+      {
+        "key": "D",
+        "text": "silence"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "have an impact on 是固定搭配，表示对……有影响，是英语二阅读和完形中的高频搭配。detail（细节）、distance（距离）、silence（沉默）均不符合语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "固定搭配",
+      "语境"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0026",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "面对不断变化的市场环境，企业管理者必须学会有效地______各种不确定性和挑战。",
+    "options": [
+      {
+        "key": "A",
+        "text": "cope with"
+      },
+      {
+        "key": "B",
+        "text": "give up"
+      },
+      {
+        "key": "C",
+        "text": "look for"
+      },
+      {
+        "key": "D",
+        "text": "turn down"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "cope with 表示应对、处理，常与 challenges / difficulties / uncertainty 等搭配。give up（放弃）、look for（寻找）、turn down（拒绝）均不符合应对挑战的语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词短语",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0027",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "长期的工作压力会显著______员工的身心健康，企业应当高度重视这一问题。",
+    "options": [
+      {
+        "key": "A",
+        "text": "affect"
+      },
+      {
+        "key": "B",
+        "text": "effect"
+      },
+      {
+        "key": "C",
+        "text": "effort"
+      },
+      {
+        "key": "D",
+        "text": "afford"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "affect 是动词，意为影响；effect 常作名词（影响/效果），作动词时意为实现。此处需要谓语动词，故选 affect。这是考研英语中最经典的形近词辨析之一。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形近词辨析",
+      "高频考点"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0028",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "公司决定加大对员工培训的投入，以______团队的整体竞争力和创新能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "enhance"
+      },
+      {
+        "key": "B",
+        "text": "prevent"
+      },
+      {
+        "key": "C",
+        "text": "reduce"
+      },
+      {
+        "key": "D",
+        "text": "divide"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "enhance 表示提升、增强，与 competitiveness / innovation 等抽象名词搭配，是商务英语和考研阅读中的高频词。prevent（阻止）、reduce（减少）、divide（划分）均与加大投入的目的相悖。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "商务场景",
+      "同义替换"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0029",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "______销售额，本季度是我们公司历史上表现最好的，但利润率却有所下降。",
+    "options": [
+      {
+        "key": "A",
+        "text": "In terms of"
+      },
+      {
+        "key": "B",
+        "text": "In spite of"
+      },
+      {
+        "key": "C",
+        "text": "In favor of"
+      },
+      {
+        "key": "D",
+        "text": "In case of"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "in terms of 表示就……而言、在……方面，常用于数据比较和分析的语境。in spite of（尽管）表让步，in favor of（支持/有利于），in case of（以防），均不符合句意。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "介词短语",
+      "商务场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0030",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "在经济全球化的背景下，不同文化之间的交流与碰撞是______的，企业需要培养跨文化管理能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "inevitable"
+      },
+      {
+        "key": "B",
+        "text": "avoidable"
+      },
+      {
+        "key": "C",
+        "text": "temporary"
+      },
+      {
+        "key": "D",
+        "text": "optional"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "inevitable 表示不可避免的，在全球化背景下文化碰撞是必然趋势。avoidable（可避免的）表相反含义，temporary（暂时的）、optional（可选的）不合逻辑。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形容词",
+      "社会文化"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0031",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "互联网的普及______了许多全新的商业模式，彻底改变了传统行业的格局。",
+    "options": [
+      {
+        "key": "A",
+        "text": "gave rise to"
+      },
+      {
+        "key": "B",
+        "text": "gave way to"
+      },
+      {
+        "key": "C",
+        "text": "gave up"
+      },
+      {
+        "key": "D",
+        "text": "gave in"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "give rise to 表示引起、导致，是因果关系的常用表达。give way to（让位于）、give up（放弃）、give in（屈服）均不符合互联网普及导致新模式产生的语境。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词短语",
+      "科技场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0032",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "当地政府正在采取一系列措施来______日益严重的城市交通拥堵问题。",
+    "options": [
+      {
+        "key": "A",
+        "text": "tackle"
+      },
+      {
+        "key": "B",
+        "text": "decorate"
+      },
+      {
+        "key": "C",
+        "text": "ignore"
+      },
+      {
+        "key": "D",
+        "text": "celebrate"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "tackle 表示解决、处理，tackle the problem 是阅读和写作中的高频搭配。decorate（装饰）、ignore（忽视）、celebrate（庆祝）均不合语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "社会场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0033",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "市场调研报告显示，消费者越来越倾向于购买环保产品，这一______预计在未来几年将持续加强。",
+    "options": [
+      {
+        "key": "A",
+        "text": "trend"
+      },
+      {
+        "key": "B",
+        "text": "excuse"
+      },
+      {
+        "key": "C",
+        "text": "accident"
+      },
+      {
+        "key": "D",
+        "text": "request"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "trend 表示趋势、潮流，常与 market / consumer 等词搭配。excuse（借口）、accident（意外）、request（请求）均不符合语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "名词",
+      "市场分析"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0034",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "缺乏充足的研发资金严重______了中小企业的技术创新进程，使其在市场竞争中处于不利地位。",
+    "options": [
+      {
+        "key": "A",
+        "text": "hampers"
+      },
+      {
+        "key": "B",
+        "text": "helps"
+      },
+      {
+        "key": "C",
+        "text": "promotes"
+      },
+      {
+        "key": "D",
+        "text": "accelerates"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "hamper 表示阻碍、妨碍，与 hinder / impede 为同义词。help（帮助）、promote（促进）、accelerate（加速）均与缺乏资金的负面语境相悖。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "同义替换"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0035",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "经过三个月的系统训练，她在英语口语表达方面取得了显著的______，能够自信地参与讨论。",
+    "options": [
+      {
+        "key": "A",
+        "text": "progress"
+      },
+      {
+        "key": "B",
+        "text": "trouble"
+      },
+      {
+        "key": "C",
+        "text": "mistake"
+      },
+      {
+        "key": "D",
+        "text": "excuse"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "make progress in 是固定搭配，表示在……方面取得进步，是英语二写作和完形中的高频表达。trouble（麻烦）、mistake（错误）、excuse（借口）均与取得成效的语境相悖。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "固定搭配",
+      "学习场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0036",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "在做最终决策之前，管理者应当充分______所有潜在的风险因素和不确定性。",
+    "options": [
+      {
+        "key": "A",
+        "text": "take into account"
+      },
+      {
+        "key": "B",
+        "text": "take care of"
+      },
+      {
+        "key": "C",
+        "text": "take part in"
+      },
+      {
+        "key": "D",
+        "text": "take pride in"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "take into account 表示考虑、顾及，相当于 consider，是完形填空中的常考短语。take care of（照顾）、take part in（参加）、take pride in（以……为豪）均不符合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词短语",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0037",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "这位教育学家长期______，培养学生的批判性思维能力比灌输知识更为重要。",
+    "options": [
+      {
+        "key": "A",
+        "text": "maintains"
+      },
+      {
+        "key": "B",
+        "text": "avoids"
+      },
+      {
+        "key": "C",
+        "text": "refuses"
+      },
+      {
+        "key": "D",
+        "text": "questions"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "maintain 在此表示坚持认为、主张，用于引出观点，相当于 argue / contend。avoid（避免）、refuse（拒绝）、question（质疑）虽也可搭配观点，但此处是正面陈述主张。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "熟词僻义",
+      "阅读高频"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0038",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "这份市场分析报告对行业现状进行了______的阐述，从消费者行为到竞争格局均有详细分析。",
+    "options": [
+      {
+        "key": "A",
+        "text": "comprehensive"
+      },
+      {
+        "key": "B",
+        "text": "narrow"
+      },
+      {
+        "key": "C",
+        "text": "shallow"
+      },
+      {
+        "key": "D",
+        "text": "brief"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "comprehensive 表示全面的、综合的，从报告中涵盖多方面的详细分析可知其全面性。narrow（狭窄的）、shallow（肤浅的）、brief（简短的）均不能体现全面性。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形容词",
+      "阅读高频"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0039",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "忽视员工的职业发展需求可能会带来严重的______，包括核心人才流失和团队士气下降。",
+    "options": [
+      {
+        "key": "A",
+        "text": "consequences"
+      },
+      {
+        "key": "B",
+        "text": "celebrations"
+      },
+      {
+        "key": "C",
+        "text": "excuses"
+      },
+      {
+        "key": "D",
+        "text": "accidents"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "consequences 表示后果，常与 serious / negative 搭配表示负面结果。celebrations（庆祝）、excuses（借口）、accidents（事故）均不符合语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "名词",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0040",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "频繁的组织结构调整可能会______员工对管理层的信任，从而影响团队稳定性。",
+    "options": [
+      {
+        "key": "A",
+        "text": "undermine"
+      },
+      {
+        "key": "B",
+        "text": "strengthen"
+      },
+      {
+        "key": "C",
+        "text": "establish"
+      },
+      {
+        "key": "D",
+        "text": "confirm"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "undermine 表示逐渐削弱、破坏，常与 trust / confidence / authority 等搭配。strengthen（加强）、establish（建立）、confirm（确认）均与频繁调整的负面语境相悖。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "高级词汇"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0041",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "从长期______来看，投资可再生能源领域将为公司带来可观的经济回报和环境效益。",
+    "options": [
+      {
+        "key": "A",
+        "text": "perspective"
+      },
+      {
+        "key": "B",
+        "text": "attraction"
+      },
+      {
+        "key": "C",
+        "text": "collection"
+      },
+      {
+        "key": "D",
+        "text": "suggestion"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "from a ... perspective 表示从……角度来看，long-term perspective 是常见搭配。attraction（吸引力）、collection（收集）、suggestion（建议）均不适用此结构。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "名词",
+      "商务场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0042",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "在产品发布会上，产品经理清晰地______了新产品的发展路线图，获得了投资者的认可。",
+    "options": [
+      {
+        "key": "A",
+        "text": "laid out"
+      },
+      {
+        "key": "B",
+        "text": "laid off"
+      },
+      {
+        "key": "C",
+        "text": "laid down"
+      },
+      {
+        "key": "D",
+        "text": "laid aside"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "lay out 表示展示、阐述、安排，lay off 表示解雇，lay down 表示制定/放下，lay aside 表示搁置/储蓄。根据清晰地……路线图的语境，应选 laid out。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词短语辨析",
+      "商务场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0043",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "一个开放包容的工作环境能够______员工的创新思维和团队协作精神。",
+    "options": [
+      {
+        "key": "A",
+        "text": "foster"
+      },
+      {
+        "key": "B",
+        "text": "destroy"
+      },
+      {
+        "key": "C",
+        "text": "ignore"
+      },
+      {
+        "key": "D",
+        "text": "limit"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "foster 表示培养、促进，与 creativity / innovation / collaboration 等积极品质搭配。destroy（破坏）、ignore（忽视）、limit（限制）均与开放包容的正面语境相悖。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "同义替换"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0044",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "俗话说近朱者赤，一个人往往可以通过他所结交的______来判断其品位和价值观。",
+    "options": [
+      {
+        "key": "A",
+        "text": "company"
+      },
+      {
+        "key": "B",
+        "text": "wealth"
+      },
+      {
+        "key": "C",
+        "text": "knowledge"
+      },
+      {
+        "key": "D",
+        "text": "appearance"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "company 在此为熟词僻义，意为同伴、陪伴的人，a man is known by the company he keeps（观其友知其人）是经典谚语。而非常见的公司之意。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "熟词僻义",
+      "谚语"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0045",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "为了保证项目按时交付，项目经理需要确保有______的人力和物力资源支持。",
+    "options": [
+      {
+        "key": "A",
+        "text": "adequate"
+      },
+      {
+        "key": "B",
+        "text": "limited"
+      },
+      {
+        "key": "C",
+        "text": "scarce"
+      },
+      {
+        "key": "D",
+        "text": "minimal"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "adequate 表示充足的、足够的，强调数量满足需求。limited（有限的）、scarce（稀缺的）、minimal（最低限度的）均与保证按时交付所需的充足资源相悖。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形容词",
+      "项目管理"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0046",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "一个国家的经济______不仅体现在GDP增长上，更重要的是人民生活水平的全面提升。",
+    "options": [
+      {
+        "key": "A",
+        "text": "prosperity"
+      },
+      {
+        "key": "B",
+        "text": "recession"
+      },
+      {
+        "key": "C",
+        "text": "depression"
+      },
+      {
+        "key": "D",
+        "text": "crisis"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "prosperity 表示繁荣、兴旺，economic prosperity 是常见搭配。recession（经济衰退）、depression（萧条）、crisis（危机）均为负面经济状态，与GDP增长和全面提升的语境不符。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "名词",
+      "经济词汇"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0047",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "过于僵化的规章制度可能会______员工的创造力和工作主动性，不利于团队创新。",
+    "options": [
+      {
+        "key": "A",
+        "text": "restrict"
+      },
+      {
+        "key": "B",
+        "text": "encourage"
+      },
+      {
+        "key": "C",
+        "text": "inspire"
+      },
+      {
+        "key": "D",
+        "text": "stimulate"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "restrict 表示限制、约束，与过于僵化的规章制度的负面语境吻合。encourage（鼓励）、inspire（激励）、stimulate（激发）均为正面语义，与句意矛盾。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "管理场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0048",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "中小型企业可以从政府的税收减免和低息贷款政策中______。",
+    "options": [
+      {
+        "key": "A",
+        "text": "benefit from"
+      },
+      {
+        "key": "B",
+        "text": "suffer from"
+      },
+      {
+        "key": "C",
+        "text": "result from"
+      },
+      {
+        "key": "D",
+        "text": "come from"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "benefit from 表示从……中受益，与税收减免等优惠政策搭配合理。suffer from（遭受）、result from（由……导致）、come from（来自）均不符合优惠政策的积极语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词短语",
+      "经济场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0049",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "这位教授借助生动的生活案例来______抽象的经济学理论，让学生更容易理解和记忆。",
+    "options": [
+      {
+        "key": "A",
+        "text": "illustrate"
+      },
+      {
+        "key": "B",
+        "text": "confuse"
+      },
+      {
+        "key": "C",
+        "text": "complicate"
+      },
+      {
+        "key": "D",
+        "text": "ignore"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "illustrate 表示用例子说明、阐释，与借助案例解释理论的语境完全吻合。confuse（使困惑）、complicate（使复杂化）、ignore（忽视）均与教学目的相悖。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "动词",
+      "教育场景"
+    ]
+  },
+  {
+    "id": "english2-vocabulary-0050",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "该项目需要______的资金投入和技术支持，因此在启动前必须经过严格的可行性论证。",
+    "options": [
+      {
+        "key": "A",
+        "text": "substantial"
+      },
+      {
+        "key": "B",
+        "text": "trivial"
+      },
+      {
+        "key": "C",
+        "text": "minor"
+      },
+      {
+        "key": "D",
+        "text": "slight"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "substantial 表示大量的、可观的，常与 investment / funding / amount 搭配。trivial（微不足道的）、minor（较小的）、slight（轻微的）均与需经过严格可行性论证的语境不符。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": [
+      "词汇",
+      "形容词",
+      "商务场景"
+    ]
   }
 ]

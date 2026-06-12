@@ -358,5 +358,545 @@
     "difficulty": "easy",
     "source": "manual",
     "tags": ["数学", "基础运算"]
+  },
+  {
+    "id": "mba199-math-0021",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "计算 36 ÷ (2 + 4) × 3 的值是多少？",
+    "options": [
+      { "key": "A", "text": "12" },
+      { "key": "B", "text": "15" },
+      { "key": "C", "text": "18" },
+      { "key": "D", "text": "24" }
+    ],
+    "answer": ["C"],
+    "explanation": "按照运算顺序，先算括号内：2 + 4 = 6，则 36 ÷ 6 × 3 = 6 × 3 = 18。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "算术"]
+  },
+  {
+    "id": "mba199-math-0022",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若 √(x + 5) = 3，则 x 的值为多少？",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "3" },
+      { "key": "C", "text": "4" },
+      { "key": "D", "text": "5" }
+    ],
+    "answer": ["C"],
+    "explanation": "将方程两边平方得 x + 5 = 9，解得 x = 4。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "算术"]
+  },
+  {
+    "id": "mba199-math-0023",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "已知 a、b 均为质数，且 a + b = 20，则 a × b 的最大值为多少？",
+    "options": [
+      { "key": "A", "text": "51" },
+      { "key": "B", "text": "77" },
+      { "key": "C", "text": "91" },
+      { "key": "D", "text": "97" }
+    ],
+    "answer": ["C"],
+    "explanation": "和为 20 的质数对有 (3,17)、(7,13)。3 × 17 = 51，7 × 13 = 91，所以最大值为 91。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "算术"]
+  },
+  {
+    "id": "mba199-math-0024",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若 3x - 7 = 2x + 5，则 x 的值为多少？",
+    "options": [
+      { "key": "A", "text": "8" },
+      { "key": "B", "text": "10" },
+      { "key": "C", "text": "12" },
+      { "key": "D", "text": "14" }
+    ],
+    "answer": ["C"],
+    "explanation": "移项得 3x - 2x = 5 + 7，即 x = 12。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "代数"]
+  },
+  {
+    "id": "mba199-math-0025",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "已知 x² + y² = 25，xy = 12，则 (x + y)² 的值为多少？",
+    "options": [
+      { "key": "A", "text": "37" },
+      { "key": "B", "text": "49" },
+      { "key": "C", "text": "61" },
+      { "key": "D", "text": "73" }
+    ],
+    "answer": ["B"],
+    "explanation": "(x + y)² = x² + y² + 2xy = 25 + 24 = 49。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "代数"]
+  },
+  {
+    "id": "mba199-math-0026",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "已知函数 f(x) = 2x² - 4x + 3，则该函数的最小值为多少？",
+    "options": [
+      { "key": "A", "text": "-1" },
+      { "key": "B", "text": "0" },
+      { "key": "C", "text": "1" },
+      { "key": "D", "text": "3" }
+    ],
+    "answer": ["C"],
+    "explanation": "配方法：f(x) = 2(x² - 2x) + 3 = 2(x - 1)² + 1，当 x = 1 时取最小值 1。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "代数"]
+  },
+  {
+    "id": "mba199-math-0027",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "方程 2(x - 3) = 3(x + 1) 的解为多少？",
+    "options": [
+      { "key": "A", "text": "-9" },
+      { "key": "B", "text": "-6" },
+      { "key": "C", "text": "6" },
+      { "key": "D", "text": "9" }
+    ],
+    "answer": ["A"],
+    "explanation": "先去括号得 2x - 6 = 3x + 3，移项得 2x - 3x = 3 + 6，所以 -x = 9，x = -9。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "方程"]
+  },
+  {
+    "id": "mba199-math-0028",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若一元二次方程 x² - 5x + k = 0 的一个根为 2，则 k 的值为多少？",
+    "options": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "8" },
+      { "key": "D", "text": "10" }
+    ],
+    "answer": ["B"],
+    "explanation": "将 x = 2 代入方程得 4 - 10 + k = 0，解得 k = 6。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "方程"]
+  },
+  {
+    "id": "mba199-math-0029",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "方程组 { 2x + y = 7, x - y = 2 } 的解中，x + y 的值为多少？",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "3" },
+      { "key": "C", "text": "4" },
+      { "key": "D", "text": "5" }
+    ],
+    "answer": ["C"],
+    "explanation": "两式相加得 3x = 9，x = 3，代入 x - y = 2 得 y = 1，所以 x + y = 4。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "方程"]
+  },
+  {
+    "id": "mba199-math-0030",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "等差数列 2, 5, 8, 11, ... 的第 10 项为多少？",
+    "options": [
+      { "key": "A", "text": "26" },
+      { "key": "B", "text": "27" },
+      { "key": "C", "text": "28" },
+      { "key": "D", "text": "29" }
+    ],
+    "answer": ["D"],
+    "explanation": "首项 a₁ = 2，公差 d = 3，通项公式 aₙ = 2 + (n - 1) × 3 = 3n - 1，a₁₀ = 3 × 10 - 1 = 29。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "数列"]
+  },
+  {
+    "id": "mba199-math-0031",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "等比数列 {aₙ} 中，a₁ = 2，公比 q = 3，则前 4 项的和为多少？",
+    "options": [
+      { "key": "A", "text": "54" },
+      { "key": "B", "text": "66" },
+      { "key": "C", "text": "78" },
+      { "key": "D", "text": "80" }
+    ],
+    "answer": ["D"],
+    "explanation": "等比数列求和公式 Sₙ = a₁(1 - qⁿ)/(1 - q)，S₄ = 2 × (3⁴ - 1)/(3 - 1) = 2 × 80/2 = 80。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "数列"]
+  },
+  {
+    "id": "mba199-math-0032",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "在等差数列 {aₙ} 中，已知 a₃ + a₇ = 20，则该数列的前 9 项和 S₉ 为多少？",
+    "options": [
+      { "key": "A", "text": "72" },
+      { "key": "B", "text": "81" },
+      { "key": "C", "text": "90" },
+      { "key": "D", "text": "99" }
+    ],
+    "answer": ["C"],
+    "explanation": "由等差数列性质，a₃ + a₇ = 2a₅ = 20，得 a₅ = 10。S₉ = (a₁ + a₉) × 9/2 = 2a₅ × 9/2 = 9a₅ = 90。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "数列"]
+  },
+  {
+    "id": "mba199-math-0033",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一个圆的半径为 5，则该圆的面积为多少？（π 取 3.14）",
+    "options": [
+      { "key": "A", "text": "62.8" },
+      { "key": "B", "text": "78.5" },
+      { "key": "C", "text": "94.2" },
+      { "key": "D", "text": "157" }
+    ],
+    "answer": ["B"],
+    "explanation": "圆的面积公式 S = πr² = 3.14 × 5² = 3.14 × 25 = 78.5。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "几何"]
+  },
+  {
+    "id": "mba199-math-0034",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "直角三角形两条直角边分别为 6 和 8，则斜边上的高为多少？",
+    "options": [
+      { "key": "A", "text": "3.6" },
+      { "key": "B", "text": "4.2" },
+      { "key": "C", "text": "4.8" },
+      { "key": "D", "text": "5.4" }
+    ],
+    "answer": ["C"],
+    "explanation": "斜边为 √(6² + 8²) = 10。三角形面积 = 6 × 8/2 = 24，斜边上的高 h = 2 × 面积 / 斜边 = 48/10 = 4.8。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "几何"]
+  },
+  {
+    "id": "mba199-math-0035",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "正方体的棱长为 3，则其外接球的表面积为多少？",
+    "options": [
+      { "key": "A", "text": "18π" },
+      { "key": "B", "text": "24π" },
+      { "key": "C", "text": "27π" },
+      { "key": "D", "text": "36π" }
+    ],
+    "answer": ["C"],
+    "explanation": "正方体体对角线为 3√3，即为外接球直径，半径为 3√3/2。球表面积 S = 4πr² = 4π × (27/4) = 27π。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "几何"]
+  },
+  {
+    "id": "mba199-math-0036",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "在平面直角坐标系中，点 A(1, 2)，点 B(5, 5)，则线段 AB 的垂直平分线的斜率为多少？",
+    "options": [
+      { "key": "A", "text": "-3/4" },
+      { "key": "B", "text": "-4/3" },
+      { "key": "C", "text": "3/4" },
+      { "key": "D", "text": "4/3" }
+    ],
+    "answer": ["B"],
+    "explanation": "AB 的斜率为 (5 - 2)/(5 - 1) = 3/4，垂直平分线与 AB 垂直，故斜率乘积为 -1，所以垂直平分线斜率为 -4/3。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "几何"]
+  },
+  {
+    "id": "mba199-math-0037",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "从标有数字 1 到 10 的 10 张卡片中随机抽取一张，抽到奇数的概率是多少？",
+    "options": [
+      { "key": "A", "text": "2/5" },
+      { "key": "B", "text": "1/2" },
+      { "key": "C", "text": "3/5" },
+      { "key": "D", "text": "4/5" }
+    ],
+    "answer": ["B"],
+    "explanation": "1 到 10 中奇数有 1, 3, 5, 7, 9 共 5 个，总数为 10 个，概率为 5/10 = 1/2。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "概率"]
+  },
+  {
+    "id": "mba199-math-0038",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一个盒子中有 4 个白球和 6 个红球，从中不放回地连续取两球，则两次都取到红球的概率为多少？",
+    "options": [
+      { "key": "A", "text": "1/5" },
+      { "key": "B", "text": "1/4" },
+      { "key": "C", "text": "1/3" },
+      { "key": "D", "text": "1/2" }
+    ],
+    "answer": ["C"],
+    "explanation": "第一次取红球概率为 6/10 = 3/5，第二次从剩余 9 球中取红球概率为 5/9，两概率相乘得 3/5 × 5/9 = 1/3。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "概率"]
+  },
+  {
+    "id": "mba199-math-0039",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "甲投篮命中率为 0.6，乙投篮命中率为 0.5，两人各投篮一次，则至少有一人命中的概率为多少？",
+    "options": [
+      { "key": "A", "text": "0.7" },
+      { "key": "B", "text": "0.75" },
+      { "key": "C", "text": "0.8" },
+      { "key": "D", "text": "0.85" }
+    ],
+    "answer": ["C"],
+    "explanation": "两人都未命中的概率为 (1 - 0.6) × (1 - 0.5) = 0.4 × 0.5 = 0.2，至少一人命中的概率为 1 - 0.2 = 0.8。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "概率"]
+  },
+  {
+    "id": "mba199-math-0040",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "从 5 本不同的书中选 2 本送给两位朋友，每位朋友各一本，有多少种不同的送法？",
+    "options": [
+      { "key": "A", "text": "10" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "16" },
+      { "key": "D", "text": "20" }
+    ],
+    "answer": ["D"],
+    "explanation": "第 1 本书有 5 种选择，第 2 本书有 4 种选择，共 5 × 4 = 20 种送法（有序排列）。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "排列组合"]
+  },
+  {
+    "id": "mba199-math-0041",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "5 个人排成一排，其中甲、乙两人必须相邻，则不同的排法有多少种？",
+    "options": [
+      { "key": "A", "text": "24" },
+      { "key": "B", "text": "36" },
+      { "key": "C", "text": "48" },
+      { "key": "D", "text": "120" }
+    ],
+    "answer": ["C"],
+    "explanation": "将甲、乙视为一个整体（捆绑法），与其余 3 人共 4 个元素全排列，有 A₄⁴ = 24 种排法。甲、乙内部可互换位置，有 A₂² = 2 种。总排法为 24 × 2 = 48 种。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "排列组合"]
+  },
+  {
+    "id": "mba199-math-0042",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "将 6 本不同的书分给甲、乙、丙三人，甲得 3 本，且乙、丙每人至少得 1 本，则不同的分法有多少种？",
+    "options": [
+      { "key": "A", "text": "60" },
+      { "key": "B", "text": "90" },
+      { "key": "C", "text": "120" },
+      { "key": "D", "text": "180" }
+    ],
+    "answer": ["C"],
+    "explanation": "先从 6 本书中选 3 本给甲，有 C₆³ = 20 种。剩余 3 本书分给乙、丙，每人至少 1 本。每本书有 2 种去向，共 2³ = 8 种分配，减去乙得 0 本（1 种）和丙得 0 本（1 种），有效分配为 8 - 2 = 6 种。总数为 20 × 6 = 120 种。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "排列组合"]
+  },
+  {
+    "id": "mba199-math-0043",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一件商品原价 300 元，先提价 20%，再打八折出售，则实际售价为多少元？",
+    "options": [
+      { "key": "A", "text": "264" },
+      { "key": "B", "text": "276" },
+      { "key": "C", "text": "288" },
+      { "key": "D", "text": "300" }
+    ],
+    "answer": ["C"],
+    "explanation": "提价 20% 后价格：300 × 1.2 = 360 元。打八折后：360 × 0.8 = 288 元。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "应用题"]
+  },
+  {
+    "id": "mba199-math-0044",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "甲、乙两人从相距 210 千米的两地同时出发相向而行，甲的速度为 40 千米/小时，乙的速度为 30 千米/小时，则两人相遇时甲走了多少千米？",
+    "options": [
+      { "key": "A", "text": "90" },
+      { "key": "B", "text": "100" },
+      { "key": "C", "text": "110" },
+      { "key": "D", "text": "120" }
+    ],
+    "answer": ["D"],
+    "explanation": "相遇时间 t = 210 ÷ (40 + 30) = 3 小时，甲走的路程为 40 × 3 = 120 千米。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "应用题"]
+  },
+  {
+    "id": "mba199-math-0045",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某项工程，甲单独做需 15 天完成，乙单独做需 10 天完成。甲先做 5 天后乙加入合作，则还需多少天完成全部工程？",
+    "options": [
+      { "key": "A", "text": "3" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "6" }
+    ],
+    "answer": ["B"],
+    "explanation": "甲效率为 1/15，5 天完成 5/15 = 1/3，剩余 2/3。甲乙合作效率为 1/15 + 1/10 = 1/6，还需 (2/3) ÷ (1/6) = 4 天。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "应用题"]
+  },
+  {
+    "id": "mba199-math-0046",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某商场购进一批商品，每件进价 80 元，按每件 100 元出售，每天可售出 200 件。经调查，每降价 1 元，每天多售出 20 件。为使每天利润最大，每件应降价多少元？",
+    "options": [
+      { "key": "A", "text": "3" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "6" }
+    ],
+    "answer": ["C"],
+    "explanation": "设降价 x 元，利润 y = (20 - x)(200 + 20x) = -20x² + 200x + 4000 = -20(x - 5)² + 4500。当 x = 5 时利润最大。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "应用题"]
+  },
+  {
+    "id": "mba199-math-0047",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "不等式 3x - 6 > 0 的解集为下列哪一项？",
+    "options": [
+      { "key": "A", "text": "x < 2" },
+      { "key": "B", "text": "x > 2" },
+      { "key": "C", "text": "x < -2" },
+      { "key": "D", "text": "x > -2" }
+    ],
+    "answer": ["B"],
+    "explanation": "移项得 3x > 6，两边同除以 3 得 x > 2。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "不等式"]
+  },
+  {
+    "id": "mba199-math-0048",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一元二次不等式 x² - 5x + 6 < 0 的解集为下列哪一项？",
+    "options": [
+      { "key": "A", "text": "x < 2 或 x > 3" },
+      { "key": "B", "text": "2 < x < 3" },
+      { "key": "C", "text": "x < 3 或 x > 2" },
+      { "key": "D", "text": "x < 2" }
+    ],
+    "answer": ["B"],
+    "explanation": "因式分解得 (x - 2)(x - 3) < 0，对应二次函数开口向上，小于零的部分在两个根之间，解集为 2 < x < 3。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "不等式"]
+  },
+  {
+    "id": "mba199-math-0049",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "已知 x > 0，则函数 y = x + 4/x 的最小值为多少？",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "3" },
+      { "key": "C", "text": "4" },
+      { "key": "D", "text": "5" }
+    ],
+    "answer": ["C"],
+    "explanation": "由均值不等式，x > 0 时 x + 4/x ≥ 2√(x × 4/x) = 2√4 = 4，当且仅当 x = 4/x 即 x = 2 时取等号，最小值为 4。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "不等式"]
+  },
+  {
+    "id": "mba199-math-0050",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一个等差数列共有 10 项，其奇数项之和为 125，偶数项之和为 150，则该数列的公差为多少？",
+    "options": [
+      { "key": "A", "text": "3" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "6" }
+    ],
+    "answer": ["C"],
+    "explanation": "设公差为 d。偶数项之和减奇数项之和 = (a₂ + a₄ + a₆ + a₈ + a₁₀) - (a₁ + a₃ + a₅ + a₇ + a₉) = 5d = 150 - 125 = 25，所以 d = 5。",
+    "difficulty": "hard",
+    "source": "manual",
+    "tags": ["数学", "数列"]
   }
 ]
