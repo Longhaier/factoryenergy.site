@@ -1,64 +1,77 @@
+/* ==========================================================================
+   mem-practice — custom component styles
+   Designed to work with style.css design tokens
+   ========================================================================== */
+
+/* Layout Helpers
+   ========================================================================== */
+
 .mem-home,
 .mem-page {
   display: grid;
   gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
 }
 
-.mem-hero,
-.mem-section__block,
-.mem-subject,
-.mem-practice-page,
-.mem-summary-panel,
-.mem-practice-shell,
-.mem-wrong-shell {
-  border: 1px solid rgba(23, 37, 84, 0.08);
-  border-radius: 24px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(246, 248, 252, 0.95));
-  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
-}
+/* Hero Section
+   ========================================================================== */
 
 .mem-hero {
   display: grid;
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 2.25rem 2.5rem;
+  border-radius: var(--radius-xl);
   background:
-    radial-gradient(circle at top left, rgba(244, 114, 20, 0.16), transparent 32%),
-    radial-gradient(circle at bottom right, rgba(14, 116, 144, 0.14), transparent 36%),
+    radial-gradient(circle at top left, rgba(249, 115, 22, 0.15), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(14, 116, 144, 0.12), transparent 40%),
     linear-gradient(135deg, rgba(255, 251, 235, 0.98), rgba(240, 249, 255, 0.98));
+  border: 1px solid rgba(23, 37, 84, 0.06);
+  box-shadow: var(--shadow-md);
 }
 
-.mem-hero__title,
-.mem-page-header h1 {
-  margin: 0;
-  color: #172554;
-  line-height: 1.15;
+.mem-hero__copy {
+  max-width: 600px;
 }
 
 .mem-hero__title {
-  font-size: clamp(2.3rem, 4vw, 3.8rem);
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: var(--navy-900);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-.mem-hero__subtitle,
-.mem-page-header__lead,
-.mem-subject-card p,
-.mem-topic-card p,
-.mem-routine__item p,
-.mem-link-list a,
-.mem-empty-state,
-.mem-practice-meta,
-.mem-answer-feedback,
-.mem-question-explanation {
-  color: #475569;
+.mem-hero__subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--slate-600);
+  max-width: 540px;
 }
+
+.mem-hero__panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.875rem;
+}
+
+/* Eyebrow label
+   ========================================================================== */
 
 .mem-eyebrow {
   margin: 0 0 0.5rem;
-  color: #c2410c;
-  font-size: 0.82rem;
+  color: var(--orange-600);
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
+
+/* Buttons
+   ========================================================================== */
 
 .mem-actions {
   display: flex;
@@ -71,73 +84,81 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 10rem;
-  padding: 0.9rem 1.3rem;
-  border-radius: 999px;
+  gap: 0.4rem;
+  min-width: 9rem;
+  padding: 0.85rem 1.4rem;
+  border-radius: var(--radius-full);
   font-weight: 700;
+  font-size: 0.9rem;
   text-decoration: none !important;
+  transition: transform 0.15s, box-shadow 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.mem-button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.mem-button:active {
+  transform: translateY(0);
 }
 
 .mem-button--primary {
   color: #fff !important;
-  background: linear-gradient(135deg, #ea580c, #1d4ed8);
+  background: linear-gradient(135deg, var(--orange-500), var(--orange-600));
+  box-shadow: 0 4px 16px rgba(234, 88, 12, 0.25);
 }
 
 .mem-button--ghost {
-  color: #172554 !important;
-  background: rgba(255, 255, 255, 0.72);
-  border: 1px solid rgba(23, 37, 84, 0.12);
+  color: var(--navy-900) !important;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1.5px solid rgba(23, 37, 84, 0.1);
 }
 
-.mem-hero__panel,
-.mem-card-grid,
-.mem-summary-panel,
-.mem-practice-actions,
-.mem-option-list,
-.mem-wrong-list {
-  display: grid;
-  gap: 1rem;
-}
-
-.mem-card-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.mem-stat-card,
-.mem-subject-card,
-.mem-topic-card,
-.mem-summary-item,
-.mem-practice-card,
-.mem-wrong-card {
-  padding: 1.2rem;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid rgba(148, 163, 184, 0.14);
-}
+/* Stat Cards
+   ========================================================================== */
 
 .mem-stat-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  transition: transform 0.15s, box-shadow 0.2s;
 }
 
-.mem-stat-card__label,
-.mem-subject-card__tag,
-.mem-topic-card__meta,
-.mem-summary-item__label,
-.mem-practice-label {
-  color: #0f766e;
-  font-size: 0.8rem;
+.mem-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.mem-stat-card__label {
+  color: var(--teal-600);
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.mem-stat-card__value,
-.mem-summary-item__value {
-  font-size: 1.8rem;
-  color: #172554;
+.mem-stat-card__value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--navy-900);
+  line-height: 1.1;
 }
+
+.mem-stat-card__meta {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* Section Headers
+   ========================================================================== */
 
 .mem-section {
   display: grid;
@@ -148,40 +169,160 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.mem-section__block,
+.mem-section__header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--navy-900);
+}
+
+/* Card Grid
+   ========================================================================== */
+
+.mem-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+/* Subject & Topic Cards
+   ========================================================================== */
+
 .mem-subject,
 .mem-practice-page,
 .mem-wrong-shell {
-  padding: 1.6rem;
+  padding: 1.75rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+  border: 1px solid rgba(23, 37, 84, 0.06);
+  box-shadow: var(--shadow-md);
 }
 
-.mem-section__header h2,
-.mem-subject-card h3,
-.mem-topic-card h3,
-.mem-routine__item h3,
-.mem-practice-card h2,
-.mem-wrong-card h3 {
-  margin: 0;
-  color: #172554;
-}
-
-.mem-link-list {
-  display: grid;
-  gap: 0.85rem;
-}
-
-.mem-link-list a,
 .mem-subject-card,
 .mem-topic-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  gap: 0.5rem;
+  transition: transform 0.15s, box-shadow 0.2s;
   text-decoration: none !important;
 }
 
-.mem-link-list a {
-  padding: 0.95rem 1rem;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid rgba(148, 163, 184, 0.14);
+.mem-subject-card:hover,
+.mem-topic-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: rgba(249, 115, 22, 0.2);
 }
+
+.mem-subject-card__tag {
+  color: var(--teal-600);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.mem-subject-card h3,
+.mem-topic-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--navy-900);
+}
+
+.mem-subject-card p,
+.mem-topic-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--slate-600);
+  line-height: 1.5;
+}
+
+.mem-subject-card__cta,
+.mem-topic-card__meta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--orange-600);
+  margin-top: 0.25rem;
+}
+
+.mem-topic-card--action {
+  border-color: rgba(249, 115, 22, 0.15);
+}
+
+/* Summary Panel
+   ========================================================================== */
+
+.mem-summary-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+  border: 1px solid rgba(23, 37, 84, 0.06);
+  box-shadow: var(--shadow-sm);
+}
+
+.mem-summary-item {
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.mem-summary-item__label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--teal-600);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mem-summary-item__value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--navy-900);
+  line-height: 1.2;
+}
+
+/* Link List
+   ========================================================================== */
+
+.mem-link-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.mem-link-list a {
+  padding: 0.95rem 1.125rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  color: var(--slate-600);
+  font-weight: 500;
+  transition: transform 0.15s, box-shadow 0.2s, border-color 0.2s;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mem-link-list a::before {
+  content: '→';
+  color: var(--orange-500);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.mem-link-list a:hover {
+  transform: translateX(4px);
+  border-color: rgba(249, 115, 22, 0.2);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Routine Section
+   ========================================================================== */
 
 .mem-routine {
   display: grid;
@@ -193,116 +334,615 @@
   grid-template-columns: 92px 1fr;
   gap: 1rem;
   align-items: start;
-  padding: 1.2rem;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.88);
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.mem-routine__item:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.mem-routine__item h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+  color: var(--navy-900);
+}
+
+.mem-routine__item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--slate-600);
+  line-height: 1.5;
 }
 
 .mem-routine__time {
   display: inline-flex;
   justify-content: center;
-  padding: 0.55rem 0.75rem;
-  border-radius: 999px;
-  background: #172554;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: var(--navy-900);
   color: #fff;
+  font-size: 0.85rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
-.mem-practice-shell,
-.mem-wrong-shell {
+/* Practice App Shell
+   ========================================================================== */
+
+.mem-practice-shell {
   display: grid;
-  gap: 1rem;
-  padding: 1.2rem;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+  border: 1px solid rgba(23, 37, 84, 0.06);
+  box-shadow: var(--shadow-md);
 }
+
+/* Progress Bar
+   ========================================================================== */
+
+.mem-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mem-progress__track {
+  flex: 1;
+  height: 6px;
+  background: var(--slate-100);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.mem-progress__fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--orange-500), var(--orange-600));
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mem-progress__label {
+  font-size: 0.85rem;
+  color: var(--slate-600);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Session Stats
+   ========================================================================== */
+
+.mem-session-stats {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--slate-600);
+}
+
+.mem-session-stats span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.mem-session-stats__correct {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.mem-session-stats__wrong {
+  color: var(--error);
+  font-weight: 600;
+}
+
+/* Practice Meta
+   ========================================================================== */
 
 .mem-practice-meta {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.75rem;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  color: var(--slate-600);
 }
 
-.mem-option-list button,
-.mem-practice-actions button,
-.mem-wrong-card button {
-  width: 100%;
-  border: 0;
-  border-radius: 16px;
-  cursor: pointer;
+.mem-practice-label {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-sm);
+  background: rgba(15, 118, 110, 0.1);
+  color: var(--teal-600);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Question Card
+   ========================================================================== */
+
+.mem-practice-card {
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.mem-practice-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--slate-800);
+  line-height: 1.6;
+}
+
+/* Option List
+   ========================================================================== */
+
+.mem-option-list {
+  display: grid;
+  gap: 0.75rem;
 }
 
 .mem-option-list button {
-  padding: 1rem;
+  width: 100%;
+  padding: 1rem 1.125rem;
   text-align: left;
+  border: 1.5px solid rgba(148, 163, 184, 0.2);
+  border-radius: var(--radius-md);
   background: rgba(248, 250, 252, 0.98);
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  color: #0f172a;
+  color: var(--slate-800);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mem-option-list button:hover:not(:disabled) {
+  border-color: rgba(249, 115, 22, 0.3);
+  background: var(--orange-50);
+}
+
+.mem-option-list button strong {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(23, 37, 84, 0.06);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--slate-600);
+  flex-shrink: 0;
+  transition: all 0.15s;
 }
 
 .mem-option-list button.is-selected {
-  border-color: #1d4ed8;
-  background: rgba(219, 234, 254, 0.8);
+  border-color: var(--navy-900);
+  background: rgba(219, 234, 254, 0.6);
+}
+
+.mem-option-list button.is-selected strong {
+  background: var(--navy-900);
+  color: #fff;
 }
 
 .mem-option-list button.is-correct {
-  border-color: #15803d;
-  background: rgba(220, 252, 231, 0.85);
+  border-color: var(--success);
+  background: var(--success-bg);
+}
+
+.mem-option-list button.is-correct strong {
+  background: var(--success);
+  color: #fff;
 }
 
 .mem-option-list button.is-wrong {
-  border-color: #b91c1c;
-  background: rgba(254, 226, 226, 0.9);
+  border-color: var(--error);
+  background: var(--error-bg);
 }
 
-.mem-practice-actions {
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-}
-
-.mem-practice-actions button,
-.mem-wrong-card button {
-  padding: 0.95rem 1rem;
-  font-weight: 700;
-  color: #172554;
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(23, 37, 84, 0.12);
-}
-
-.mem-practice-actions button.mem-button-primary,
-.mem-wrong-card button.mem-button-primary {
+.mem-option-list button.is-wrong strong {
+  background: var(--error);
   color: #fff;
-  background: linear-gradient(135deg, #ea580c, #1d4ed8);
 }
+
+/* Feedback
+   ========================================================================== */
 
 .mem-answer-feedback {
-  padding: 1rem;
-  border-radius: 16px;
-  background: rgba(248, 250, 252, 0.98);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: var(--slate-50);
+  color: var(--slate-600);
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  animation: memFadeIn 0.25s ease;
 }
 
 .mem-answer-feedback.is-correct {
-  background: rgba(220, 252, 231, 0.88);
+  background: var(--success-bg);
   color: #166534;
 }
 
 .mem-answer-feedback.is-wrong {
-  background: rgba(254, 226, 226, 0.92);
+  background: var(--error-bg);
   color: #991b1b;
 }
 
-.mem-question-explanation {
-  padding: 1rem;
-  border-left: 4px solid #ea580c;
-  background: rgba(255, 251, 235, 0.75);
-  border-radius: 0 16px 16px 0;
+.mem-answer-feedback::before {
+  font-size: 1.2rem;
 }
+
+.mem-answer-feedback.is-correct::before {
+  content: '✓';
+}
+
+.mem-answer-feedback.is-wrong::before {
+  content: '✗';
+}
+
+@keyframes memFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Explanation
+   ========================================================================== */
+
+.mem-question-explanation {
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--orange-500);
+  background: var(--orange-50);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-size: 0.9rem;
+  color: var(--slate-700);
+  line-height: 1.7;
+  animation: memFadeIn 0.25s ease;
+}
+
+.mem-question-explanation strong {
+  color: var(--navy-900);
+}
+
+/* Practice Actions
+   ========================================================================== */
+
+.mem-practice-actions {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 0.75rem;
+}
+
+.mem-practice-actions button {
+  padding: 0.85rem 1rem;
+  border: 1.5px solid rgba(23, 37, 84, 0.1);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--slate-700);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.mem-practice-actions button:hover:not(:disabled) {
+  background: var(--slate-50);
+  border-color: rgba(23, 37, 84, 0.15);
+}
+
+.mem-practice-actions button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.mem-practice-actions button.mem-button-primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--orange-500), var(--orange-600));
+  border: none;
+  box-shadow: 0 4px 16px rgba(234, 88, 12, 0.2);
+}
+
+.mem-practice-actions button.mem-button-primary:hover:not(:disabled) {
+  box-shadow: 0 6px 24px rgba(234, 88, 12, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Session Summary
+   ========================================================================== */
+
+.mem-session-summary {
+  text-align: center;
+  padding: 2rem;
+}
+
+.mem-session-summary__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mem-session-summary__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy-900);
+  margin: 0 0 0.5rem;
+}
+
+.mem-session-summary__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 400px;
+  margin: 1.5rem auto;
+}
+
+.mem-session-summary__stat {
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.mem-session-summary__stat-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--navy-900);
+}
+
+.mem-session-summary__stat-label {
+  font-size: 0.78rem;
+  color: var(--slate-600);
+  margin-top: 0.25rem;
+}
+
+.mem-session-summary__accuracy {
+  margin-top: 1rem;
+}
+
+.mem-session-summary__accuracy-ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--navy-900);
+  background: conic-gradient(var(--orange-500) var(--pct, 0%), var(--slate-100) 0%);
+}
+
+.mem-session-summary__actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Progress hint (keyboard)
+   ========================================================================== */
+
+.mem-keyboard-hint {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-align: center;
+  padding: 0.5rem;
+  border-top: 1px solid rgba(23, 37, 84, 0.04);
+  margin-top: 0.5rem;
+}
+
+.mem-keyboard-hint kbd {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  font-size: 0.75em;
+  font-family: var(--font-mono);
+  background: var(--slate-100);
+  border: 1px solid rgba(23, 37, 84, 0.08);
+  border-radius: 4px;
+  color: var(--slate-600);
+}
+
+/* Wrong Review
+   ========================================================================== */
+
+.mem-wrong-shell {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.mem-wrong-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.mem-wrong-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.mem-wrong-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--slate-800);
+  line-height: 1.5;
+}
+
+.mem-wrong-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--slate-600);
+  line-height: 1.6;
+}
+
+.mem-wrong-card button.mem-button-primary {
+  justify-self: start;
+  padding: 0.65rem 1.25rem;
+  border: none;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--orange-500), var(--orange-600));
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(234, 88, 12, 0.2);
+}
+
+.mem-wrong-card button.mem-button-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(234, 88, 12, 0.3);
+}
+
+/* Empty State
+   ========================================================================== */
 
 .mem-empty-state {
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
+  color: var(--slate-600);
+  font-size: 0.95rem;
+  display: grid;
+  gap: 0.75rem;
+  justify-items: center;
 }
 
+.mem-empty-state__icon {
+  font-size: 2.5rem;
+  opacity: 0.6;
+}
+
+/* Section Blocks (homepage)
+   ========================================================================== */
+
+.mem-section__block {
+  padding: 1.75rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.95));
+  border: 1px solid rgba(23, 37, 84, 0.06);
+  box-shadow: var(--shadow-md);
+  display: grid;
+  gap: 1.2rem;
+  align-content: start;
+}
+
+/* Responsive
+   ========================================================================== */
+
 @media (max-width: 768px) {
+  .mem-home,
+  .mem-page {
+    padding: 0 0.875rem;
+    gap: 1.25rem;
+  }
+
+  .mem-hero {
+    padding: 1.5rem;
+  }
+
+  .mem-hero__title {
+    font-size: 1.6rem;
+  }
+
+  .mem-hero__panel {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mem-section--split {
+    grid-template-columns: 1fr;
+  }
+
+  .mem-subject,
+  .mem-practice-page,
+  .mem-practice-shell {
+    padding: 1.125rem;
+  }
+
+  .mem-practice-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mem-practice-actions button:nth-child(2) {
+    grid-column: 1 / -1;
+  }
+
+  .mem-session-summary__stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .mem-routine__item {
     grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .mem-summary-panel {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mem-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .mem-hero {
+    padding: 1.125rem;
+    gap: 1rem;
+  }
+
+  .mem-hero__title {
+    font-size: 1.35rem;
+  }
+
+  .mem-hero__panel {
+    grid-template-columns: 1fr;
+  }
+
+  .mem-summary-panel {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .mem-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mem-practice-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .mem-practice-card {
+    padding: 1rem;
+  }
+
+  .mem-option-list button {
+    padding: 0.85rem;
+  }
+
+  .mem-wrong-card {
+    padding: 1rem;
+  }
+
+  .mem-stat-card__value {
+    font-size: 1.5rem;
   }
 }

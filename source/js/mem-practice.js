@@ -1,4 +1,6 @@
 (() => {
+  'use strict';
+
   const HISTORY_KEY = 'mem-practice:history';
   const WRONG_KEY = 'mem-practice:wrong-bank';
   const SESSION_PREFIX = 'mem-practice:session:';
@@ -26,10 +28,7 @@
       summary.completed += 1;
       if (item.correct) summary.correct += 1;
       return summary;
-    }, {
-      completed: 0,
-      correct: 0
-    });
+    }, { completed: 0, correct: 0 });
   };
 
   const countWrong = (subject) => {
@@ -82,13 +81,9 @@
     writeJson(WRONG_KEY, wrongBank);
   };
 
-  const buildOptionButton = (option, onClick) => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.innerHTML = `<strong>${option.key}</strong> ${option.text}`;
-    button.addEventListener('click', onClick);
-    return button;
-  };
+  // ==========================================================================
+  // Practice App
+  // ==========================================================================
 
   const renderPracticeApp = async () => {
     const app = document.getElementById('practice-app');
@@ -103,20 +98,24 @@
       const response = await fetch(path);
       questions = await response.json();
     } catch (_) {
-      app.innerHTML = '<div class="mem-empty-state">题库暂时不可用，请稍后再试。</div>';
+      app.innerHTML = '<div class="mem-empty-state"><div class="mem-empty-state__icon">📭</div>题库暂时不可用，请稍后再试。</div>';
       return;
     }
 
     const validQuestions = questions.filter((item) => item && item.id && item.stem && Array.isArray(item.options) && Array.isArray(item.answer));
     if (!validQuestions.length) {
-      app.innerHTML = '<div class="mem-empty-state">当前分类还没有可练习的题目。</div>';
+      app.innerHTML = '<div class="mem-empty-state"><div class="mem-empty-state__icon">📝</div>当前分类还没有可练习的题目。</div>';
       return;
     }
 
+    const total = validQuestions.length;
     const sessionKey = `${SESSION_PREFIX}${location.pathname}`;
     const session = readJson(sessionKey, { index: 0 });
-    let currentIndex = Math.min(session.index || 0, validQuestions.length - 1);
+    let currentIndex = Math.min(session.index || 0, total - 1);
     let selected = [];
+    let answered = false;
+    let sessionCorrect = 0;
+    let sessionWrong = 0;
 
     const shell = document.createElement('div');
     shell.className = 'mem-practice-shell';
@@ -124,26 +123,52 @@
     const render = () => {
       const question = validQuestions[currentIndex];
       selected = [];
+      answered = false;
       shell.innerHTML = '';
 
-      const meta = document.createElement('div');
-      meta.className = 'mem-practice-meta';
-      meta.innerHTML = `
-        <span class="mem-practice-label">${subject}</span>
-        <span>第 ${currentIndex + 1} / ${validQuestions.length} 题</span>
-        <span>难度：${question.difficulty || 'unknown'}</span>
+      // --- Progress bar ---
+      const progressPct = ((currentIndex + 1) / total) * 100;
+      const progress = document.createElement('div');
+      progress.className = 'mem-progress';
+      progress.innerHTML = `
+        <span class="mem-progress__label">${currentIndex + 1}/${total}</span>
+        <div class="mem-progress__track">
+          <div class="mem-progress__fill" style="width:${progressPct}%"></div>
+        </div>
       `;
 
+      // --- Session stats ---
+      const statsEl = document.createElement('div');
+      statsEl.className = 'mem-session-stats';
+      statsEl.innerHTML = `
+        <span>✓ <span class="mem-session-stats__correct">${sessionCorrect}</span></span>
+        <span>✗ <span class="mem-session-stats__wrong">${sessionWrong}</span></span>
+      `;
+
+      // --- Meta row ---
+      const meta = document.createElement('div');
+      meta.className = 'mem-practice-meta';
+      meta.append(
+        buildLabel(question.difficulty || 'unknown'),
+        statsEl
+      );
+
+      // --- Question card ---
       const card = document.createElement('section');
       card.className = 'mem-practice-card';
-      card.innerHTML = `<h2>${question.stem}</h2>`;
+      card.innerHTML = `<h2>${escapeHtml(question.stem)}</h2>`;
 
+      // --- Option list ---
       const optionList = document.createElement('div');
       optionList.className = 'mem-option-list';
       const buttons = [];
 
-      question.options.forEach((option) => {
-        const button = buildOptionButton(option, () => {
+      question.options.forEach((option, i) => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.innerHTML = `<strong>${option.key}</strong> ${escapeHtml(option.text)}`;
+        button.addEventListener('click', () => {
+          if (answered) return;
           buttons.forEach((item) => item.classList.remove('is-selected'));
           selected = [option.key];
           button.classList.add('is-selected');
@@ -152,76 +177,248 @@
         optionList.appendChild(button);
       });
 
+      // --- Feedback ---
       const feedback = document.createElement('div');
       feedback.className = 'mem-answer-feedback';
-      feedback.textContent = '选择一个答案后点击“提交答案”。';
+      feedback.textContent = '选择一个答案后点击“提交答案”，或按键盘 1-4 选择。';
 
+      // --- Explanation ---
       const explanation = document.createElement('div');
       explanation.className = 'mem-question-explanation';
       explanation.hidden = true;
 
+      // --- Actions ---
       const actions = document.createElement('div');
       actions.className = 'mem-practice-actions';
 
-      const submitButton = document.createElement('button');
-      submitButton.type = 'button';
-      submitButton.className = 'mem-button-primary';
-      submitButton.textContent = '提交答案';
-      submitButton.addEventListener('click', () => {
-        if (!selected.length) {
-          feedback.className = 'mem-answer-feedback is-wrong';
-          feedback.textContent = '先选择一个答案。';
-          return;
+      const prevBtn = createActionBtn('← 上一题', () => {
+        if (currentIndex > 0) {
+          currentIndex -= 1;
+          writeJson(sessionKey, { index: currentIndex });
+          render();
         }
+      }, currentIndex === 0);
 
-        const isCorrect = selected.join(',') === question.answer.join(',');
-        buttons.forEach((button, index) => {
-          const key = question.options[index].key;
-          if (question.answer.includes(key)) button.classList.add('is-correct');
-          if (selected.includes(key) && !question.answer.includes(key)) button.classList.add('is-wrong');
-        });
+      const submitBtn = document.createElement('button');
+      submitBtn.type = 'button';
+      submitBtn.className = 'mem-button-primary';
+      submitBtn.textContent = '提交答案';
+      submitBtn.addEventListener('click', () => handleSubmit());
 
-        feedback.className = `mem-answer-feedback ${isCorrect ? 'is-correct' : 'is-wrong'}`;
-        feedback.textContent = isCorrect
-          ? '回答正确，可以直接进入下一题。'
-          : `回答错误，正确答案：${question.answer.join('、')}`;
+      const nextBtn = createActionBtn('下一题 →', () => {
+        if (currentIndex < total - 1) {
+          currentIndex += 1;
+          writeJson(sessionKey, { index: currentIndex });
+          render();
+        }
+      }, currentIndex >= total - 1);
+      nextBtn.id = 'mem-next-btn';
 
-        explanation.hidden = false;
-        explanation.innerHTML = `<strong>解析：</strong> ${question.explanation || '当前题目暂未提供解析。'}`;
+      actions.append(prevBtn, submitBtn, nextBtn);
 
-        saveResult(question, subject, category, selected, isCorrect);
-        writeJson(sessionKey, { index: currentIndex });
-        updateProgressCards();
-      });
+      // --- Keyboard hint ---
+      const hint = document.createElement('div');
+      hint.className = 'mem-keyboard-hint';
+      hint.innerHTML = '键盘快捷键: <kbd>1</kbd>–<kbd>4</kbd> 选择 · <kbd>Enter</kbd> 提交 · <kbd>←</kbd> <kbd>→</kbd> 切换';
 
-      const prevButton = document.createElement('button');
-      prevButton.type = 'button';
-      prevButton.textContent = '上一题';
-      prevButton.disabled = currentIndex === 0;
-      prevButton.addEventListener('click', () => {
-        currentIndex -= 1;
-        writeJson(sessionKey, { index: currentIndex });
-        render();
-      });
-
-      const nextButton = document.createElement('button');
-      nextButton.type = 'button';
-      nextButton.textContent = '下一题';
-      nextButton.disabled = currentIndex >= validQuestions.length - 1;
-      nextButton.addEventListener('click', () => {
-        currentIndex += 1;
-        writeJson(sessionKey, { index: currentIndex });
-        render();
-      });
-
-      actions.append(prevButton, submitButton, nextButton);
-      shell.append(meta, card, optionList, feedback, explanation, actions);
+      shell.append(progress, meta, card, optionList, feedback, explanation, actions, hint);
     };
+
+    // Build difficulty label
+    const buildLabel = (difficulty) => {
+      const map = { easy: '简单', medium: '中等', hard: '困难' };
+      const el = document.createElement('span');
+      el.className = 'mem-practice-label';
+      el.textContent = map[difficulty] || difficulty;
+      return el;
+    };
+
+    // Escape HTML
+    const escapeHtml = (text) => {
+      const d = document.createElement('div');
+      d.textContent = text;
+      return d.innerHTML;
+    };
+
+    // Create action button
+    const createActionBtn = (text, onClick, disabled) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = text;
+      btn.disabled = disabled;
+      btn.addEventListener('click', onClick);
+      return btn;
+    };
+
+    // Handle answer submission
+    const handleSubmit = () => {
+      if (answered) return;
+      if (!selected.length) {
+        feedback.className = 'mem-answer-feedback is-wrong';
+        feedback.textContent = '请先选择一个答案。';
+        return;
+      }
+      answered = true;
+
+      const question = validQuestions[currentIndex];
+      const isCorrect = selected.join(',') === question.answer.join(',');
+
+      // Mark options
+      const buttons = shell.querySelectorAll('.mem-option-list button');
+      buttons.forEach((button, index) => {
+        const key = question.options[index].key;
+        if (question.answer.includes(key)) button.classList.add('is-correct');
+        if (selected.includes(key) && !question.answer.includes(key)) button.classList.add('is-wrong');
+      });
+
+      // Update stats
+      if (isCorrect) sessionCorrect++; else sessionWrong++;
+
+      // Feedback
+      feedback.className = `mem-answer-feedback ${isCorrect ? 'is-correct' : 'is-wrong'}`;
+      feedback.textContent = isCorrect
+        ? '回答正确！'
+        : `回答错误，正确答案：${question.answer.join('、')}`;
+
+      // Explanation
+      explanation.hidden = false;
+      explanation.innerHTML = `<strong>解析：</strong> ${question.explanation || '当前题目暂未提供解析。'}`;
+
+      // Save
+      saveResult(question, subject, category, selected, isCorrect);
+      writeJson(sessionKey, { index: currentIndex });
+      updateProgressCards();
+
+      // Check if this was the last question
+      const submitBtn = shell.querySelector('.mem-button-primary');
+      if (currentIndex >= total - 1) {
+        submitBtn.textContent = '查看结果';
+        submitBtn.removeEventListener('click', handleSubmit);
+        submitBtn.addEventListener('click', showSummary);
+      } else {
+        // Change submit button to "下一题"
+        submitBtn.textContent = '下一题 →';
+        submitBtn.removeEventListener('click', handleSubmit);
+        submitBtn.addEventListener('click', () => {
+          if (currentIndex < total - 1) {
+            currentIndex += 1;
+            writeJson(sessionKey, { index: currentIndex });
+            render();
+          }
+        });
+      }
+    };
+
+    // Show session summary
+    const showSummary = () => {
+      const totalAnswered = sessionCorrect + sessionWrong;
+      const accuracy = totalAnswered > 0 ? Math.round((sessionCorrect / totalAnswered) * 100) : 0;
+
+      const summary = document.createElement('div');
+      summary.className = 'mem-session-summary';
+      summary.innerHTML = `
+        <div class="mem-session-summary__icon">${accuracy >= 80 ? '🎉' : accuracy >= 60 ? '💪' : '📚'}</div>
+        <h3 class="mem-session-summary__title">本次练习完成！</h3>
+        <div class="mem-session-summary__stats">
+          <div class="mem-session-summary__stat">
+            <div class="mem-session-summary__stat-value">${totalAnswered}</div>
+            <div class="mem-session-summary__stat-label">已答题</div>
+          </div>
+          <div class="mem-session-summary__stat">
+            <div class="mem-session-summary__stat-value">${sessionCorrect}</div>
+            <div class="mem-session-summary__stat-label">正确</div>
+          </div>
+          <div class="mem-session-summary__stat">
+            <div class="mem-session-summary__stat-value">${sessionWrong}</div>
+            <div class="mem-session-summary__stat-label">错误</div>
+          </div>
+        </div>
+        <div class="mem-session-summary__accuracy">
+          <div class="mem-session-summary__stat-value" style="font-size:2.5rem">${accuracy}%</div>
+          <div class="mem-session-summary__stat-label">正确率</div>
+        </div>
+        <div class="mem-session-summary__actions">
+          <button class="mem-button mem-button--primary" onclick="location.reload()">再来一组</button>
+          <a class="mem-button mem-button--ghost" href="/practice/wrong/">查看错题</a>
+        </div>
+      `;
+
+      const submitBtn = shell.querySelector('.mem-button-primary');
+      if (submitBtn) submitBtn.style.display = 'none';
+      const nextBtn = document.getElementById('mem-next-btn');
+      if (nextBtn) nextBtn.style.display = 'none';
+
+      shell.querySelector('.mem-progress').style.display = 'none';
+      const meta = shell.querySelector('.mem-practice-meta');
+      if (meta) meta.style.display = 'none';
+      const card = shell.querySelector('.mem-practice-card');
+      if (card) card.style.display = 'none';
+      const opt = shell.querySelector('.mem-option-list');
+      if (opt) opt.style.display = 'none';
+      const fb = shell.querySelector('.mem-answer-feedback');
+      if (fb) fb.style.display = 'none';
+      const exp = shell.querySelector('.mem-question-explanation');
+      if (exp) exp.style.display = 'none';
+      const hint = shell.querySelector('.mem-keyboard-hint');
+      if (hint) hint.style.display = 'none';
+
+      // Remove old actions and insert summary
+      const oldActions = shell.querySelector('.mem-practice-actions');
+      if (oldActions) oldActions.remove();
+      const oldHint = shell.querySelector('.mem-keyboard-hint');
+      if (oldHint) oldHint.remove();
+
+      shell.appendChild(summary);
+    };
+
+    // --- Keyboard shortcuts ---
+    const keyboardHandler = (e) => {
+      // Don't handle if user is typing in an input
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+      // 1-4: select option
+      const idx = parseInt(e.key);
+      if (idx >= 1 && idx <= 4) {
+        const btns = shell.querySelectorAll('.mem-option-list button');
+        if (btns[idx - 1]) {
+          btns[idx - 1].click();
+        }
+        return;
+      }
+
+      // Enter: submit
+      if (e.key === 'Enter') {
+        const submitBtn = shell.querySelector('.mem-button-primary');
+        if (submitBtn) submitBtn.click();
+        return;
+      }
+
+      // Left/Right: navigate
+      if (e.key === 'ArrowLeft' || e.key === 'a') {
+        const prev = shell.querySelector('.mem-practice-actions button:first-child');
+        if (prev && !prev.disabled) prev.click();
+        return;
+      }
+      if (e.key === 'ArrowRight' || e.key === 'd') {
+        const nextBtn = document.getElementById('mem-next-btn');
+        if (nextBtn && !nextBtn.disabled) nextBtn.click();
+        return;
+      }
+    };
+
+    document.addEventListener('keydown', keyboardHandler);
+
+    // Cleanup on page unload (not strictly needed but good practice)
+    // We'll use the shell's disconnected callback
 
     app.innerHTML = '';
     app.appendChild(shell);
     render();
   };
+
+  // ==========================================================================
+  // Wrong Review App
+  // ==========================================================================
 
   const renderWrongReview = () => {
     const app = document.getElementById('wrong-review-app');
@@ -229,7 +426,7 @@
 
     const wrongBank = Object.values(getWrongBank());
     if (!wrongBank.length) {
-      app.innerHTML = '<div class="mem-empty-state">当前设备上还没有错题，继续去做题即可。</div>';
+      app.innerHTML = '<div class="mem-empty-state"><div class="mem-empty-state__icon">✅</div>当前设备上还没有错题，继续去做题即可。</div>';
       return;
     }
 
@@ -238,7 +435,7 @@
 
     const title = document.createElement('div');
     title.className = 'mem-practice-meta';
-    title.innerHTML = `<span>共 ${wrongBank.length} 题待复盘</span><span>重新做对后会自动移出错题本</span>`;
+    title.innerHTML = `<span class="mem-practice-label">共 ${wrongBank.length} 题</span><span>做对后自动移出错题本</span>`;
     shell.appendChild(title);
 
     const list = document.createElement('div');
@@ -247,17 +444,24 @@
     wrongBank.forEach((question) => {
       const card = document.createElement('section');
       card.className = 'mem-wrong-card';
-      card.innerHTML = `
-        <p class="mem-practice-label">${question.subject} / ${question.category}</p>
-        <h3>${question.stem}</h3>
-        <p>${question.explanation || '当前题目暂未提供解析。'}</p>
-      `;
 
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'mem-button-primary';
-      button.textContent = '标记为已复盘';
-      button.addEventListener('click', () => {
+      const tags = document.createElement('p');
+      tags.className = 'mem-practice-label';
+      tags.textContent = `${question.subject || ''} / ${question.category || ''}`;
+
+      const stem = document.createElement('h3');
+      stem.textContent = question.stem;
+
+      const answer = document.createElement('p');
+      answer.innerHTML = `<strong>正确答案：</strong>${question.answer.join('、')}`;
+
+      const explanation = document.createElement('p');
+      explanation.innerHTML = `<strong>解析：</strong> ${question.explanation || '暂无解析。'}`;
+
+      const btn = document.createElement('button');
+      btn.className = 'mem-button-primary';
+      btn.textContent = '标记为已掌握 ✓';
+      btn.addEventListener('click', () => {
         const wrong = getWrongBank();
         delete wrong[question.id];
         writeJson(WRONG_KEY, wrong);
@@ -265,7 +469,7 @@
         updateProgressCards();
       });
 
-      card.appendChild(button);
+      card.append(tags, stem, answer, explanation, btn);
       list.appendChild(card);
     });
 
@@ -273,6 +477,10 @@
     app.innerHTML = '';
     app.appendChild(shell);
   };
+
+  // ==========================================================================
+  // Init
+  // ==========================================================================
 
   document.addEventListener('DOMContentLoaded', () => {
     updateProgressCards();

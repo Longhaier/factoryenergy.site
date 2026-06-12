@@ -13,6 +13,7 @@
   <header id="mem-header">
     <nav class="mem-nav">
       <a href="<%= url_for('/') %>" class="mem-nav__brand">
+        <span class="mem-nav__brand-icon">练</span>
         <%= config.title %>
       </a>
       <button class="mem-nav__toggle" id="nav-toggle" aria-label="菜单">
@@ -36,12 +37,13 @@
 
   <footer id="mem-footer">
     <div class="mem-footer__inner">
-      <% if (theme.footer) { %>
-        <p>&copy; <%= theme.footer.since || new Date().getFullYear() %> <%= theme.footer.copyright || config.author %></p>
-      <% } else { %>
-        <p>&copy; <%= new Date().getFullYear() %> <%= config.author %></p>
-      <% } %>
-      <p class="mem-footer__meta">由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动</p>
+      <p>
+        <span class="mem-footer__brand">
+          <span class="mem-footer__brand-dot"></span>
+          <%= theme.footer.copyright || config.author %>
+        </span>
+      </p>
+      <p class="mem-footer__meta">&copy; <%= theme.footer.since || new Date().getFullYear() %> &middot; 由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动</p>
     </div>
   </footer>
 
@@ -56,6 +58,15 @@
           toggle.classList.toggle('is-active');
         });
       }
+
+      // Highlight active nav item
+      var currentPath = window.location.pathname;
+      document.querySelectorAll('.mem-nav__menu a').forEach(function(link) {
+        var href = link.getAttribute('href');
+        if (href === currentPath || (href !== '/' && currentPath.indexOf(href) === 0)) {
+          link.classList.add('is-active');
+        }
+      });
     });
   </script>
   <script src="<%= url_for('/js/mem-practice.js') %>"></script>
