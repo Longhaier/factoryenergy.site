@@ -214,5 +214,149 @@
     "difficulty": "medium",
     "source": "manual",
     "tags": ["词汇", "阅读高频"]
+  },
+  {
+    "id": "eng2-vocab-0013",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The speaker gave a ______ explanation, so everyone understood the process quickly.",
+    "options": [
+      { "key": "A", "text": "clear" },
+      { "key": "B", "text": "distant" },
+      { "key": "C", "text": "minor" },
+      { "key": "D", "text": "nervous" }
+    ],
+    "answer": ["A"],
+    "explanation": "clear explanation 表示清晰解释，符合后文大家很快理解。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "语境"]
+  },
+  {
+    "id": "eng2-vocab-0014",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "A realistic goal should challenge you, but it should still remain ______.",
+    "options": [
+      { "key": "A", "text": "achievable" },
+      { "key": "B", "text": "invisible" },
+      { "key": "C", "text": "curved" },
+      { "key": "D", "text": "random" }
+    ],
+    "answer": ["A"],
+    "explanation": "现实目标应当有挑战，但仍应可实现，因此选 achievable。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "学习场景"]
+  },
+  {
+    "id": "eng2-vocab-0015",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The article draws attention to a ______ problem that many busy learners ignore.",
+    "options": [
+      { "key": "A", "text": "common" },
+      { "key": "B", "text": "wooden" },
+      { "key": "C", "text": "honest" },
+      { "key": "D", "text": "sleepy" }
+    ],
+    "answer": ["A"],
+    "explanation": "common problem 表示普遍问题，符合 many learners ignore 的语境。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "阅读高频"]
+  },
+  {
+    "id": "eng2-vocab-0016",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "Managers often need reliable data before they can ______ a major change.",
+    "options": [
+      { "key": "A", "text": "justify" },
+      { "key": "B", "text": "punish" },
+      { "key": "C", "text": "hide" },
+      { "key": "D", "text": "wander" }
+    ],
+    "answer": ["A"],
+    "explanation": "justify a major change 表示为重大变动提供正当依据，符合数据支持语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "管理场景"]
+  },
+  {
+    "id": "eng2-vocab-0017",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The new habit felt difficult at first, but gradually became part of her daily ______.",
+    "options": [
+      { "key": "A", "text": "routine" },
+      { "key": "B", "text": "fortune" },
+      { "key": "C", "text": "branch" },
+      { "key": "D", "text": "surface" }
+    ],
+    "answer": ["A"],
+    "explanation": "daily routine 是常见搭配，表示日常习惯流程。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "固定搭配"]
+  },
+  {
+    "id": "eng2-vocab-0018",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The author's point becomes stronger in the final paragraph, where the evidence is more ______.",
+    "options": [
+      { "key": "A", "text": "specific" },
+      { "key": "B", "text": "silent" },
+      { "key": "C", "text": "ordinary" },
+      { "key": "D", "text": "narrow" }
+    ],
+    "answer": ["A"],
+    "explanation": "evidence is more specific 表示证据更具体，因此论点更强。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "阅读高频"]
+  },
+  {
+    "id": "eng2-vocab-0019",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "He chose to ______ the problem directly instead of waiting for others to solve it.",
+    "options": [
+      { "key": "A", "text": "address" },
+      { "key": "B", "text": "decorate" },
+      { "key": "C", "text": "publish" },
+      { "key": "D", "text": "forgive" }
+    ],
+    "answer": ["A"],
+    "explanation": "address the problem 表示着手处理问题，是高频表达。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["词汇", "工作场景"]
+  },
+  {
+    "id": "eng2-vocab-0020",
+    "subject": "english2",
+    "category": "vocabulary",
+    "type": "single",
+    "stem": "The report is short, but it gives a surprisingly ______ picture of the current situation.",
+    "options": [
+      { "key": "A", "text": "complete" },
+      { "key": "B", "text": "dusty" },
+      { "key": "C", "text": "patient" },
+      { "key": "D", "text": "frozen" }
+    ],
+    "answer": ["A"],
+    "explanation": "a complete picture 表示完整图景，符合句意。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["词汇", "语境"]
   }
 ]

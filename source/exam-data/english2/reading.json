@@ -214,5 +214,149 @@
     "difficulty": "medium",
     "source": "manual",
     "tags": ["阅读", "阅读策略"]
+  },
+  {
+    "id": "eng2-read-0013",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A passage argues that busy professionals learn better when they reduce decision fatigue before studying. What is the practical suggestion?",
+    "options": [
+      { "key": "A", "text": "Prepare the study task in advance so starting requires less choice." },
+      { "key": "B", "text": "Study only when completely free from work." },
+      { "key": "C", "text": "Avoid using any schedule." },
+      { "key": "D", "text": "Spend more time choosing materials than studying them." }
+    ],
+    "answer": ["A"],
+    "explanation": "reduce decision fatigue 的实操方式就是提前准备任务，降低开始前的选择成本。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0014",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If the author says a popular study method is 'appealing but shallow,' what is the most likely meaning?",
+    "options": [
+      { "key": "A", "text": "It looks attractive, but its learning effect may be limited." },
+      { "key": "B", "text": "It is hard to understand and highly technical." },
+      { "key": "C", "text": "It has been carefully tested for years." },
+      { "key": "D", "text": "It should replace all older methods immediately." }
+    ],
+    "answer": ["A"],
+    "explanation": "appealing but shallow 表示看起来吸引人，但深度和效果不足。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "句义理解"]
+  },
+  {
+    "id": "eng2-read-0015",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A text states that 'progress becomes visible only after many invisible repetitions.' What is the writer emphasizing?",
+    "options": [
+      { "key": "A", "text": "Real improvement often depends on repeated practice that feels ordinary." },
+      { "key": "B", "text": "Visible progress is unimportant." },
+      { "key": "C", "text": "Repetition should be avoided because it is boring." },
+      { "key": "D", "text": "Only talented learners can improve." }
+    ],
+    "answer": ["A"],
+    "explanation": "句子强调大量看似普通、不可见的重复最终形成可见进步。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0016",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "The author compares a study plan to a map rather than a promise. What does this comparison suggest?",
+    "options": [
+      { "key": "A", "text": "A plan guides action but may still need adjustment." },
+      { "key": "B", "text": "A plan guarantees success if written neatly." },
+      { "key": "C", "text": "Maps are less useful than promises." },
+      { "key": "D", "text": "Study plans should never change." }
+    ],
+    "answer": ["A"],
+    "explanation": "map 强调引导方向，而不是保证结果，说明计划需要边走边调。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "比喻理解"]
+  },
+  {
+    "id": "eng2-read-0017",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A paragraph mentions that learners often confuse familiarity with mastery. Which warning is the author most likely giving?",
+    "options": [
+      { "key": "A", "text": "Recognizing material is not the same as being able to use it." },
+      { "key": "B", "text": "Learners should avoid all repeated content." },
+      { "key": "C", "text": "Mastery depends only on memory speed." },
+      { "key": "D", "text": "Familiarity is always more important than practice." }
+    ],
+    "answer": ["A"],
+    "explanation": "familiarity 与 mastery 混淆，核心警告就是“看着眼熟”不等于“真正掌握”。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "推断题"]
+  },
+  {
+    "id": "eng2-read-0018",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If a writer introduces three examples and then says 'all of them point to the same lesson,' what should readers expect next?",
+    "options": [
+      { "key": "A", "text": "A summary statement connecting the examples" },
+      { "key": "B", "text": "A list of unrelated numbers" },
+      { "key": "C", "text": "A change to a completely new topic" },
+      { "key": "D", "text": "An argument against using examples" }
+    ],
+    "answer": ["A"],
+    "explanation": "all point to the same lesson 之后通常会出现总括句，把前面例子统一起来。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "结构题"]
+  },
+  {
+    "id": "eng2-read-0019",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "A study article says that measuring the right thing matters more than measuring everything. Which choice best reflects this idea?",
+    "options": [
+      { "key": "A", "text": "Useful indicators should be selective and tied to the goal." },
+      { "key": "B", "text": "More data always guarantees better decisions." },
+      { "key": "C", "text": "Measurement should be avoided because it creates pressure." },
+      { "key": "D", "text": "Only experts should look at progress data." }
+    ],
+    "answer": ["A"],
+    "explanation": "题干强调不是全测，而是测对目标真正有意义的指标。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
+  },
+  {
+    "id": "eng2-read-0020",
+    "subject": "english2",
+    "category": "reading",
+    "type": "single",
+    "stem": "If a passage notes that a learner improved only after shortening each study session, the author is most likely emphasizing ______.",
+    "options": [
+      { "key": "A", "text": "the value of manageable study units" },
+      { "key": "B", "text": "the need to stop studying every day" },
+      { "key": "C", "text": "the danger of all long-term planning" },
+      { "key": "D", "text": "the uselessness of repetition" }
+    ],
+    "answer": ["A"],
+    "explanation": "shortening each session 后效果反而提升，强调的是可执行、可持续的小单元学习。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["阅读", "主旨题"]
   }
 ]

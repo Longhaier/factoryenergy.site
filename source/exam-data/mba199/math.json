@@ -214,5 +214,149 @@
     "difficulty": "medium",
     "source": "manual",
     "tags": ["数学", "组合"]
+  },
+  {
+    "id": "mba199-math-0013",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若 a=3，b=4，则 2a+b 的值为多少？",
+    "options": [
+      { "key": "A", "text": "9" },
+      { "key": "B", "text": "10" },
+      { "key": "C", "text": "11" },
+      { "key": "D", "text": "12" }
+    ],
+    "answer": ["B"],
+    "explanation": "2a+b = 2×3+4 = 10。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "代数"]
+  },
+  {
+    "id": "mba199-math-0014",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一桶水先用去 1/4，又加入 10 升后恢复到原来的容量。原来桶里有多少升水？",
+    "options": [
+      { "key": "A", "text": "20" },
+      { "key": "B", "text": "30" },
+      { "key": "C", "text": "40" },
+      { "key": "D", "text": "50" }
+    ],
+    "answer": ["C"],
+    "explanation": "用去 1/4 后差的就是原量的 1/4，这部分等于 10 升，所以原量为 40 升。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "分数应用"]
+  },
+  {
+    "id": "mba199-math-0015",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若一个数的平方是 49，则这个数可能是以下哪一项？",
+    "options": [
+      { "key": "A", "text": "5" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "7" },
+      { "key": "D", "text": "8" }
+    ],
+    "answer": ["C"],
+    "explanation": "题目选项中只有 7 的平方是 49。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "平方"]
+  },
+  {
+    "id": "mba199-math-0016",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "把 180 按 2:3 分成两部分，较大的一部分是多少？",
+    "options": [
+      { "key": "A", "text": "72" },
+      { "key": "B", "text": "96" },
+      { "key": "C", "text": "108" },
+      { "key": "D", "text": "120" }
+    ],
+    "answer": ["C"],
+    "explanation": "总份数 5，每份 36，较大部分 3 份，即 108。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "比例"]
+  },
+  {
+    "id": "mba199-math-0017",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某人步行速度为每分钟 80 米，15 分钟可走多少米？",
+    "options": [
+      { "key": "A", "text": "1000" },
+      { "key": "B", "text": "1100" },
+      { "key": "C", "text": "1200" },
+      { "key": "D", "text": "1300" }
+    ],
+    "answer": ["C"],
+    "explanation": "路程 = 速度 × 时间 = 80 × 15 = 1200 米。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "行程"]
+  },
+  {
+    "id": "mba199-math-0018",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "某商品成本为 80 元，售价为 100 元，利润率按成本计算为多少？",
+    "options": [
+      { "key": "A", "text": "20%" },
+      { "key": "B", "text": "25%" },
+      { "key": "C", "text": "40%" },
+      { "key": "D", "text": "80%" }
+    ],
+    "answer": ["B"],
+    "explanation": "利润为 20，利润率按成本算为 20/80=25%。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["数学", "利润"]
+  },
+  {
+    "id": "mba199-math-0019",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "一个班有 6 名男生、4 名女生，从中随机选 1 人，选到女生的概率是多少？",
+    "options": [
+      { "key": "A", "text": "1/5" },
+      { "key": "B", "text": "2/5" },
+      { "key": "C", "text": "1/2" },
+      { "key": "D", "text": "3/5" }
+    ],
+    "answer": ["B"],
+    "explanation": "总人数 10，女生 4 人，概率为 4/10=2/5。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "概率"]
+  },
+  {
+    "id": "mba199-math-0020",
+    "subject": "mba199",
+    "category": "math",
+    "type": "single",
+    "stem": "若今天比昨天多完成 5 道题，而昨天完成 12 道题，则今天完成多少道题？",
+    "options": [
+      { "key": "A", "text": "15" },
+      { "key": "B", "text": "16" },
+      { "key": "C", "text": "17" },
+      { "key": "D", "text": "18" }
+    ],
+    "answer": ["C"],
+    "explanation": "今天完成 12+5=17 道题。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["数学", "基础运算"]
   }
 ]

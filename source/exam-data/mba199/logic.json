@@ -214,5 +214,149 @@
     "difficulty": "medium",
     "source": "manual",
     "tags": ["逻辑", "因果削弱"]
+  },
+  {
+    "id": "mba199-logic-0013",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某人说：只要买了新教材，成绩就会提高。以下哪项最能削弱？",
+    "options": [
+      { "key": "A", "text": "很多人买了新教材，但并没有真正使用它。" },
+      { "key": "B", "text": "新教材通常纸张更白。" },
+      { "key": "C", "text": "有些高分学员也买教材。" },
+      { "key": "D", "text": "教材价格近年有所变化。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 说明购买行为本身不等于学习投入，直接削弱“买了就提高”。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "削弱"]
+  },
+  {
+    "id": "mba199-logic-0014",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "如果复盘充分，那么错题会减少。现在错题没有减少。根据前提可以推出什么？",
+    "options": [
+      { "key": "A", "text": "复盘不充分。" },
+      { "key": "B", "text": "题目太简单。" },
+      { "key": "C", "text": "考试已经结束。" },
+      { "key": "D", "text": "复盘一定毫无作用。" }
+    ],
+    "answer": ["A"],
+    "explanation": "由“如果 P 则 Q”，现非 Q，可逆否推出非 P，即复盘不充分。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "逆否"]
+  },
+  {
+    "id": "mba199-logic-0015",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某论证认为：因为计划表很详细，所以执行一定会顺利。以下哪项指出其漏洞最准确？",
+    "options": [
+      { "key": "A", "text": "详细不必然意味着可执行。" },
+      { "key": "B", "text": "计划表可以打印成不同颜色。" },
+      { "key": "C", "text": "顺利执行通常让人高兴。" },
+      { "key": "D", "text": "有时计划会写在纸上。" }
+    ],
+    "answer": ["A"],
+    "explanation": "论证把“详细”直接当成“执行顺利”的充分条件，A 准确指出漏洞。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "论证漏洞"]
+  },
+  {
+    "id": "mba199-logic-0016",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "若要加强“碎片时间也能有效学习”这一观点，以下哪项最合适？",
+    "options": [
+      { "key": "A", "text": "很多学习任务可以拆成短而明确的小单元。" },
+      { "key": "B", "text": "有些人不喜欢在工作日学习。" },
+      { "key": "C", "text": "完整大块时间通常更舒服。" },
+      { "key": "D", "text": "碎片时间容易被手机打断。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 直接补充了该观点成立的机制：任务可被拆分，所以碎片时间也能有效。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "加强"]
+  },
+  {
+    "id": "mba199-logic-0017",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某结论成立需要条件 X 和条件 Y 同时满足。现在已知 Y 不满足，则以下哪项一定正确？",
+    "options": [
+      { "key": "A", "text": "该结论不成立。" },
+      { "key": "B", "text": "条件 X 也不满足。" },
+      { "key": "C", "text": "结论仍有可能成立。" },
+      { "key": "D", "text": "Y 比 X 更重要。" }
+    ],
+    "answer": ["A"],
+    "explanation": "同时满足中缺少任何一个条件，结论都不能成立。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["逻辑", "必要条件"]
+  },
+  {
+    "id": "mba199-logic-0018",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某文章说：因为最近很多人都在用这种方法，所以它一定最好。以下哪项最能削弱？",
+    "options": [
+      { "key": "A", "text": "流行并不等于效果最好，可能只是传播更广。" },
+      { "key": "B", "text": "很多方法名字听起来相似。" },
+      { "key": "C", "text": "最好方法往往更贵。" },
+      { "key": "D", "text": "有人喜欢尝试新方法。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 直接拆掉“流行 = 最好”的跳跃，是最强削弱。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "削弱"]
+  },
+  {
+    "id": "mba199-logic-0019",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "如果一个结论是由样本调查得出的，那么样本是否具有代表性就很关键。该说法主要强调什么？",
+    "options": [
+      { "key": "A", "text": "论证质量受样本质量影响。" },
+      { "key": "B", "text": "所有调查都不可信。" },
+      { "key": "C", "text": "样本数量永远比结论重要。" },
+      { "key": "D", "text": "代表性只和样本大小有关。" }
+    ],
+    "answer": ["A"],
+    "explanation": "题干强调样本代表性影响结论可靠性，本质就是论证质量受样本质量影响。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "论证分析"]
+  },
+  {
+    "id": "mba199-logic-0020",
+    "subject": "mba199",
+    "category": "logic",
+    "type": "single",
+    "stem": "某观点认为：只要今天状态不好，就不适合学习。以下哪项最能反驳？",
+    "options": [
+      { "key": "A", "text": "状态一般时，仍可以完成低强度复盘或错题整理。" },
+      { "key": "B", "text": "很多人都想等状态最好时再开始。" },
+      { "key": "C", "text": "学习需要一定时间。" },
+      { "key": "D", "text": "状态不好会影响睡眠。" }
+    ],
+    "answer": ["A"],
+    "explanation": "A 说明即使状态不好，也仍存在适合完成的学习任务，直接反驳绝对化结论。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["逻辑", "反驳"]
   }
 ]

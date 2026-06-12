@@ -214,5 +214,149 @@
     "difficulty": "medium",
     "source": "manual",
     "tags": ["完形", "阅读策略"]
+  },
+  {
+    "id": "eng2-cloze-0013",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Many learners collect large amounts of material, ______ they never review it carefully.",
+    "options": [
+      { "key": "A", "text": "but" },
+      { "key": "B", "text": "unless" },
+      { "key": "C", "text": "before" },
+      { "key": "D", "text": "since" }
+    ],
+    "answer": ["A"],
+    "explanation": "前后是转折关系，收集很多资料但从不认真复盘，所以选 but。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0014",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "A useful summary should be brief, accurate, and easy to ______ later.",
+    "options": [
+      { "key": "A", "text": "review" },
+      { "key": "B", "text": "paint" },
+      { "key": "C", "text": "invite" },
+      { "key": "D", "text": "shake" }
+    ],
+    "answer": ["A"],
+    "explanation": "summary 的用途之一就是 later review，所以选 review。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "语境"]
+  },
+  {
+    "id": "eng2-cloze-0015",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The method appears simple at first sight; ______, its success depends on steady practice.",
+    "options": [
+      { "key": "A", "text": "however" },
+      { "key": "B", "text": "therefore" },
+      { "key": "C", "text": "besides" },
+      { "key": "D", "text": "meanwhile" }
+    ],
+    "answer": ["A"],
+    "explanation": "前后构成转折，表面简单，但成功取决于持续练习，所以选 however。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "逻辑关系"]
+  },
+  {
+    "id": "eng2-cloze-0016",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Strong readers do not search for single words only; they try to understand each sentence as a ______.",
+    "options": [
+      { "key": "A", "text": "whole" },
+      { "key": "B", "text": "salary" },
+      { "key": "C", "text": "corner" },
+      { "key": "D", "text": "guest" }
+    ],
+    "answer": ["A"],
+    "explanation": "as a whole 表示整体理解，是阅读常见策略。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "阅读策略"]
+  },
+  {
+    "id": "eng2-cloze-0017",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The writer first presents a problem and ______ offers a practical solution.",
+    "options": [
+      { "key": "A", "text": "then" },
+      { "key": "B", "text": "rarely" },
+      { "key": "C", "text": "outside" },
+      { "key": "D", "text": "nearly" }
+    ],
+    "answer": ["A"],
+    "explanation": "first... then... 是自然的顺承结构。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "结构关系"]
+  },
+  {
+    "id": "eng2-cloze-0018",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "The data may look convincing, but readers should still ask whether the sample is large ______.",
+    "options": [
+      { "key": "A", "text": "enough" },
+      { "key": "B", "text": "almost" },
+      { "key": "C", "text": "loudly" },
+      { "key": "D", "text": "simply" }
+    ],
+    "answer": ["A"],
+    "explanation": "large enough 是自然搭配，表示样本量是否足够。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "固定搭配"]
+  },
+  {
+    "id": "eng2-cloze-0019",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "Busy learners improve faster when they review often, even if each review is ______ short.",
+    "options": [
+      { "key": "A", "text": "fairly" },
+      { "key": "B", "text": "safely" },
+      { "key": "C", "text": "suddenly" },
+      { "key": "D", "text": "politely" }
+    ],
+    "answer": ["A"],
+    "explanation": "fairly short 表示相当短，但不影响语义，符合“高频短复习”语境。",
+    "difficulty": "medium",
+    "source": "manual",
+    "tags": ["完形", "语境"]
+  },
+  {
+    "id": "eng2-cloze-0020",
+    "subject": "english2",
+    "category": "cloze",
+    "type": "single",
+    "stem": "To answer attitude questions well, readers must notice not only facts ______ tone.",
+    "options": [
+      { "key": "A", "text": "but also" },
+      { "key": "B", "text": "even" },
+      { "key": "C", "text": "instead" },
+      { "key": "D", "text": "rather" }
+    ],
+    "answer": ["A"],
+    "explanation": "not only ... but also ... 是固定结构，符合句意。",
+    "difficulty": "easy",
+    "source": "manual",
+    "tags": ["完形", "固定结构"]
   }
 ]

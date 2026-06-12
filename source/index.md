@@ -43,13 +43,13 @@ comments: false
       <a class="mem-subject-card" href="/english2/">
         <span class="mem-subject-card__tag">英语二</span>
         <h3>单词、完形、阅读</h3>
-        <p>先看知识点，再进入词汇、完形和阅读练习。当前每类已准备第一批 12 题。</p>
+        <p>先看知识点，再进入词汇、完形和阅读练习。当前每类已准备 20+ 题。</p>
         <strong class="mem-subject-card__cta">查看英语二</strong>
       </a>
       <a class="mem-subject-card" href="/mba199/">
         <span class="mem-subject-card__tag">管综199</span>
         <h3>数学、逻辑</h3>
-        <p>以常见题型和知识点切入，适合碎片时间做一组。当前每类已准备第一批 12 题。</p>
+        <p>以常见题型和知识点切入，适合碎片时间做一组。当前每类已准备 20+ 题。</p>
         <strong class="mem-subject-card__cta">查看管综199</strong>
       </a>
     </div>
